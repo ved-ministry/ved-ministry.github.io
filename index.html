@@ -143,16 +143,13 @@
         <circle cx="1460" cy="110" r="1"/><circle cx="190" cy="180" r="1"/><circle cx="980" cy="160" r="1"/>
       </g>
 
-      <!-- VED seal watermark -->
-      <image class="parallax-layer" data-depth="0.05" href="assets/img/logos/logo-ved-crema.png" x="670" y="10" width="620" height="620" opacity=".16"/>
-
       <!-- far hill -->
       <path class="parallax-layer" data-depth="0.15" fill="url(#hillFar)" d="M0,480 C220,410 380,460 560,430 C760,395 900,450 1100,420 C1300,392 1460,440 1600,410 L1600,900 L0,900 Z"/>
 
       <!-- mid hill + far sheep -->
       <g class="parallax-layer" data-depth="0.3">
         <path fill="url(#hillMid)" d="M0,580 C200,530 340,570 520,545 C740,515 880,565 1080,535 C1280,508 1420,555 1600,525 L1600,900 L0,900 Z"/>
-        <g color="#3E5C4C" opacity=".85">
+        <g color="#3E5C4C" opacity=".85" class="sheep-group sheep-group--far">
           <use href="#sheep2" transform="translate(180,540) scale(0.5)"/>
           <use href="#sheep" transform="translate(260,552) scale(-0.42,0.42)"/>
           <use href="#sheep" transform="translate(760,528) scale(0.5)"/>
@@ -164,7 +161,7 @@
       <!-- near hill + near sheep -->
       <g class="parallax-layer" data-depth="0.55">
         <path fill="url(#hillNear)" d="M0,700 C240,650 420,695 640,668 C860,640 1000,690 1220,660 C1360,642 1480,672 1600,655 L1600,900 L0,900 Z"/>
-        <g color="#EDE8E0">
+        <g color="#EDE8E0" class="sheep-group sheep-group--near">
           <use href="#sheep2" transform="translate(90,655) scale(0.85)"/>
           <use href="#sheep" transform="translate(230,672) scale(0.7)"/>
           <use href="#sheep3" transform="translate(420,650) scale(-0.72,0.72)" opacity=".8"/>
@@ -180,6 +177,7 @@
       <path class="parallax-layer" data-depth="0.8" fill="#0A0A0A" d="M0,820 C300,790 500,830 800,805 C1100,780 1300,820 1600,795 L1600,900 L0,900 Z"/>
     </svg>
   </div>
+  <div class="hero__seal"><img src="assets/img/logos/logo-ved-crema.png" alt=""></div>
   <div class="hero__scrim"></div>
 
   <div class="hero__top wrap" style="margin-top:0;">
