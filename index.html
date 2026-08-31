@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VED &amp; EPYL — Serving the Master in Cusco, Peru</title>
+<meta name="description" content="Cristóbal Churata is planting Iglesia Bautista VED in Cusco, Peru, and leading EPYL — Equipping Pastors and Leaders across the Andes. Follow the story, give, pray, or come serve.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231F3A2E'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='58' fill='%23F8F5F0' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="nav" id="siteNav">
+  <a href="#hero" class="nav__brand">
+    <img src="assets/img/logos/logo-ved-negro.png" alt="VED">
+    <span>VED · EPYL</span>
+  </a>
+  <div class="nav__links" id="navLinks">
+    <a href="#story" data-i18n="nav.story">Our Story</a>
+    <a href="#church" data-i18n="nav.church">VED Church</a>
+    <a href="#epyl" data-i18n="nav.epyl">EPYL</a>
+    <a href="#blog" data-i18n="nav.blog">Bulletin</a>
+    <a href="#support" data-i18n="nav.support">Give &amp; Connect</a>
+    <div class="nav__lang nav__lang--mobile" role="group" aria-label="Language">
+      <button data-lang="en" aria-current="true">EN</button>
+      <button data-lang="de">DE</button>
+      <button data-lang="fr">FR</button>
+    </div>
+  </div>
+  <div class="nav__lang nav__lang--desktop" role="group" aria-label="Language">
+    <button data-lang="en" aria-current="true">EN</button>
+    <button data-lang="de">DE</button>
+    <button data-lang="fr">FR</button>
+  </div>
+  <button class="nav__burger" id="navBurger" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="hero">
+  <div class="hero__field" id="sheepField">
+    <!-- Cinematic pasture, generated inline SVG. Sheep move on scroll/parallax via js/parallax.js -->
+    <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="skyGlow" cx="50%" cy="0%" r="90%">
+          <stop offset="0%" stop-color="#2B4E3D"/>
+          <stop offset="55%" stop-color="#13241C"/>
+          <stop offset="100%" stop-color="#0A0A0A"/>
+        </radialGradient>
+        <linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#1C3227"/>
+          <stop offset="100%" stop-color="#122019"/>
+        </linearGradient>
+        <linearGradient id="hillMid" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#152A20"/>
+          <stop offset="100%" stop-color="#0E1B15"/>
+        </linearGradient>
+        <linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#0F1E17"/>
+          <stop offset="100%" stop-color="#0A0A0A"/>
+        </linearGradient>
+
+        <g id="sheep" transform="translate(0,-87.5) scale(0.2573)">
+          <path fill="currentColor" d="M275.5 22.9a45 45 0 0 1-10.8 3.1q-1.6.1-1.7 2 .1 3.3-4 1-1.8-1.1-2.4.6-.6 1.5-2.6.9t-2 .8q-.2 1.3-1.7 2.1c-2.7.9-7.6 3.9-9.9 6.1a22 22 0 0 1-4 3.1c-1.6 1-1.7 1.3-.5 2.8q2.2 2.8-2 .6-3.7-1.8-.1 2.3c1.6 2 1.6 2-.2 1.3q-2-.6-6.2 1.6c-3.6 1.9-4.4 2.9-4.9 6-.4 2.1-1.1 3.8-1.7 3.8q-1 .1-.4 1.5.5 1.5-1.2 1.5c-1.6.1-1.6.1.1 1.4q1.5 1.2 1.7 2c0 .3-3.5.6-7.7.6-9.1 0-20 2.1-24.3 4.7l-3 1.7 5.2 5.4c2.9 3 8.5 7.6 12.3 10.4 6.2 4.4 7.1 5.3 7.6 8.9.4 3.3.3 3.9-1.3 3.9q-3.3.2-.2 3.1c1.4 1.2 1.4 1.4-.1 2.5q-1.7 1.3-.5 1.9 1.3.8 0 1.5-1.2.8-.4 2.1c.5.8.9 2.5 1 3.9s.4 3.9.9 5.6l.7 3.1-5.6.2q-8.8.3-15.8 5.2a9 9 0 0 1-3.8 1.9c-.7 0-4 2.4-7.3 5.4a81 81 0 0 1-11.2 8.1 60 60 0 0 0-16 15.1l-5.2 5.7a7 7 0 0 0-2.3 4.4q0 2.1-.9 2.3c-.5 0-1.5 1.7-2.2 3.7q-3.3 10.2-7.3 12.1c-2.5 1.1-2.6 1.3-1.3 3.9 1.8 3.4 1.7 12.4-.1 14.6a4 4 0 0 0-.7 3.6c.3 1 .2 2.2-.4 2.5q-.9.7 0 4.1c.6 1.9.7 4 .4 4.5-1 1.7-4.7 21.4-4.6 24.6.1 1.7-.3 4.4-.9 5.8q-1 2.8 0 4.5c.5 1 1.1 5 1.3 8.8a21 21 0 0 0 2 9.3q1.8 2.4 1.7 9.1c0 4.7.4 7 1.5 7.9.9.7 1.3 2.1.9 3.4q-.5 2.1 2 4.6c1.5 1.3 2.6 3 2.6 3.7 0 1.9 4.8 9.3 6 9.3.6 0 1 1.3 1 2.9s.6 3.1 1.5 3.5q1.4.6 1.5 2c0 .9.8 3 1.8 4.8s2.1 4.2 2.5 5.3a64 64 0 0 0 6.8 16.1 7 7 0 0 1 1.9 3.6c0 .9.9 2 2.1 2.3q1.8.8 1.5 2c-.2.7.6 2.3 1.9 3.5 1.4 1.3 2.2 2.7 1.9 3.2s.2 1.9 1.3 3.1c1 1.2 3.2 4.2 4.9 6.7 3 4.4 3.1 4.9 3.7 19 .3 8 1.3 18.8 2.1 24a263 263 0 0 1 1.9 26.8c.4 20.8.3 20.5 10.5 20.4 7.9 0 12.9-2 13.7-5.5a40 40 0 0 0-1.9-11.9c-4.3-16.5-6.2-51.1-3.1-55.2.8-1.1 1.3-2.8.9-3.8-.3-1 .2-2.8 1-4a9 9 0 0 0 1.6-4c0-1 1.2-2.4 2.6-3 2.4-1.1 2.9-.9 4.9 1.4q2.3 2.6 3.2 1.7t1.6 2c.7 3.1 2.7 4.3 2.7 1.6q.1-1.3 1-1.5c.6 0 1 1.3 1 3q0 3 1.5 3 1.4.1 2 3.7c.4 2.1 1.1 4.9 1.6 6.2.8 1.8.6 2.6-.7 3.6-1.6 1.1-1.6 1.3.4 2.4 1.9 1 2 1.5 1 3.6-.8 1.9-.8 3.2.1 5.2q1.3 2.6.1 3.7c-1.6 1.6-1.2 3.6.7 3.6 1.3 0 1.1.6-1.1 2.9-2.5 2.6-2.6 2.9-.8 3.3 1.8.5 1.9 1.6 1.9 15.8 0 14.5.1 15.4 2.1 17.1 2.6 2 2.7 4.2.7 14.5-1.7 9.1-.8 12.3 4 13.6 4.1 1 15-1.1 18.9-3.7 2.9-2 3.1-2.5 2.7-7-.8-10.7-.3-57.7.7-70.4.9-10.5 1.4-13.7 2.7-14.4q1.5-.9 1-2.7-.7-2 2.2-3.4 2.4-1.3 1.4-1.6-1.7.2 0-1.7c.8-.9 1.3-2.4 1.1-3.5q-.2-1.7.8-1.8t.5-1.9c-.7-2.3 3.8-6.3 6.2-5.4.9.4 2.1 0 2.7-.8q1-1.5 4.6-.9l3.5.5-3.7 2.2c-4 2.3-5.1 5.3-2 5.3 1.5 0 1.8.6 1.4 3-.5 3.6.6 10 1.7 10 .5 0 1.1-1.7 1.5-3.9.3-2.1 1.3-4.4 2.1-5.1 1.3-1.1 1.5-.6 1.5 3.9 0 2.9 1 12.1 2.2 20.4 1.9 13.6 2 16.6 1.1 28.2a79 79 0 0 1-3.8 20.8c-2.3 6.7-2.5 8.3-1.5 10.7.7 1.6 1.1 6.4.9 11.2-.3 10 .3 12.3 3.9 13.6 11.6 4.5 23.2 1 24.8-7.4.4-2.1 0-5.8-.9-9.2-1.4-5-1.5-9-.6-30.7.6-13.8 1.3-32 1.5-40.5.4-12.9.7-15.5 1.9-15.4q1.5.1 1.5-2.4 0-2.9 1.2-1.4c2.1 2.1 3.8 1.4 3.8-1.6 0-2.6.3-2.8 3-2.4 2.5.4 3 .1 3-1.6q-.1-2.2 2.1-1.5 2.1.7 2.6-1.5.5-2 1.9-1.5t1.4-1.6c0-1.7 1.2-2.7 4.6-4.2 3.6-1.6 4.5-2.5 4.1-4q-.6-2 1.3-1.9 1.7-.2 2.3-2t2.6-2q2 0 2.1-.9c0-.6 1.1-2.1 2.4-3.5q2.4-2.6 1.8-5.1c-.2-1.4-.1-2.5.4-2.4h3.3c2-.1 2.3-.5 1.8-3-.7-3.1.7-5.1 3.5-5.1q1.6-.1 1.8-1.5t1-1.5c.6 0 1-1.4 1-3s.5-3 1-3q1-.1 1-1.5.1-1.4 2.1-2.5c1.7-1 2-1.7 1.4-5.1-.6-3.7-.5-3.9 1.9-3.9 3.1 0 3.2-.8.9-4.8-1.6-2.8-1.6-3.2-.1-4.9q1.5-1.8 1.1-4.6c-.4-2.1-.2-2.7 1.2-2.7 1.5 0 1.7-.7 1.2-5-.4-2.9-.2-5.2.4-5.6q1-.6-.2-2c-.9-1.1-.9-2.1.1-4.4.7-1.6 1-4.1.7-5.6-.3-1.9 0-2.7 1.5-3.3 1.9-.7 1.9-.8-.3-3.5-1.8-2.3-2-3.1-1-5.2.6-1.4 1.1-5.1 1.1-8.4 0-3.2.5-6.2 1-6.5q1.2-.7-.1-2.1c-.6-.8-.9-2.8-.7-4.6.3-2-.1-4.2-.9-5.5s-1.2-2.7-.9-3.2c.4-.6.1-1.9-.6-3q-1.3-2-.1-4.3c1.2-2.8-.6-9.9-3.3-12.9-1.5-1.7-1.5-1.9-.1-1.9 2.8 0 2.9-1.9.2-3.2-2.1-1-2.5-1.6-2-3.9.5-2.1.2-3-1.4-3.9s-1.9-1.7-1.4-4q.6-3-.7-3-1.1-.1-.7-1.9c.3-1.1-.2-2.9-.9-4q-1.4-2-.4-2.6t-1.4-4.8c-1.7-3-2.2-4.8-1.6-6.4s.4-2.2-1.2-2.7c-1.8-.4-1.9-.7-.8-2s.8-1.7-1.9-2.2c-3-.6-4.1-2.7-2.1-3.9 2-1.3 1-4.5-2-6-3.5-1.8-3.5-1.8-1.3-5.1 1.5-2.4 1.5-2.5-.5-3.1-1.7-.4-2.2-1.3-2.2-3.7 0-1.7-.7-3.9-1.5-5-1.1-1.5-1.2-2.3-.3-4 1.2-2.1 1.2-4.9.2-11.9-.5-3.2-.3-3.7 1.5-3.7 3.4 0 3.4-2-.1-3.4-2.7-1.2-3-1.6-1.5-2.1 1.8-.8 2.4-3.5.7-3.5q-1-.2-.8-1.8.4-1.8-1.9-1.6-2.1 0-2.3-.8.1-.7 1.3-.8.9-.1-1.1-1.8-2.2-1.8-1.7-3.3c.3-.9-.1-2.2-1-2.9-2.3-1.9-1.8-3.4 2-5.5a79 79 0 0 0 18.9-19.8c1.6-3.1 1.7-3.9.5-5.3-3.4-4.2-14-6.6-19.3-4.5-1.6.6-3.1-.3-6.9-4.1a21 21 0 0 0-6.3-4.8q-1.3-.1-1.4-1 .1-1 1.1-1c.6 0-.3-1.4-2.1-3s-3.6-3-4-3c-1.2 0-8.2-3.3-11.1-5.3a9 9 0 0 1-3.2-3.7q-.4-2.1-3.6-2c-1.9 0-3.4-.6-3.7-1.5a3 3 0 0 0-2.3-1.6c-2.9-.1-7.5-3.5-8.1-6-.5-1.9-1.2-2.4-3.5-2.2-1.6.1-3.1.6-3.4 1.1s-3.2 1.2-6.4 1.6c-5.4.6-5.9.5-6.4-1.4-.6-2.2-.8-2.3-3.8-1.1"/>
+        </g>
+
+        <g id="sheep2" transform="translate(0,-13.7) scale(0.1026)">
+          <path fill="currentColor" fill-rule="evenodd" d="m6.4 92.9.3-1 .6-1 1.1-1.3.5-.5v-1.4l1-2.1 1.2-2 1-1.2.7-1 .8-1.1.7-1 .5-1 .9-.6.7-1 .7-.9.2-1 .8-1 1.1-1.4.5-.8.1-.6 1.1-1 1.2-1.4.6-.5v-.9l.7-.5.2-.8 1.6-1.7 1-1 .7-.9.5-.7 1.3-1.4 1.3-1.6 1.9-1.8.8-1.2.8-1 1.8-1.8 1.3-1 .3-.8 1-1.1 1.4-2 1.2-1.1 1.2-1 1-.8.3-1 1.2-1 1-.6.1-.7.8-1 .9-.8-.5-.9 1-.2 1-.4 1.3-.7 1.3-1.1 1.6-1 1.6-1.6 1-1.8h.1l2-1.1.2-.1.3-.2 1-.7h.1l.2-1.3 1.3-.6.9-1 1.5-1.5 1.1-2-.6-.5-.4-.4-.2-.2h-.1l-.2-.2-.6-.6-.5-.6-.2-.2-1.6-2.1-1.3-2-.6-1-.5-1.2L57 13v-1.8l.4-.6.7-.7.9.5 1.7-.4 2.4-.7 1.7-.2 2 .3 2.7.4 2.6.6 2.5.7 1.8.7 1.6.2h1.8l2 .1H85l2.1-.3 1.9-.3 1.5-.3 2.7-.7 1.6-1.3 1-1h1.8l.6.1h.6l.3.2.6.1.3.1h.2l1-.5 1.7-.4 1.4-.2 1.6-.4 1.1.3 1 .6 1.7 1.8.8-.4 3.1.3 3.1.8 2.3.7 3.5 1.2 2.7.9 2.9.8 2.5.7.7-.4.8.5.6.8 1.4.3 1.2.7 1.2.4.7 1 1-.3.7-.7-.1-1.4.3-.7 1.3-.8.7.5.2.9-.8.9.1 1 .2 1.2-.4 1 .4-.2.9-.6 1-.1.3.3h.8l.8-1 .8-1.4.3-1.7.5-1.4 1-.5h1.5v.8l.1.9.4.8.6.5v.8l.4.2h.8l1-1.3 1.3-.7 1.4-.2.6 1-.6.6.7.4 1-.3 1 .4 1.5.3 1.6.2 1-.1 1-.3 1.3-.6 1.2-.8.5-1v-2.2l-.3 3.5.5.7.6 1.2.4-.3-.4.5.3-.5-.4 1.2.4.6h.7l.4-.5 1.1.2.1 1 .5.9-.6.6 1.5.7.6.5-.2 1.3.5.7.5.4h1l.7-1.3 1-1 1.5.6h1.4l.7.7-1 1.1-.8 1.4.7.2v1l.4 1.7-1.2 1 .5.8 1.6.4 1.2.5-.3 1.1.3.8h1l1.6.3.6-.7 1.8 1 1 .8 1.6.5 2.4.4.7 1 .1.7 2.1.2 3.1-.4.6.3v.4l1.1.6 1-.4.7.3 1 1.5v1.3l-.6.9q0 .1-.2.1l-.4.2-.6.3-.9.4-.8.8-.4 1.2.5.6 1.2 1 .2.5-.3.7.7.2-.4 1.3 1 .4 1.4-.1 1.4-.1.8.7-.4 1.2-.2.2-.1.4v.4l1 .3.5 1.3-.6.5.6.9v1l.8.3.2-.3.9.2-.2 1 .6.9.4-.7 1.4-1 2.2.4.8.3-1 1.7-.1 1.4.3.8 1-.6 1.2-.3.5 1.2h1.2l1.7.1 1.4 1.5.7 1 .6.6.8-1.5.2-2.5 1.4-.8 1.2-.5 1.8-.1 1.3.5h2.9l.7 1.2.5 1.5.2 1.6 1.2 1.3.6 1.6 1.2 1 .7.4 2 1 1.9.7.6 1 .4-1.7 1 1.6h1.2l.6-1 1.1 1.4 1.1 1 .7-1.4.8-.4.2.7-.7.9.4.3 1.6-.2-.4-1.8v-1.5l1.8.6 1.5-.5h1.1l2-.4 1.5.1 1.6 1.4.7 1.4 1.3 1.4 1.4 1 1.8.4.2.2.2.3.3.3v.1l1.5 1 .1-1.3 1.2.2 1.5-.1.6.4.1 1.4 2.6 1.1 2 1 1.2-.9-.6-1.1.6-.4 1.2-.3.3-.4q.4-.1.4-.4l-.1-.3-.2-.5-.4-.9-.5-1-.4-.9 1 .4.7 1.4 1.4 1.1.6.6 1.6.2 2-1.2 1-.6v1.4l-.8 2.4-.8 1.7h1.5v-1l1-1.3 1.5 1.5 1-1v-2l.2.1.3.4.3.4v1.8l-.2.8v.5l-.1.2 1 .5.8.5 1-.5 1-1.4 1.4-1.6.8-.6-.2 1-1 1.6h.8l1-.2 2 .8 1 .3v.6l.1.6 1 .7.4.3v1.3l.5-.6.4-.6q0-.2.3-.5l1-.4.6-1.5 1.6-.8.8-1.2.1 1-1 1.5-.1 2.1 1.3-1.5 1.2-.7 1.1-1.5 1.5-.6 2.1-1 .6-.5.6.2v1.1l.9.2 1.7-1.2 2.2-1.2.6-.2.2.3-3.2 3.6 4-4 1-.2 1 .5h.8l.4-1 .1-.3h1l.5-.1h.2v.8h.3l.4-.3.4-.2.2-.1 1 .8.9.1 1-1 1.2-1 1.6.4-.5 1-1.1-.2-.1.1-.6.6-.1.2v.3l.5.9 1-1.5.6 1.5 1.2-1.4 1.4-.8h2.3l-.3 1.2.2.8.9-.3.5-.4.3-.2h.2l.3.6.2.4-1 1.4.6.5 1-.4.8-1.2v-.9l.2-.2q.3-.1.3-.5l.3-.6-.1-1-.1-.5v-.2l-.8-1.8 1.2.5.3 1.8.2 1.2.2 1.2v1.8h2l2.9 1.6h.9l.7-.6h1.7l1.3-.1 2.3 1.4 1.2-.2 1-2.8-.6-1.2 1.9 3-.3 1.8 3.3-2.3.1-3.7 3-.1-2.2 4 4-4.7-.6 7 5 .8 4.8 1 8.2-3.6 1.7-2 1.7 1.6 2.6.6 4-2 4.3-.6h4.8l4.7-.9 7.6-.5 2.1-5 8.6-2.8 7.9 4.2 16-1.6 25.6-2.3 33.6.7 52.3 6.2 36.3 7.1 21 18.9 16.3 14 13.4 5.7 9.9 22.6-3.5 24-2.2 51.4-6.3 36.7-10.6 19-6.3 15.5-7 23.3-18.4 2.8 7.7 10.6-2.8 20.5 7 16.2-2 22.6 1.4 59.9v29l-2.9 16.8-10.5 8.5-13.4 11.3-18.4-5-6.3-9.8 13.4-23.3 2.1-16.2-2.8-50.8-19 56.4-12 7-16.3 8.5-11.9-5.8-5.7-5.4 7-10 6.4-10.5 9.2-26 24.6-48.7-12-10-28.9-29.5-7.7 9.1-14.8-13.4-15.5 16.2-43.8 7.8-44.4-7.8-39.5-3.5-22.5-4.2-19-11.3 11.2 27.5-.7 35.3 9.9 30.3 9.8 24.7-10.5 12-2.9-7.8.8 18.3-14.9 4.3h-12v-12l8.5-21.9-1.4-24-5.6-32.4-15.5-21.1-5-35.3-7.7 3.5-10 24-5.6 26.8-7 30.3 2.1 40.2 3.5 20.5-13.4 5.6-4.9 12.7-21.9 2.1h-11.2l8.4-17.6 13.4-16.2 7-43-2.8-32.5-3.5-24.7-13.4-24.7-18.3-16.9-21.2-5-16.2-11.2-17-26.8-22.5-41.6-12.7-26 .7-35.4 6.4-21.1 1.4-5.7 2.1-14-14.8-14.9L76 114l-18.4 3.6-14.8 4.2-9.9 6.3-12.7-4.2-4.2-8.4-7-3.6-4.3-9.1z"/>
+        </g>
+
+        <!-- oveja sentada (oveja_sentada_1), vectorizada con potrace -->
+        <g id="sheep3" transform="translate(0,16.2) scale(0.008,-0.008)">
+          <path fill="currentColor" d="M3327 8159 c-57 -13 -139 -55 -207 -105 -72 -52 -62 -52 -138 -13
+-109 57 -212 44 -227 -28 -10 -45 -19 -55 -60 -68 -117 -35 -202 -104 -233
+-189 -14 -36 -30 -58 -53 -73 -65 -42 -98 -74 -104 -103 -8 -35 -10 -36 -77
+-10 -116 44 -309 171 -398 262 -91 93 -122 107 -195 94 -23 -5 -76 2 -153 19
+-123 28 -127 30 -127 48 0 64 -319 43 -360 -23 -4 -6 -33 -24 -65 -40 -68 -34
+-123 -94 -144 -158 -9 -25 -33 -70 -53 -100 -64 -92 -58 -252 10 -283 15 -7
+28 -28 40 -70 13 -44 30 -74 63 -109 25 -27 60 -79 78 -117 32 -65 86 -127
+138 -154 12 -7 41 -27 64 -45 49 -41 103 -64 145 -64 25 0 44 -11 84 -49 49
+-47 148 -91 203 -91 8 0 37 -14 63 -31 32 -20 73 -35 122 -43 53 -10 86 -22
+112 -42 39 -30 95 -38 142 -21 19 7 23 4 29 -20 4 -15 17 -52 30 -81 l24 -54
+-25 -42 c-31 -53 -34 -128 -6 -169 17 -26 17 -33 5 -75 -25 -82 10 -196 49
+-163 41 34 77 -30 58 -104 -18 -70 -13 -133 15 -202 38 -96 42 -153 13 -192
+-21 -29 -22 -34 -11 -103 7 -45 7 -78 1 -89 -21 -40 -3 -117 35 -148 23 -19
+20 -38 -15 -104 -53 -101 -39 -143 57 -174 l53 -16 -22 -31 c-33 -46 -28 -100
+18 -193 35 -72 38 -87 47 -208 15 -211 8 -282 -35 -366 -51 -96 -49 -117 13
+-169 59 -49 64 -66 80 -235 6 -66 18 -142 26 -170 11 -32 17 -97 19 -180 3
+-181 29 -230 129 -249 27 -5 36 -15 57 -58 30 -65 63 -89 133 -99 41 -5 67
+-17 108 -48 38 -28 71 -44 108 -51 65 -12 78 -22 103 -80 43 -98 95 -140 175
+-140 29 0 45 -7 67 -30 20 -21 41 -31 74 -35 25 -3 94 -13 153 -22 106 -16
+108 -16 170 6 68 24 69 24 205 42 91 12 92 12 143 -15 32 -17 64 -26 84 -25
+17 2 64 0 103 -5 65 -7 77 -6 109 13 l36 22 -5 -43 c-22 -160 -21 -196 7 -222
+39 -36 111 -50 216 -42 54 5 135 2 205 -5 118 -13 143 -11 252 22 37 11 50 10
+100 -6 130 -41 288 -24 420 44 32 17 93 37 136 45 84 16 163 48 238 97 32 20
+58 29 87 29 143 0 282 44 359 114 22 20 47 36 55 36 24 0 98 86 98 113 0 34
+37 77 65 77 28 0 51 30 70 92 l14 43 0 -41 c1 -29 -8 -54 -30 -90 -74 -116
+-89 -223 -46 -337 20 -54 23 -75 16 -100 -28 -99 -1 -157 75 -157 42 0 46 -2
+70 -45 32 -53 76 -70 141 -54 22 5 137 14 255 18 301 12 430 56 430 147 0 38
+56 149 84 167 14 10 35 35 46 57 27 52 51 67 136 81 61 11 79 10 140 -5 97
+-25 218 -31 337 -16 81 10 111 10 147 0 25 -7 90 -14 145 -15 55 -2 123 -10
+150 -19 100 -31 243 -4 391 74 42 22 85 40 95 40 75 0 182 133 205 254 3 21 1
+80 -6 132 l-13 95 38 74 c33 66 36 79 31 127 -3 29 -10 85 -14 124 -5 52 -14
+81 -35 113 -15 23 -44 88 -63 144 -20 56 -53 134 -74 172 -23 42 -49 112 -65
+174 -14 58 -36 130 -49 160 -12 31 -28 74 -35 96 -17 53 -36 75 -111 128 l-64
+45 3 49 c3 57 -22 95 -87 134 -20 13 -50 33 -66 46 -39 33 -189 260 -242 368
+-35 70 -58 103 -109 151 -36 34 -65 68 -65 76 0 24 -58 76 -105 94 -41 15 -46
+21 -59 68 -18 62 -33 77 -111 111 -74 33 -95 52 -155 141 -82 120 -133 158
+-343 253 -37 17 -100 36 -139 42 -40 6 -95 23 -123 38 -47 25 -58 26 -195 26
+-97 0 -160 5 -192 14 -45 14 -48 14 -100 -13 -89 -47 -140 -57 -175 -34 -37
+24 -73 18 -140 -27 -58 -38 -75 -41 -113 -20 -38 22 -70 18 -125 -15 -65 -39
+-109 -39 -183 0 -119 61 -341 74 -1032 58 -58 -2 -143 3 -190 10 -50 7 -145
+11 -230 9 -144 -3 -145 -3 -250 -46 -58 -23 -138 -60 -179 -82 -55 -30 -71
+-35 -66 -22 4 10 11 44 15 76 8 60 31 107 53 107 20 0 60 86 52 112 -3 13 -16
+44 -27 70 l-21 48 45 39 c51 45 92 128 86 172 l-4 28 60 -6 c95 -9 249 40 312
+98 21 19 23 19 88 3 111 -28 212 2 265 79 16 24 49 56 74 71 33 21 55 48 88
+105 23 42 59 96 79 121 20 25 46 61 58 81 12 19 44 55 72 78 37 31 63 66 95
+129 25 48 58 110 74 137 43 73 47 93 20 97 -16 2 -27 17 -41 55 -32 87 -80
+121 -349 247 -98 45 -194 61 -319 51 -52 -4 -140 -8 -195 -10 -115 -3 -203
+-27 -305 -82 -36 -20 -86 -42 -111 -49 -25 -8 -97 -50 -158 -94 -116 -82 -152
+-101 -159 -82 -10 32 -70 98 -113 124 -39 25 -51 39 -59 70 -14 49 -59 100
+-113 127 -23 11 -59 35 -79 52 -21 18 -59 37 -85 44 -43 11 -48 16 -61 55 -39
+117 -164 180 -295 149z"/>
+        </g>
+      </defs>
+
+      <rect width="1600" height="900" fill="url(#skyGlow)"/>
+
+      <!-- stars -->
+      <g fill="#F8F5F0" opacity=".55">
+        <circle cx="120" cy="70" r="1.4"/><circle cx="260" cy="130" r="1"/><circle cx="410" cy="60" r="1.6"/>
+        <circle cx="560" cy="110" r="1"/><circle cx="700" cy="55" r="1.3"/><circle cx="860" cy="95" r="1"/>
+        <circle cx="1010" cy="60" r="1.6"/><circle cx="1160" cy="120" r="1"/><circle cx="1300" cy="70" r="1.4"/>
+        <circle cx="1460" cy="110" r="1"/><circle cx="190" cy="180" r="1"/><circle cx="980" cy="160" r="1"/>
+      </g>
+
+      <!-- far hill -->
+      <path class="parallax-layer" data-depth="0.15" fill="url(#hillFar)" d="M0,480 C220,410 380,460 560,430 C760,395 900,450 1100,420 C1300,392 1460,440 1600,410 L1600,900 L0,900 Z"/>
+
+      <!-- mid hill + far sheep -->
+      <g class="parallax-layer" data-depth="0.3">
+        <path fill="url(#hillMid)" d="M0,580 C200,530 340,570 520,545 C740,515 880,565 1080,535 C1280,508 1420,555 1600,525 L1600,900 L0,900 Z"/>
+        <g color="#3E5C4C" opacity=".85">
+          <use href="#sheep2" transform="translate(180,540) scale(0.5)"/>
+          <use href="#sheep" transform="translate(260,552) scale(-0.42,0.42)"/>
+          <use href="#sheep" transform="translate(760,528) scale(0.5)"/>
+          <use href="#sheep2" transform="translate(1180,538) scale(-0.46,0.46)"/>
+          <use href="#sheep" transform="translate(1300,548) scale(0.4)"/>
+        </g>
+      </g>
+
+      <!-- near hill + near sheep -->
+      <g class="parallax-layer" data-depth="0.55">
+        <path fill="url(#hillNear)" d="M0,700 C240,650 420,695 640,668 C860,640 1000,690 1220,660 C1360,642 1480,672 1600,655 L1600,900 L0,900 Z"/>
+        <g color="#EDE8E0">
+          <use href="#sheep2" transform="translate(90,655) scale(0.85)"/>
+          <use href="#sheep" transform="translate(230,672) scale(0.7)"/>
+          <use href="#sheep3" transform="translate(420,650) scale(-0.72,0.72)" opacity=".8"/>
+          <use href="#sheep" transform="translate(600,675) scale(0.62)"/>
+          <use href="#sheep2" transform="translate(980,658) scale(0.9)"/>
+          <use href="#sheep" transform="translate(1150,678) scale(-0.65,0.65)"/>
+          <use href="#sheep" transform="translate(1380,652) scale(0.95)"/>
+          <use href="#sheep2" transform="translate(1500,676) scale(-0.55,0.55)"/>
+        </g>
+      </g>
+
+      <!-- foreground grass line -->
+      <path class="parallax-layer" data-depth="0.8" fill="#0A0A0A" d="M0,820 C300,790 500,830 800,805 C1100,780 1300,820 1600,795 L1600,900 L0,900 Z"/>
+    </svg>
+  </div>
+  <div class="hero__scrim"></div>
+
+  <div class="hero__top wrap" style="margin-top:0;">
+    <span data-i18n="hero.top_left">SERVING SINCE 1997 · CUSCO, PERU</span>
+    <span data-i18n="hero.top_right">VEN-ID → VED</span>
+  </div>
+
+  <div class="hero__content wrap">
+    <span class="hero__eyebrow" data-i18n="hero.eyebrow">A missionary family in the Andes</span>
+    <h1 class="hero__title" data-i18n-html="hero.title">Find out what <em>God</em> is doing in Peru.</h1>
+    <p class="hero__sub" data-i18n="hero.sub">For over twenty-five years, Cristóbal Churata has given his life and time to the Quechua-speaking towns around Cusco — now planting a church, and raising up the next generation of pastors and leaders.</p>
+    <div class="hero__cta">
+      <a href="#story" class="btn on-dark" data-i18n="hero.cta_story">Meet the Family</a>
+      <a href="#support" class="btn solid" data-i18n="hero.cta_support">Support the Work</a>
+    </div>
+    <div class="hero__scroll">
+      <span class="hero__scroll-line"></span>
+      <span data-i18n="hero.scroll">Scroll to begin</span>
+    </div>
+  </div>
+</header>
+
+<!-- ================= STORY ================= -->
+<section id="story">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <svg class="sec-watermark" data-parallax="0.25" viewBox="0 0 70 70" aria-hidden="true"><use href="#sheep" fill="currentColor" transform="translate(2.27,45.64) scale(0.4962)"/></svg>
+      <span class="label" data-i18n="story.label">01 · Our Story</span>
+      <h2 class="h-section" data-i18n="story.title">From rebellion to a calling.</h2>
+      <p class="body-text" data-i18n="story.intro">This is Cristóbal Churata's own testimony — how a young man from Cusco, raised without any fear of God, was found by Him and called to serve the very people he grew up among.</p>
+    </div>
+
+    <div class="statement reveal">
+      <div class="statement__num" data-parallax="0.12">01</div>
+      <div class="statement__body">
+        <h3 class="h-sub statement__title" data-i18n="story.s1_title">A home built on tradition, not truth</h3>
+        <div class="statement__text body-text" data-i18n-html="story.s1_text">
+          <p>I was born into a Catholic home devoted to tradition — the same path my parents had inherited from theirs. My adolescent years passed without any real fear of God, because the people I looked up to didn't fear Him either. I grew up watching deceit treated as normal, and drinking treated as part of our culture. Seeing my parents and friends follow the same customs, I followed too.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="statement reveal">
+      <div class="statement__num" data-parallax="0.09">02</div>
+      <div class="statement__body">
+        <h3 class="h-sub statement__title" data-i18n="story.s2_title">The death of my father</h3>
+        <div class="statement__text body-text" data-i18n-html="story.s2_text">
+          <p>My father was the central figure in my life — we spent years working the fields together, and I learned to work because of him. When God took him, in my foolishness I shook my finger at heaven: "How could a loving God tragically take my father from me?" I cried, and dedicated myself to drinking even more, to show my friends how much I was hurting.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="statement reveal">
+      <div class="statement__num" data-parallax="0.13">03</div>
+      <div class="statement__body">
+        <h3 class="h-sub statement__title" data-i18n="story.s3_title">A brother's prayers</h3>
+        <div class="statement__text body-text" data-i18n-html="story.s3_text">
+          <p>I brought in the new year with a drinking binge that lasted a week, and ended up in bed, sick, throwing up blood for days. I asked myself: where are my friends now? Who will care for me? Nobody. But God had prepared that moment to bring me His Word. My older brother Florencio had been praying for me all along, together with friends from his church and seminary, asking God to save me and show me His mercy.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="statement reveal">
+      <div class="statement__num" data-parallax="0.08">04</div>
+      <div class="statement__body">
+        <h3 class="h-sub statement__title" data-i18n="story.s4_title">February, a youth camp in the Sacred Valley</h3>
+        <div class="statement__text body-text" data-i18n-html="story.s4_text">
+          <p>God intervened during a youth camp held by the Baptist churches in the Sacred Valley of Urubamba. I understood, for the first time, that I was lost — separated from God, without hope. The only way back to Him was the gift He had already provided: forgiveness through His Son, Jesus Christ. I remember the small prayer I prayed that day: <em>"Lord, I don't know how to ask you, but I know I need you to save me. Forgive me — I am a sinner, I am a sinner, I am a sinner."</em></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="statement reveal">
+      <div class="statement__num" data-parallax="0.11">05</div>
+      <div class="statement__body">
+        <h3 class="h-sub statement__title" data-i18n="story.s5_title">Twenty-five years walking with Him</h3>
+        <div class="statement__text body-text" data-i18n-html="story.s5_text">
+          <p>In 1997, two years after my conversion, I was helping a missionary in the Chumbivilcas province and felt a deep love growing for the Quechua-speaking brothers and pastors of the countryside. I told my pastor what I was feeling, and he said simply: "God is calling you to serve Him." He helped me take the next steps — theological training at the Baptist Seminary of Peru, 1999 to 2002. I am a different man now, transformed by God's love and His Word, and I have given my life to be an instrument in His hands.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-card reveal">
+      <p data-i18n="story.quote">"I do not account my life of any value to myself, if only I may finish my course and the ministry I received from the Lord Jesus — to testify to the gospel of the grace of God."</p>
+      <cite data-i18n="story.quote_cite">Acts 20:24 · Cristóbal's life verse</cite>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat"><div class="stat__num">1974</div><div class="stat__label" data-i18n="story.stat1">Cristóbal Churata Quispe, born in Cusco</div></div>
+      <div class="stat"><div class="stat__num">2003</div><div class="stat__label" data-i18n="story.stat2">Married Celia Berna Romero</div></div>
+      <div class="stat"><div class="stat__num">3</div><div class="stat__label" data-i18n="story.stat3">Children — Cesia, Caleb &amp; Camila</div></div>
+      <div class="stat"><div class="stat__num">25+</div><div class="stat__label" data-i18n="story.stat4">Years serving Christ in Cusco</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHURCH (VED) ================= -->
+<section id="church" class="ved noise">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <svg class="sec-watermark" data-parallax="0.25" viewBox="0 0 70 70" aria-hidden="true"><use href="#sheep2" fill="currentColor" transform="translate(4.6,23.3) scale(0.902)"/></svg>
+      <span class="label on-dark" data-i18n="church.label">02 · Planting a New Church</span>
+      <h2 class="h-section" data-i18n="church.title">Iglesia Bautista “VED” — Cusco</h2>
+      <p class="body-text" data-i18n="church.intro">Years ago, Cristóbal planted his first congregation, Ven-Id. Today that work has grown into VED — "Vida en Dios," Life in God — a young, registered Baptist church now organizing its own building and Sunday services in Cusco.</p>
+    </div>
+
+    <div class="split reveal">
+      <figure class="split__media">
+        <img src="assets/img/logos/logo-ved-crema.png" alt="Iglesia Bautista VED, Cusco — seal" style="object-fit:contain; background:#132A1F; padding:40px;">
+      </figure>
+      <div class="split__text">
+        <span class="label on-dark" data-i18n="church.name_label">The Name</span>
+        <h3 class="h-sub" style="margin:14px 0 18px;" data-i18n="church.name_title">"Come and VED — see — the place."</h3>
+        <div class="body-text" data-i18n-html="church.name_text">
+          <p>We asked the young congregation to suggest a name, and we settled on VED — drawn from Matthew 28:6: "He is not here, for he has risen, as he said. Come, VED — see the place where the Lord lay." The tomb is empty. Christ has risen. That is the one message we exist to preach to every soul in Cusco.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="split split--reverse reveal" style="margin-top:96px;">
+      <figure class="split__media">
+        <img src="assets/img/fotos/foto-03.jpg" alt="VED congregation gathering in Cusco" data-parallax="0.06" data-parallax-scale="1.15">
+      </figure>
+      <div class="split__text">
+        <span class="label on-dark" data-i18n="church.begin_label">Beginnings</span>
+        <h3 class="h-sub" style="margin:14px 0 18px;" data-i18n="church.begin_title">Two years of prayer, then two families said yes</h3>
+        <div class="body-text" data-i18n-html="church.begin_text">
+          <p>For two years we prayed the Lord would send a church-planting team. He answered with two families willing to start a new work in Cusco. Since March we have been meeting in the home of brother Rolando Quispe, who offered his house to begin. Pastor Julio Jaramillo — from Iglesia Getsemaní in Santa Anita, Lima, the church that sent Cristóbal into this work — came to preach at our opening service. We printed two thousand evangelistic tracts, and God provided ten thousand more through another ministry. The sowing has begun.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats stats--2col reveal" style="margin-top:96px;">
+      <div class="stat"><div class="stat__num">50</div><div class="stat__label" data-i18n="church.stat1">People gathering each Sunday — kids, teens &amp; families</div></div>
+      <div class="stat"><div class="stat__num">2,000<span style="font-size:.5em">+10K</span></div><div class="stat__label" data-i18n="church.stat3">Evangelistic tracts printed and donated</div></div>
+    </div>
+
+    <div class="carousel reveal" id="churchCarousel">
+      <div class="carousel__track" id="churchCarouselTrack"></div>
+    </div>
+
+    <div class="row gap-l reveal" style="margin-top:96px; justify-content:space-between; align-items:flex-end;">
+      <div style="max-width:520px;">
+        <h3 class="h-sub" data-i18n="church.cta_title">Would you like to come and serve?</h3>
+        <p class="body-text" data-i18n="church.cta_text" style="margin-top:16px;">We regularly welcome visiting churches and teams for short mission trips to Cusco — evangelism, teaching, construction, and Vacation Bible School. If your church is praying about a mission trip to Peru, we would love to talk.</p>
+      </div>
+      <div class="row gap-s">
+        <a href="mailto:caleisaiaschuratab@gmail.com?subject=Coming%20to%20serve%20in%20Cusco" class="btn on-dark" data-i18n="church.cta_btn1">Plan a Visit</a>
+        <a href="#support" class="btn solid" data-i18n="church.cta_btn2">Support VED</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EPYL ================= -->
+<section id="epyl">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <svg class="sec-watermark" data-parallax="0.25" viewBox="0 0 70 70" aria-hidden="true"><use href="#sheep" fill="currentColor" transform="translate(2.27,45.64) scale(0.4962)"/></svg>
+      <span class="label" data-i18n="epyl.label">03 · Equipping Pastors &amp; Leaders</span>
+      <h2 class="h-section" data-i18n="epyl.title">EPYL — training workers for the harvest</h2>
+      <p class="body-text" data-i18n="epyl.intro">"Filled with the knowledge of His will" — Colossians 1:9. Since 2010, EPYL has been training pastors and spiritual leaders who serve the Quechua-speaking countryside around Cusco and Puno, most with little formal schooling but a deep hunger for God's Word.</p>
+    </div>
+
+    <div class="row" style="align-items:center; gap:32px; margin-top:48px;" class="reveal">
+      <img src="assets/img/logos/logo-epyl.png" alt="EPYL — Equipando Pastores y Líderes" style="height:120px; width:auto;">
+      <p class="body-text small" data-i18n="epyl.note" style="margin:0;">EPYL trains and sends teachers into the field — not academics, but faithful men who know the simple principles of God's Word and pass them on to others.</p>
+    </div>
+
+    <ul class="editorial-list reveal">
+      <li>
+        <span class="num">01</span>
+        <span class="title" data-i18n="epyl.loc1_title">Curahuasi</span>
+        <span class="desc" data-i18n="epyl.loc1_desc">Five days studying with Pastor Rolando and a group of leaders — Reynaldo, Santiago, Jesús, Julián, Paulino, Richar, Silvestre — learning to build a biblical outline and rightly handle the Word.</span>
+      </li>
+      <li>
+        <span class="num">02</span>
+        <span class="title" data-i18n="epyl.loc2_title">Desaguadero, Puno</span>
+        <span class="desc" data-i18n="epyl.loc2_desc">One of the hardest fields — pastors here work constantly just to get by, which leaves little room for study. The first EPYL graduating class is set to finish here.</span>
+      </li>
+      <li>
+        <span class="num">03</span>
+        <span class="title" data-i18n="epyl.loc3_title">Calca, Sacred Valley</span>
+        <span class="desc" data-i18n="epyl.loc3_desc">Training visits to pastors and leaders serving communities across the Sacred Valley of the Incas.</span>
+      </li>
+      <li>
+        <span class="num">04</span>
+        <span class="title" data-i18n="epyl.loc4_title">Ccatcca, Quispicanchi</span>
+        <span class="desc" data-i18n="epyl.loc4_desc">A rural province east of Cusco, home to several of the pastors and leaders EPYL walks alongside.</span>
+      </li>
+    </ul>
+
+    <div class="quote-card reveal">
+      <p data-i18n="epyl.quote1">"I can still name every one of them — proof that God works through simple men. We spent five beautiful days studying together. It isn't easy teaching people with so little theological training, but they are the ones the Lord provides to reach others."</p>
+      <cite data-i18n="epyl.quote1_cite">Cristóbal Churata, on the Curahuasi training</cite>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BLOG ================= -->
+<section id="blog" class="noise" style="background:var(--paper-2);">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <svg class="sec-watermark" data-parallax="0.25" viewBox="0 0 70 70" aria-hidden="true"><use href="#sheep2" fill="currentColor" transform="translate(4.6,23.3) scale(0.902)"/></svg>
+      <span class="label" data-i18n="blog.label">04 · Field Notes</span>
+      <h2 class="h-section" data-i18n="blog.title">Weekly Bulletin</h2>
+      <p class="body-text" data-i18n="blog.intro">Short updates from Cusco — new visits, answered prayers, and what God is doing week by week. New entries are added regularly.</p>
+    </div>
+    <div class="blog-grid reveal" id="blogGrid"><!-- rendered by js/blog.js --></div>
+  </div>
+</section>
+
+<!-- ================= SUPPORT ================= -->
+<section id="support" class="dark noise">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <svg class="sec-watermark" data-parallax="0.25" viewBox="0 0 70 70" aria-hidden="true"><use href="#sheep" fill="currentColor" transform="translate(2.27,45.64) scale(0.4962)"/></svg>
+      <span class="label on-dark" data-i18n="support.label">05 · Give, Pray, Connect</span>
+      <h2 class="h-section" data-i18n="support.title">Stand with the work in Cusco</h2>
+      <p class="body-text" data-i18n="support.intro">This ministry is sustained by God's people — near and far. Here are a few ways to be part of it, especially from outside Peru.</p>
+    </div>
+
+    <div class="support-grid reveal">
+      <div class="support-card support-card--wide">
+        <span class="label">01</span>
+        <h3 data-i18n="support.card1_title">Give</h3>
+        <p data-i18n="support.card1_text">Support the church plant, EPYL trainings, and the missionary family directly. International transfers welcome.</p>
+        <div class="donation-grid">
+          <div class="donation-block">
+            <p class="donation-block__title" data-i18n="support.wise_title">International transfer — Wise (CHF), SWIFT</p>
+            <dl class="donation-block__list">
+              <div><dt data-i18n="support.name_label">Name</dt><dd>Caleb Isaias Churata Berna</dd></div>
+              <div><dt>IBAN</dt><dd>GB04 TRWI 6084 6488 4798 99</dd></div>
+              <div><dt>Swift / BIC</dt><dd>TRWIGB2LXXX</dd></div>
+              <div><dt data-i18n="support.bank_label">Bank</dt><dd>Wise Payments Limited, Worship Square, 65 Clifton Street, London, EC2A 4JE, United Kingdom</dd></div>
+            </dl>
+          </div>
+          <div class="donation-block">
+            <p class="donation-block__title" data-i18n="support.usd_title">US bank transfer — Wise (USD)</p>
+            <dl class="donation-block__list">
+              <div><dt data-i18n="support.name_label">Name</dt><dd>Caleb Isaias Churata Berna</dd></div>
+              <div><dt data-i18n="support.account_type_label">Account type</dt><dd>Checking</dd></div>
+              <div><dt data-i18n="support.routing_label">Routing number — US only (wire / ACH)</dt><dd>101019628</dd></div>
+              <div><dt data-i18n="support.usd_account_label">Account number</dt><dd>211888028001</dd></div>
+              <div><dt data-i18n="support.usd_swift_label">Swift / BIC — from outside the US</dt><dd>TRWIUS35XXX</dd></div>
+              <div><dt data-i18n="support.bank_label">Bank</dt><dd>Wise US Inc, 108 W 13th St, Wilmington, DE, 19801, United States</dd></div>
+            </dl>
+          </div>
+          <div class="donation-block">
+            <p class="donation-block__title" data-i18n="support.bcp_title">Peru bank transfer — BCP (Soles)</p>
+            <dl class="donation-block__list">
+              <div><dt data-i18n="support.name_label">Name</dt><dd>Celia Berna</dd></div>
+              <div><dt data-i18n="support.bcp_account">Account number</dt><dd>28515120745046</dd></div>
+              <div><dt data-i18n="support.bcp_cci">Interbank account (CCI)</dt><dd>00228511512074504651</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="support-card">
+        <span class="label">02</span>
+        <h3 data-i18n="support.card2_title">Pray &amp; Encourage</h3>
+        <p data-i18n="support.card2_text">Send a note of encouragement or a prayer request — every message is read by the family.</p>
+        <a href="#contactForm" class="btn on-dark" style="margin-top:8px;" data-i18n="support.card2_btn">Write a Message</a>
+      </div>
+      <div class="support-card">
+        <span class="label">03</span>
+        <h3 data-i18n="support.card3_title">Come &amp; Serve</h3>
+        <p data-i18n="support.card3_text">Bring your church on a mission trip to Cusco — evangelism, teaching, construction, Vacation Bible School.</p>
+        <a href="mailto:caleisaiaschuratab@gmail.com?subject=Mission%20trip%20to%20Cusco" class="btn on-dark" style="margin-top:8px;" data-i18n="support.card3_btn">Plan a Trip</a>
+      </div>
+    </div>
+
+    <form class="form" id="contactForm" action="#" onsubmit="return false;">
+      <div class="form__row">
+        <div>
+          <label for="f_name" data-i18n="support.form_name">Name</label>
+          <input id="f_name" name="name" type="text" required>
+        </div>
+        <div>
+          <label for="f_email" data-i18n="support.form_email">Email</label>
+          <input id="f_email" name="email" type="email" required>
+        </div>
+      </div>
+      <div class="form__row">
+        <div>
+          <label for="f_country" data-i18n="support.form_country">Country</label>
+          <input id="f_country" name="country" type="text">
+        </div>
+        <div>
+          <label for="f_reason" data-i18n="support.form_reason">Reason</label>
+          <select id="f_reason" name="reason">
+            <option data-i18n="support.form_reason_1">Encouragement / Prayer</option>
+            <option data-i18n="support.form_reason_2">Mission trip</option>
+            <option data-i18n="support.form_reason_3">Question about giving</option>
+            <option data-i18n="support.form_reason_4">Other</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <label for="f_msg" data-i18n="support.form_message">Message</label>
+        <textarea id="f_msg" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn on-dark" id="sendMsgBtn" style="width:fit-content;" data-i18n="support.form_submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer" id="siteFooter">
+  <svg class="footer-hills" data-parallax="0.1" viewBox="0 0 1600 200" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#152A20" d="M0,120 C220,70 380,110 560,90 C760,65 900,110 1100,85 C1300,62 1460,100 1600,80 L1600,200 L0,200 Z"/>
+    <path fill="#0F1E17" d="M0,160 C240,130 420,155 640,140 C860,122 1000,150 1220,132 C1360,120 1480,140 1600,128 L1600,200 L0,200 Z"/>
+    <use href="#sheep" x="120" y="128" transform="scale(0.55)" fill="#0A0A0A" opacity=".8"/>
+    <use href="#sheep2" x="1350" y="118" transform="scale(-0.4,0.4)" fill="#0A0A0A" opacity=".7"/>
+  </svg>
+  <div class="wrap">
+    <p class="footer-slogan" data-i18n-html="footer.slogan">Serving the <span class="shake">Master</span> in Cusco, Peru.</p>
+
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="label">VED · EPYL</span>
+        <p data-i18n="footer.about">Iglesia Bautista VED and the EPYL ministry, led by Cristóbal Churata and family — planting churches and training pastors in the Cusco region of Peru.</p>
+      </div>
+      <div class="footer-col">
+        <span class="label" data-i18n="footer.explore">Explore</span>
+        <a href="#story" data-i18n="nav.story">Our Story</a>
+        <a href="#church" data-i18n="nav.church">VED Church</a>
+        <a href="#epyl" data-i18n="nav.epyl">EPYL</a>
+        <a href="#blog" data-i18n="nav.blog">Bulletin</a>
+      </div>
+      <div class="footer-col">
+        <span class="label" data-i18n="footer.connect">Connect</span>
+        <a href="mailto:caleisaiaschuratab@gmail.com">caleisaiaschuratab@gmail.com</a>
+        <a href="mailto:churataquispe@yahoo.com">churataquispe@yahoo.com</a>
+        <a href="https://www.facebook.com/ministerioepyl" target="_blank" rel="noopener">Facebook — EPYL</a>
+      </div>
+      <div class="footer-col">
+        <span class="label" data-i18n="footer.language">Language</span>
+        <a href="#" data-lang="en" data-i18n="footer.lang_en">English</a>
+        <a href="#" data-lang="de" data-i18n="footer.lang_de">Deutsch</a>
+        <a href="#" data-lang="fr" data-i18n="footer.lang_fr">Français</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span id="copyrightLine" data-i18n="footer.copyright">© {year} Cristóbal Churata · VED Church &amp; EPYL Ministry, Cusco, Peru</span>
+      <span data-i18n="footer.built">Built in faith, hosted on GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/blog.js"></script>
+<script src="assets/js/gallery.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
