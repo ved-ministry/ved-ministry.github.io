@@ -45,7 +45,15 @@ hero: assets/img/fotos/foto-03.jpg
       <div class="stat"><div class="stat__num">2,000<span style="font-size:.5em">+10K</span></div><div class="stat__label" data-i18n="church.stat3">Evangelistic tracts printed and donated</div></div>
     </div>
 
-    <div class="carousel reveal" id="churchCarousel">
+    <div class="sec-head" style="margin-top:var(--m-2xl)"><h2 class="h-sub" data-i18n="church.gather">Together at VED</h2></div>
+    <div class="gallery">
+      <img class="wide" src="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026-01.s.jpg" data-zoom="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026-01.jpg" alt="VED church gathering, Cusco" loading="lazy">
+      <img src="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026-02.s.jpg" data-zoom="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026-02.jpg" alt="Praying together at VED" loading="lazy">
+      <img src="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026-03.s.jpg" data-zoom="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026-03.jpg" alt="The wall of Matthew 28:6 at VED" loading="lazy">
+    </div>
+    <video class="clip" src="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026.mp4" poster="/assets/img/posts/2026-11-ved-church/ved-church-cusco-2026-video.jpg" controls playsinline preload="none"></video>
+
+    <div class="carousel reveal" id="churchCarousel" style="margin-top:var(--m-2xl)">
       <div class="carousel__track">
         {% for n in (1..2) %}{% for i in (1..20) %}{% assign f = i | prepend: '0' | slice: -2, 2 %}<figure class="carousel__item"><img src="/assets/img/fotos/foto-{{ f }}.jpg" alt="VED church community, Cusco" loading="lazy"></figure>{% endfor %}{% endfor %}
       </div>

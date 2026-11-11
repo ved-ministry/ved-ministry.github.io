@@ -7,6 +7,10 @@
 
 const I18N = {
   en: {
+    "church.gather": "Together at VED",
+    "yt.title": "Watch the courses",
+    "yt.text": "Every EPYL course is recorded and shared on our YouTube channel, free for pastors and leaders anywhere.",
+    "yt.btn": "Visit the YouTube channel",
     "nav.story": "Our Story",
     "nav.church": "VED Church",
     "nav.epyl": "EPYL",
@@ -157,6 +161,10 @@ const I18N = {
   },
 
   de: {
+    "church.gather": "Gemeinsam bei VED",
+    "yt.title": "Die Kurse ansehen",
+    "yt.text": "Jeder EPYL-Kurs wird aufgezeichnet und auf unserem YouTube-Kanal geteilt, kostenlos für Pastoren und Leiter überall.",
+    "yt.btn": "YouTube-Kanal besuchen",
     "nav.story": "Unsere Geschichte",
     "nav.church": "VED Kirche",
     "nav.epyl": "EPYL",
@@ -307,6 +315,10 @@ const I18N = {
   },
 
   fr: {
+    "church.gather": "Ensemble à VED",
+    "yt.title": "Regarder les cours",
+    "yt.text": "Chaque cours EPYL est enregistré et partagé sur notre chaîne YouTube, gratuitement pour les pasteurs et responsables partout.",
+    "yt.btn": "Visiter la chaîne YouTube",
     "nav.story": "Notre Histoire",
     "nav.church": "Église VED",
     "nav.epyl": "EPYL",
@@ -456,6 +468,10 @@ const I18N = {
     "home.all": "Voir toutes les nouvelles",
   },
   es: {
+    "church.gather": "Juntos en VED",
+    "yt.title": "Mira los cursos",
+    "yt.text": "Cada curso de EPYL se graba y se comparte en nuestro canal de YouTube, gratis para pastores y líderes en cualquier lugar.",
+    "yt.btn": "Visitar el canal de YouTube",
     "nav.home": "Inicio",
     "nav.story": "Nuestra historia",
     "nav.church": "Iglesia VED",
