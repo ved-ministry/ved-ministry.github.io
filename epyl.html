@@ -1,0 +1,58 @@
+---
+layout: default
+title: EPYL — training workers for the harvest
+title_key: epyl.title
+eyebrow: Equipping Pastors & Leaders
+eyebrow_key: epyl.eyebrow
+permalink: /epyl/
+hero: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-01.jpg
+---
+<section id="epyl">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <svg class="sec-watermark" data-parallax="0.25" viewBox="0 0 70 70" aria-hidden="true"><use href="#sheep" fill="currentColor" transform="translate(2.27,45.64) scale(0.4962)"/></svg>
+      <p class="body-text" data-i18n="epyl.intro">"Filled with the knowledge of His will" — Colossians 1:9. Since 2010, EPYL has been training pastors and spiritual leaders who serve the Quechua-speaking countryside around Cusco and Puno, most with little formal schooling but a deep hunger for God's Word.</p>
+    </div>
+
+    <div class="row" style="align-items:center; gap:32px; margin-top:48px;" class="reveal">
+      <img src="/assets/img/logos/logo-epyl.png" alt="EPYL — Equipando Pastores y Líderes" style="height:120px; width:auto;">
+      <p class="body-text small" data-i18n="epyl.note" style="margin:0;">EPYL trains and sends teachers into the field — not academics, but faithful men who know the simple principles of God's Word and pass them on to others.</p>
+    </div>
+
+    <ul class="editorial-list reveal">
+      <li>
+        <span class="num">01</span>
+        <span class="title" data-i18n="epyl.loc1_title">Curahuasi</span>
+        <span class="desc" data-i18n="epyl.loc1_desc">Five days studying with Pastor Rolando and a group of leaders — Reynaldo, Santiago, Jesús, Julián, Paulino, Richar, Silvestre — learning to build a biblical outline and rightly handle the Word.</span>
+      </li>
+      <li>
+        <span class="num">02</span>
+        <span class="title" data-i18n="epyl.loc2_title">Desaguadero, Puno</span>
+        <span class="desc" data-i18n="epyl.loc2_desc">One of the hardest fields — pastors here work constantly just to get by, which leaves little room for study. The first EPYL graduating class is set to finish here.</span>
+      </li>
+      <li>
+        <span class="num">03</span>
+        <span class="title" data-i18n="epyl.loc3_title">Calca, Sacred Valley</span>
+        <span class="desc" data-i18n="epyl.loc3_desc">Training visits to pastors and leaders serving communities across the Sacred Valley of the Incas.</span>
+      </li>
+      <li>
+        <span class="num">04</span>
+        <span class="title" data-i18n="epyl.loc4_title">Ccatcca, Quispicanchi</span>
+        <span class="desc" data-i18n="epyl.loc4_desc">A rural province east of Cusco, home to several of the pastors and leaders EPYL walks alongside.</span>
+      </li>
+    </ul>
+
+    <div class="quote-card reveal">
+      <p data-i18n="epyl.quote1">"I can still name every one of them — proof that God works through simple men. We spent five beautiful days studying together. It isn't easy teaching people with so little theological training, but they are the ones the Lord provides to reach others."</p>
+      <cite data-i18n="epyl.quote1_cite">Cristóbal Churata, on the Curahuasi training</cite>
+    </div>
+  </div>
+</section>
+
+
+<section class="noise" style="background:var(--paper-2);">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="label" data-i18n="epyl.recent">From the field</span><h2 class="h-section" data-i18n="epyl.recent_title">Recent trainings</h2></div>
+    <div class="cards">{% for post in site.posts %}{% if post.kind == "Training" %}{% include post-card.html %}{% endif %}{% endfor %}</div>
+  </div>
+</section>

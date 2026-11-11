@@ -1,0 +1,5 @@
+title: VED · EPYL
+description: Iglesia Bautista VED and the EPYL ministry — planting a church and training pastors in the Andes of Peru.
+url: https://ved-ministry.github.io
+permalink: /updates/:title/
+exclude: [tools, README.md, .claude]

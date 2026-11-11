@@ -122,6 +122,39 @@
     navLinks.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
   }
 
+  /* ---------- "New" pill: stays hidden once dismissed, until a newer post replaces it ---------- */
+  const pill = document.getElementById("newsPill");
+  if (pill) {
+    let dismissed = null;
+    try { dismissed = localStorage.getItem("ved_pill"); } catch (e) {}
+    pill.hidden = dismissed === pill.dataset.id;
+    pill.querySelector("button").addEventListener("click", (e) => {
+      e.preventDefault();
+      pill.hidden = true;
+      try { localStorage.setItem("ved_pill", pill.dataset.id); } catch (e) {}
+    });
+  }
+
+  /* ---------- Updates filter ---------- */
+  const chips = document.getElementById("blogFilter");
+  if (chips) {
+    chips.addEventListener("click", (e) => {
+      const kind = e.target.dataset.kind;
+      if (kind === undefined) return;
+      chips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === e.target));
+      document.querySelectorAll("#blogGrid .card").forEach((c) => { c.hidden = kind && c.dataset.kind !== kind; });
+    });
+  }
+
+  /* ---------- Photo lightbox ---------- */
+  const lightbox = document.getElementById("lightbox");
+  document.addEventListener("click", (e) => {
+    if (e.target.closest("#lightbox")) return lightbox.close();
+    if (!e.target.matches("[data-zoom]")) return;
+    lightbox.firstElementChild.src = e.target.dataset.zoom || e.target.src;
+    lightbox.showModal();
+  });
+
   /* ---------- Subscribe + analytics. Both IDs are public by design; the keys stay in the private repo. ---------- */
   const SUBSCRIBE_URL = ""; // form address from the mailing service; while empty, falls back to email
   const ANALYTICS_ID = ""; // Umami website id; while empty, nothing is loaded
@@ -166,6 +199,7 @@
       });
     }, { rootMargin: "-50% 0px" });
     document.querySelectorAll("section[id]").forEach((el) => seen.observe(el));
+    document.querySelectorAll("video").forEach((v) => v.addEventListener("play", () => window.umami?.track("video", { src: v.src.split("/").pop() }), { once: true }));
   }
 
   /* ---------- Contact form -> mailto fallback (static site, no backend) ---------- */
