@@ -28,6 +28,7 @@
     <a href="#church" data-i18n="nav.church">VED Church</a>
     <a href="#epyl" data-i18n="nav.epyl">EPYL</a>
     <a href="#blog" data-i18n="nav.blog">Bulletin</a>
+    <a href="#subscribe" data-i18n="nav.subscribe">Subscribe</a>
     <a href="#support" data-i18n="nav.support">Give &amp; Connect</a>
     <div class="nav__lang nav__lang--mobile" role="group" aria-label="Language">
       <button data-lang="en" aria-current="true">EN</button>
@@ -386,7 +387,32 @@
       <h2 class="h-section" data-i18n="blog.title">Weekly Bulletin</h2>
       <p class="body-text" data-i18n="blog.intro">Short updates from Cusco — new visits, answered prayers, and what God is doing week by week. New entries are added regularly.</p>
     </div>
-    <div class="blog-grid reveal" id="blogGrid"><!-- rendered by js/blog.js --></div>
+    <div class="blog-filter" id="blogFilter"></div>
+    <div class="blog-grid" id="blogGrid"></div>
+  </div>
+  <dialog class="post" id="postDialog" aria-labelledby="postTitle">
+    <form method="dialog"><button class="post__close" aria-label="Close">×</button></form>
+    <div id="postBody"></div>
+  </dialog>
+</section>
+
+<!-- ================= SUBSCRIBE ================= -->
+<section id="subscribe" class="ved noise">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="label on-dark" data-i18n="subscribe.label">Stay in touch</span>
+      <h2 class="h-section" data-i18n="subscribe.title">Want to receive updates from the ministry?</h2>
+      <p class="body-text" data-i18n="subscribe.intro">New trainings, photos from the field, and prayer requests — sent to your inbox whenever there is news from Cusco.</p>
+    </div>
+    <form class="form subscribe reveal" id="subscribeForm">
+      <label for="s_email" data-i18n="support.form_email">Email</label>
+      <div class="subscribe__row">
+        <input id="s_email" name="EMAIL" type="email" autocomplete="email" required>
+        <button type="submit" class="btn on-dark" data-i18n="subscribe.btn">Subscribe</button>
+      </div>
+      <input name="email_address_check" tabindex="-1" autocomplete="off" hidden>
+      <p class="subscribe__note" id="subscribeNote" role="status" data-i18n="subscribe.note">We only use your email to send ministry updates. Unsubscribe anytime.</p>
+    </form>
   </div>
 </section>
 

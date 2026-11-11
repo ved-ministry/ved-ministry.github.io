@@ -122,6 +122,52 @@
     navLinks.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
   }
 
+  /* ---------- Subscribe + analytics. Both IDs are public by design; the keys stay in the private repo. ---------- */
+  const SUBSCRIBE_URL = ""; // form address from the mailing service; while empty, falls back to email
+  const ANALYTICS_ID = ""; // Umami website id; while empty, nothing is loaded
+
+  const subForm = document.getElementById("subscribeForm");
+  if (subForm) {
+    subForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const lang = document.documentElement.lang;
+      if (!SUBSCRIBE_URL) {
+        window.location.href = `mailto:caleisaiaschuratab@gmail.com?subject=Subscribe&body=${encodeURIComponent("Please add me to the ministry updates: " + subForm.EMAIL.value)}`;
+        return;
+      }
+      const note = document.getElementById("subscribeNote");
+      const say = (key) => {
+        note.removeAttribute("data-i18n");
+        note.textContent = (I18N[lang] || I18N.en)[key];
+      };
+      const data = new FormData(subForm);
+      data.append("locale", lang);
+      // shortcut: no-cors hides the service's reply, so only network failures show as errors; the confirmation email is the real receipt
+      fetch(SUBSCRIBE_URL, { method: "POST", body: data, mode: "no-cors" }).then(
+        () => { say("subscribe.done"); subForm.reset(); window.umami?.track("subscribe"); },
+        () => say("subscribe.error")
+      );
+    });
+  }
+
+  if (ANALYTICS_ID) {
+    const s = document.createElement("script");
+    s.defer = true;
+    s.src = "https://cloud.umami.is/script.js";
+    s.dataset.websiteId = ANALYTICS_ID;
+    s.dataset.doNotTrack = "true";
+    document.head.append(s);
+    // one event per section reached = how far people scroll
+    const seen = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        window.umami?.track("section", { id: entry.target.id });
+        seen.unobserve(entry.target);
+      });
+    }, { rootMargin: "-50% 0px" });
+    document.querySelectorAll("section[id]").forEach((el) => seen.observe(el));
+  }
+
   /* ---------- Contact form -> mailto fallback (static site, no backend) ---------- */
   const form = document.getElementById("contactForm");
   if (form) {

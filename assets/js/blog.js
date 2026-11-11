@@ -1,71 +1,60 @@
-// ============================================================
-// WEEKLY BULLETIN — how to add a new post
-// ------------------------------------------------------------
-// Copy the object below and add it to the TOP of the POSTS array
-// (newest first). "image" is optional — point it to a file inside
-// assets/img/fotos/ (or a new folder like assets/img/blog/).
-//
-// {
-//   date: "2027-01-10",
-//   label: "Cusco",
-//   title: "Short punchy title",
-//   excerpt: "One or two sentences, max ~140 characters.",
-//   image: "assets/img/fotos/foto-05.jpg" // or null
-// }
-// ============================================================
+// Bulletin: posts live in assets/data/posts.json (newest first).
+// Each card opens the full post (text + all photos) at #post-<id>.
 
-const POSTS = [
-  {
-    date: "2026-08-31",
-    label: "Cusco",
-    title: "Opening weekend at VED",
-    excerpt: "Pastor Julio Jaramillo joined us to preach as we opened the doors of our new meeting place.",
-    image: "assets/img/fotos/foto-01.jpg",
-  },
-  {
-    date: "2026-08-24",
-    label: "Cusco",
-    title: "Provision for the new meeting place",
-    excerpt: "32 chairs, a 70-inch TV for hymns, and a pulpit donated by brother Fernando W. — everything in place before opening day.",
-    image: "assets/img/fotos/foto-08.jpg",
-  },
-  {
-    date: "2026-07-15",
-    label: "Desaguadero",
-    title: "First EPYL graduating class",
-    excerpt: "After years of training visits, the first group of pastors is set to graduate in Puno.",
-    image: "assets/img/fotos/foto-11.jpg",
-  },
-  {
-    date: "2026-06-02",
-    label: "Curahuasi",
-    title: "Five days in the Word",
-    excerpt: "A week studying how to prepare a biblical outline with pastors Reynaldo, Santiago, and Rolando.",
-    image: "assets/img/fotos/foto-14.jpg",
-  },
-];
+let POSTS = [];
+let filter = "";
 
-function formatDate(iso, lang) {
-  const d = new Date(iso + "T00:00:00");
-  const locale = { en: "en-US", de: "de-DE", fr: "fr-FR" }[lang] || "en-US";
-  return d.toLocaleDateString(locale, { year: "numeric", month: "short", day: "numeric" });
+const blogGrid = document.getElementById("blogGrid");
+const blogFilter = document.getElementById("blogFilter");
+const postDialog = document.getElementById("postDialog");
+
+function postMeta(p) {
+  const lang = document.documentElement.lang || "en";
+  const date = new Date(p.date + "T00:00:00").toLocaleDateString(lang, { year: "numeric", month: "short", day: "numeric" });
+  return `<span class="date">${date} · ${p.place}</span><span class="label">${p.type}</span>`;
 }
 
-function renderBlog(lang) {
-  const grid = document.getElementById("blogGrid");
-  if (!grid) return;
-  const currentLang = lang || document.documentElement.lang || "en";
-  grid.innerHTML = POSTS.map(
-    (p) => `
-    <article class="blog-card">
-      ${p.image ? `<figure style="margin:0 0 8px; aspect-ratio:16/10; overflow:hidden;"><img src="${p.image}" alt="${p.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover;filter:contrast(1.05) saturate(.95);"></figure>` : ""}
-      <span class="date">${formatDate(p.date, currentLang)}</span>
-      <span class="label">${p.label}</span>
+function renderBlog() {
+  const all = (I18N[document.documentElement.lang] || I18N.en)["blog.all"];
+  blogFilter.innerHTML = ["", ...new Set(POSTS.map((p) => p.type))]
+    .map((t) => `<button class="chip" data-type="${t}" aria-pressed="${t === filter}">${t || all}</button>`)
+    .join("");
+  blogGrid.innerHTML = POSTS.filter((p) => !filter || p.type === filter)
+    .map(
+      (p) => `
+    <a class="blog-card" href="#post-${p.id}">
+      ${p.photos[0] ? `<img src="${p.photos[0]}" alt="" loading="lazy">` : ""}
+      ${postMeta(p)}
       <h3>${p.title}</h3>
       <p>${p.excerpt}</p>
-    </article>`
-  ).join("");
+      ${p.photos.length > 1 ? `<span class="date">${p.photos.length} photos →</span>` : ""}
+    </a>`
+    )
+    .join("");
 }
 
-document.addEventListener("DOMContentLoaded", () => renderBlog());
-document.addEventListener("langchange", (e) => renderBlog(e.detail.lang));
+function openPost() {
+  const p = POSTS.find((p) => location.hash === "#post-" + p.id);
+  if (!p) return;
+  document.getElementById("postBody").innerHTML =
+    postMeta(p) +
+    `<h3 id="postTitle">${p.title}</h3>` +
+    (p.body || p.excerpt).split("\n\n").map((t) => `<p>${t}</p>`).join("") +
+    p.photos.map((src) => `<img src="${src}" alt="${p.title}" loading="lazy">`).join("");
+  postDialog.showModal();
+  window.umami?.track("post", { id: p.id });
+}
+
+blogFilter.addEventListener("click", (e) => {
+  if (e.target.dataset.type === undefined) return;
+  filter = e.target.dataset.type;
+  renderBlog();
+});
+postDialog.addEventListener("click", (e) => { if (e.target === postDialog) postDialog.close(); }); // backdrop
+postDialog.addEventListener("close", () => history.replaceState(null, "", "#blog"));
+window.addEventListener("hashchange", openPost);
+document.addEventListener("langchange", renderBlog);
+
+fetch("assets/data/posts.json")
+  .then((r) => r.json())
+  .then((posts) => { POSTS = posts; renderBlog(); openPost(); });

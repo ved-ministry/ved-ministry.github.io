@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2026-08-31-opening-weekend",
+    "date": "2026-08-31",
+    "type": "Church",
+    "place": "Cusco",
+    "title": "Opening weekend at VED",
+    "excerpt": "Pastor Julio Jaramillo joined us to preach as we opened the doors of our new meeting place.",
+    "photos": ["assets/img/fotos/foto-01.jpg"]
+  },
+  {
+    "id": "2026-08-24-new-meeting-place",
+    "date": "2026-08-24",
+    "type": "Church",
+    "place": "Cusco",
+    "title": "Provision for the new meeting place",
+    "excerpt": "32 chairs, a 70-inch TV for hymns, and a pulpit donated by brother Fernando W. — everything in place before opening day.",
+    "photos": ["assets/img/fotos/foto-08.jpg"]
+  },
+  {
+    "id": "2026-07-15-first-graduating-class",
+    "date": "2026-07-15",
+    "type": "Training",
+    "place": "Desaguadero",
+    "title": "First EPYL graduating class",
+    "excerpt": "After years of training visits, the first group of pastors is set to graduate in Puno.",
+    "photos": ["assets/img/fotos/foto-11.jpg"]
+  },
+  {
+    "id": "2026-06-02-five-days-in-the-word",
+    "date": "2026-06-02",
+    "type": "Training",
+    "place": "Curahuasi",
+    "title": "Five days in the Word",
+    "excerpt": "A week studying how to prepare a biblical outline with pastors Reynaldo, Santiago, and Rolando.",
+    "photos": ["assets/img/fotos/foto-14.jpg"]
+  }
+]
