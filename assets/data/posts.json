@@ -1,12 +1,107 @@
 [
   {
+    "id": "2026-11-desaguadero-training",
+    "date": "2026-11-03",
+    "type": "Training",
+    "place": "Desaguadero, Puno",
+    "title": "Equipping Aymara servants in Desaguadero",
+    "excerpt": "EPYL returned to the shore of Lake Titicaca: Pastor Juan Valderrama taught the book of Romans to Aymara believers at Alfa y Omega church.",
+    "body": "The EPYL ministry keeps equipping Aymara servants. Our vision is simple: to draw believers to the Word of God. These brothers and sisters long to grow and to be transformed into the image of Christ.\n\nAt Alfa y Omega church in Desaguadero, Puno, Pastor Juan Valderrama taught through the book of Romans in a simple and practical way, so that believers may live loving God.\n\nThank you for praying for the Aymara churches of the highlands.",
+    "photos": [
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-01.jpg",
+        "wide": true,
+        "caption": "Pastors, leaders and families at the EPYL training in Desaguadero."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-02.jpg",
+        "caption": "Bibles open to Romans."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-03.jpg",
+        "caption": "Joy in the Word."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-04.jpg"
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-05.jpg"
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-06.jpg"
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-07.jpg"
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-08.jpg",
+        "caption": "Alfa y Omega church, Desaguadero."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-09.jpg",
+        "caption": "Conversations between sessions."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-10.jpg",
+        "wide": true,
+        "caption": "A break in the courtyard."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-11.jpg",
+        "wide": true,
+        "caption": "“Let us put on the armor of light” — Romans 13:12, Ephesians 6:11."
+      }
+    ],
+    "videos": [
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026.mp4",
+        "poster": "assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-video.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-peru-highlands",
+    "date": "2026-11-03",
+    "type": "Journey",
+    "place": "Lake Titicaca, Puno",
+    "title": "The highlands of Peru are beautiful",
+    "excerpt": "At 3,800 metres, Desaguadero sits on the shore of Lake Titicaca. Come and see where the Aymara churches live and serve.",
+    "body": "The sierra of Peru is beautiful. After a day of teaching we climbed the hill above Desaguadero: the town below, Lake Titicaca to the horizon, and the snow peaks behind it.\n\nThis is the land of the Aymara churches we serve. If your church is praying about a mission trip to Peru, come and see it with your own eyes.",
+    "photos": [
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg",
+        "wide": true,
+        "caption": "Sunset over Lake Titicaca."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-02.jpg",
+        "wide": true,
+        "caption": "Desaguadero, on the border between Peru and Bolivia."
+      },
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-03.jpg",
+        "wide": true
+      }
+    ],
+    "videos": [
+      {
+        "src": "assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026.mp4",
+        "poster": "assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-video.jpg"
+      }
+    ]
+  },
+  {
     "id": "2026-08-31-opening-weekend",
     "date": "2026-08-31",
     "type": "Church",
     "place": "Cusco",
     "title": "Opening weekend at VED",
     "excerpt": "Pastor Julio Jaramillo joined us to preach as we opened the doors of our new meeting place.",
-    "photos": ["assets/img/fotos/foto-01.jpg"]
+    "photos": [
+      {
+        "src": "assets/img/fotos/foto-01.jpg"
+      }
+    ]
   },
   {
     "id": "2026-08-24-new-meeting-place",
@@ -15,7 +110,11 @@
     "place": "Cusco",
     "title": "Provision for the new meeting place",
     "excerpt": "32 chairs, a 70-inch TV for hymns, and a pulpit donated by brother Fernando W. — everything in place before opening day.",
-    "photos": ["assets/img/fotos/foto-08.jpg"]
+    "photos": [
+      {
+        "src": "assets/img/fotos/foto-08.jpg"
+      }
+    ]
   },
   {
     "id": "2026-07-15-first-graduating-class",
@@ -24,7 +123,11 @@
     "place": "Desaguadero",
     "title": "First EPYL graduating class",
     "excerpt": "After years of training visits, the first group of pastors is set to graduate in Puno.",
-    "photos": ["assets/img/fotos/foto-11.jpg"]
+    "photos": [
+      {
+        "src": "assets/img/fotos/foto-11.jpg"
+      }
+    ]
   },
   {
     "id": "2026-06-02-five-days-in-the-word",
@@ -33,6 +136,10 @@
     "place": "Curahuasi",
     "title": "Five days in the Word",
     "excerpt": "A week studying how to prepare a biblical outline with pastors Reynaldo, Santiago, and Rolando.",
-    "photos": ["assets/img/fotos/foto-14.jpg"]
+    "photos": [
+      {
+        "src": "assets/img/fotos/foto-14.jpg"
+      }
+    ]
   }
 ]

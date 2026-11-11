@@ -23,11 +23,11 @@ function renderBlog() {
     .map(
       (p) => `
     <a class="blog-card" href="#post-${p.id}">
-      ${p.photos[0] ? `<img src="${p.photos[0]}" alt="" loading="lazy">` : ""}
+      ${p.photos[0] ? `<img src="${p.photos[0].src}" alt="" loading="lazy">` : ""}
       ${postMeta(p)}
       <h3>${p.title}</h3>
       <p>${p.excerpt}</p>
-      ${p.photos.length > 1 ? `<span class="date">${p.photos.length} photos →</span>` : ""}
+      ${p.photos.length > 1 ? `<span class="date">${p.photos.length} photos${p.videos ? " + video" : ""} →</span>` : ""}
     </a>`
     )
     .join("");
@@ -40,7 +40,10 @@ function openPost() {
     postMeta(p) +
     `<h3 id="postTitle">${p.title}</h3>` +
     (p.body || p.excerpt).split("\n\n").map((t) => `<p>${t}</p>`).join("") +
-    p.photos.map((src) => `<img src="${src}" alt="${p.title}" loading="lazy">`).join("");
+    `<div class="post__photos">` +
+    p.photos.map((f) => `<figure${f.wide ? ' class="wide"' : ""}><a href="${f.src}" target="_blank"><img src="${f.src}" alt="${f.caption || p.title}" loading="lazy"></a>${f.caption ? `<figcaption>${f.caption}</figcaption>` : ""}</figure>`).join("") +
+    `</div>` +
+    (p.videos || []).map((v) => `<video src="${v.src}" poster="${v.poster}" controls playsinline preload="none"></video>`).join("");
   postDialog.showModal();
   window.umami?.track("post", { id: p.id });
 }
@@ -51,6 +54,7 @@ blogFilter.addEventListener("click", (e) => {
   renderBlog();
 });
 postDialog.addEventListener("click", (e) => { if (e.target === postDialog) postDialog.close(); }); // backdrop
+postDialog.addEventListener("close", () => postDialog.querySelectorAll("video").forEach((v) => v.pause()));
 postDialog.addEventListener("close", () => history.replaceState(null, "", "#blog"));
 window.addEventListener("hashchange", openPost);
 document.addEventListener("langchange", renderBlog);
