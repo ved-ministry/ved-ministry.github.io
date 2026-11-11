@@ -95,7 +95,7 @@ section { padding-block: clamp(72px, 12vw, 120px); position: relative; }
 .body-text {
   font-family: var(--font-grotesk);
   font-weight: 400;
-  font-size: 18px;
+  font-size: clamp(16px, 4.4vw, 18px);
   line-height: 1.65;
   max-width: 42ch;
   color: var(--ink-soft);
@@ -195,18 +195,10 @@ hr.rule {
   mix-blend-mode: overlay;
 }
 
-/* ---------- Scroll reveal ---------- */
+/* no flash of English for visitors reading another language */
+.i18n-pending body { visibility: hidden; }
+html:not([lang="es"]) .l-es, html[lang="es"] .l-en { display: none; }
 
-.reveal {
-  opacity: 0;
-  transform: translateY(28px);
-  transition: opacity .9s var(--ease), transform .9s var(--ease);
-}
-.reveal.is-visible { opacity: 1; transform: translateY(0); }
-
-@media (prefers-reduced-motion: reduce) {
-  .reveal { opacity: 1; transform: none; transition: none; }
-}
 
 /* ---------- Utility ---------- */
 

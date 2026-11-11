@@ -4,28 +4,38 @@ title: "Equipping Aymara servants in Desaguadero"
 kind: Training
 place: "Desaguadero, Puno"
 excerpt: "EPYL returned to the shore of Lake Titicaca: Pastor Juan Valderrama taught the book of Romans to Aymara believers at Alfa y Omega church."
+title_es: "Equipando siervos aymaras en Desaguadero"
+excerpt_es: "EPYL volvió a orillas del lago Titicaca: el pastor Juan Valderrama enseñó el libro de Romanos a creyentes aymaras en la iglesia Alfa y Omega."
+body_es: "El ministerio EPYL sigue equipando siervos aymaras. La visión de EPYL es atraer a los creyentes a la Palabra de Dios; estos creyentes anhelan crecer y ser transformados a la imagen de Cristo.\n\nEn la iglesia Alfa y Omega de Desaguadero, Puno, el pastor Juan Valderrama expuso el libro de Romanos de manera sencilla y práctica, para que los creyentes vivan amando a Dios.\n\nGracias por orar por las iglesias aymaras del altiplano."
 photos:
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-01.jpg
     wide: true
     caption: "Pastors, leaders and families at the EPYL training in Desaguadero."
+    caption_es: "Pastores, líderes y familias en la capacitación EPYL en Desaguadero."
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-02.jpg
     caption: "Bibles open to Romans."
+    caption_es: "Biblias abiertas en Romanos."
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-03.jpg
     caption: "Joy in the Word."
+    caption_es: "Gozo en la Palabra."
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-04.jpg
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-05.jpg
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-06.jpg
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-07.jpg
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-08.jpg
     caption: "Alfa y Omega church, Desaguadero."
+    caption_es: "Iglesia Alfa y Omega, Desaguadero."
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-09.jpg
     caption: "Conversations between sessions."
+    caption_es: "Conversaciones entre sesiones."
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-10.jpg
     wide: true
     caption: "A break in the courtyard."
+    caption_es: "Un descanso en el patio."
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-11.jpg
     wide: true
     caption: "“Let us put on the armor of light” — Romans 13:12, Ephesians 6:11."
+    caption_es: "«Vistámonos las armas de la luz» — Romanos 13:12, Efesios 6:11."
 videos:
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026.mp4
     poster: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-video.jpg

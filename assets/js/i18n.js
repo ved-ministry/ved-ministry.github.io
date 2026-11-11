@@ -128,7 +128,13 @@ const I18N = {
     "footer.lang_de": "Deutsch",
     "footer.lang_fr": "Français",
     "footer.copyright": "© {year} Cristóbal Churata · VED Church &amp; EPYL Ministry, Cusco, Peru",
-    "footer.built": "Built in faith, hosted on GitHub Pages",
+    "footer.built": "Built in faith",
+    "tab.story": "Story",
+    "tab.church": "Church",
+    "kind.Training": "Training",
+    "kind.Church": "Church",
+    "kind.Journey": "Journey",
+    "card.photos": "photos",
     "nav.home": "Home",
     "card.read": "Read the story",
     "post.prev": "Earlier",
@@ -154,7 +160,7 @@ const I18N = {
     "nav.story": "Unsere Geschichte",
     "nav.church": "VED Kirche",
     "nav.epyl": "EPYL",
-    "nav.blog": "Neuigkeiten",
+    "nav.blog": "News",
     "nav.support": "Geben",
 
     "hero.top_left": "IM DIENST SEIT 1997 · CUSCO, PERU",
@@ -272,7 +278,13 @@ const I18N = {
     "footer.lang_de": "Deutsch",
     "footer.lang_fr": "Französisch",
     "footer.copyright": "© {year} Cristóbal Churata · VED Kirche &amp; EPYL-Dienst, Cusco, Peru",
-    "footer.built": "In Glauben gebaut, gehostet auf GitHub Pages",
+    "footer.built": "Im Glauben gebaut",
+    "tab.story": "Geschichte",
+    "tab.church": "Gemeinde",
+    "kind.Training": "Schulung",
+    "kind.Church": "Gemeinde",
+    "kind.Journey": "Reise",
+    "card.photos": "Fotos",
     "nav.home": "Start",
     "card.read": "Bericht lesen",
     "post.prev": "Früher",
@@ -416,7 +428,13 @@ const I18N = {
     "footer.lang_de": "Allemand",
     "footer.lang_fr": "Français",
     "footer.copyright": "© {year} Cristóbal Churata · Église VED &amp; Ministère EPYL, Cusco, Pérou",
-    "footer.built": "Construit avec foi, hébergé sur GitHub Pages",
+    "footer.built": "Construit avec foi",
+    "tab.story": "Histoire",
+    "tab.church": "Église",
+    "kind.Training": "Formation",
+    "kind.Church": "Église",
+    "kind.Journey": "Voyage",
+    "card.photos": "photos",
     "nav.home": "Accueil",
     "card.read": "Lire le récit",
     "post.prev": "Précédent",
@@ -436,6 +454,133 @@ const I18N = {
     "home.read": "Lire",
     "home.latest": "Dernières nouvelles du terrain",
     "home.all": "Voir toutes les nouvelles",
+  },
+  es: {
+    "nav.home": "Inicio",
+    "nav.story": "Nuestra historia",
+    "nav.church": "Iglesia VED",
+    "nav.epyl": "EPYL",
+    "nav.blog": "Novedades",
+    "nav.support": "Apoyar",
+    "hero.eyebrow": "Una familia misionera en los Andes",
+    "hero.title": "Descubre lo que <em>Dios</em> está haciendo en el Perú.",
+    "hero.sub": "Por más de veinticinco años, Cristóbal Churata ha entregado su vida y su tiempo a los pueblos quechuahablantes alrededor de Cusco: hoy planta una iglesia y prepara a la próxima generación de pastores y líderes.",
+    "hero.cta_story": "Conoce a la familia",
+    "hero.cta_support": "Apoya la obra",
+    "story.title": "De la rebeldía a un llamado.",
+    "story.intro": "Este es el testimonio del propio Cristóbal Churata: cómo un joven de Cusco, criado sin temor de Dios, fue hallado por Él y llamado a servir a la misma gente entre la que creció.",
+    "story.s1_title": "Un hogar construido sobre la tradición, no sobre la verdad",
+    "story.s1_text": "<p>Nací en un hogar católico entregado a la tradición, el mismo camino que mis padres habían heredado de los suyos. Mi adolescencia pasó sin ningún temor real de Dios, porque las personas a quienes admiraba tampoco le temían. Crecí viendo el engaño como algo normal y la bebida como parte de nuestra cultura. Al ver a mis padres y amigos seguir las mismas costumbres, yo también las seguí.</p>",
+    "story.s2_title": "La muerte de mi padre",
+    "story.s2_text": "<p>Mi padre era la figura central de mi vida: pasamos años trabajando juntos en la chacra, y por él aprendí a trabajar. Cuando Dios se lo llevó, en mi necedad levanté el dedo contra el cielo: «¿Cómo un Dios de amor pudo quitarme trágicamente a mi padre?». Lloré, y me entregué aún más a la bebida, para mostrar a mis amigos cuánto me dolía.</p>",
+    "story.s3_title": "Las oraciones de un hermano",
+    "story.s3_text": "<p>Recibí el año nuevo con una borrachera que duró una semana, y terminé en cama, enfermo, vomitando sangre durante días. Me pregunté: ¿dónde están ahora mis amigos? ¿Quién va a cuidarme? Nadie. Pero Dios había preparado ese momento para traerme Su Palabra. Mi hermano mayor Florencio había estado orando por mí todo ese tiempo, junto con amigos de su iglesia y del seminario, pidiendo a Dios que me salvara y me mostrara Su misericordia.</p>",
+    "story.s4_title": "Febrero, un campamento de jóvenes en el Valle Sagrado",
+    "story.s4_text": "<p>Dios intervino durante un campamento de jóvenes de las iglesias bautistas en el Valle Sagrado de Urubamba. Entendí, por primera vez, que estaba perdido: separado de Dios, sin esperanza. El único camino de regreso a Él era el regalo que ya había provisto: el perdón por medio de Su Hijo, Jesucristo. Recuerdo la pequeña oración que hice ese día: <em>«Señor, no sé cómo pedirte, pero sé que necesito que me salves. Perdóname: soy pecador, soy pecador, soy pecador.»</em></p>",
+    "story.s5_title": "Veinticinco años caminando con Él",
+    "story.s5_text": "<p>En 1997, dos años después de mi conversión, ayudaba a un misionero en la provincia de Chumbivilcas y sentí crecer un amor profundo por los hermanos y pastores quechuahablantes del campo. Le conté a mi pastor lo que sentía, y él me dijo sencillamente: «Dios te está llamando a servirle». Me ayudó a dar los siguientes pasos: formación teológica en el Seminario Bautista del Perú, de 1999 a 2002. Hoy soy un hombre distinto, transformado por el amor de Dios y Su Palabra, y he entregado mi vida para ser un instrumento en Sus manos.</p>",
+    "story.quote": "«Ni estimo preciosa mi vida para mí mismo, con tal que acabe mi carrera con gozo, y el ministerio que recibí del Señor Jesús, para dar testimonio del evangelio de la gracia de Dios.»",
+    "story.quote_cite": "Hechos 20:24 · El versículo de vida de Cristóbal",
+    "story.stat1": "Cristóbal Churata Quispe nace en Cusco",
+    "story.stat2": "Se casa con Celia Berna Romero",
+    "story.stat3": "Hijos: Cesia, Caleb y Camila",
+    "story.stat4": "Años sirviendo a Cristo en Cusco",
+    "church.title": "Iglesia Bautista “VED” — Cusco",
+    "church.intro": "Hace años, Cristóbal plantó su primera congregación, Ven-Id. Hoy esa obra ha crecido hasta ser VED —«Vida en Dios»—, una joven iglesia bautista registrada que organiza su propio local y sus cultos dominicales en Cusco.",
+    "church.name_label": "El nombre",
+    "church.name_title": "«Venid, VED el lugar.»",
+    "church.name_text": "<p>Pedimos a la joven congregación que propusiera un nombre, y elegimos VED, tomado de Mateo 28:6: «No está aquí, pues ha resucitado, como dijo. Venid, ved el lugar donde fue puesto el Señor». La tumba está vacía. Cristo ha resucitado. Ese es el único mensaje que existimos para predicar a cada alma en Cusco.</p>",
+    "church.begin_label": "Los comienzos",
+    "church.begin_title": "Dos años de oración, y dos familias dijeron que sí",
+    "church.begin_text": "<p>Durante dos años oramos para que el Señor enviara un equipo para plantar la iglesia. Él respondió con dos familias dispuestas a comenzar una nueva obra en Cusco. Desde marzo nos reunimos en la casa del hermano Rolando Quispe, quien ofreció su hogar para empezar. El pastor Julio Jaramillo —de la Iglesia Getsemaní en Santa Anita, Lima, la iglesia que envió a Cristóbal a esta obra— vino a predicar en nuestro culto de apertura. Imprimimos dos mil tratados evangelísticos, y Dios proveyó diez mil más por medio de otro ministerio. La siembra ha comenzado.</p>",
+    "church.stat1": "Personas reunidas cada domingo: niños, jóvenes y familias",
+    "church.stat3": "Tratados evangelísticos impresos y donados",
+    "church.cta_title": "¿Te gustaría venir a servir?",
+    "church.cta_text": "Recibimos con frecuencia a iglesias y equipos en viajes misioneros cortos a Cusco: evangelismo, enseñanza, construcción y Escuela Bíblica de Vacaciones. Si tu iglesia está orando por un viaje misionero al Perú, nos encantaría conversar.",
+    "church.cta_btn1": "Planea una visita",
+    "church.cta_btn2": "Apoya a VED",
+    "epyl.title": "EPYL — preparando obreros para la mies",
+    "epyl.intro": "«Llenos del conocimiento de Su voluntad» — Colosenses 1:9. Desde 2010, EPYL capacita a pastores y líderes espirituales que sirven en el campo quechuahablante de Cusco y Puno, la mayoría con poca escolaridad pero con un hambre profunda por la Palabra de Dios.",
+    "epyl.note": "EPYL capacita y envía maestros al campo: no académicos, sino hombres fieles que conocen los principios sencillos de la Palabra de Dios y los transmiten a otros.",
+    "epyl.loc1_desc": "Cinco días de estudio con el pastor Rolando y un grupo de líderes —Reynaldo, Santiago, Jesús, Julián, Paulino, Richar, Silvestre— aprendiendo a preparar un bosquejo bíblico y a usar bien la Palabra.",
+    "epyl.loc2_desc": "Uno de los campos más difíciles: aquí los pastores trabajan sin descanso para subsistir, lo que deja poco espacio para el estudio. La primera promoción de EPYL está por graduarse aquí.",
+    "epyl.loc3_title": "Calca, Valle Sagrado",
+    "epyl.loc3_desc": "Visitas de capacitación a pastores y líderes que sirven en comunidades de todo el Valle Sagrado de los Incas.",
+    "epyl.loc4_desc": "Una provincia rural al este de Cusco, hogar de varios de los pastores y líderes a quienes EPYL acompaña.",
+    "epyl.quote1": "«Todavía puedo nombrar a cada uno de ellos: prueba de que Dios obra por medio de hombres sencillos. Pasamos cinco días hermosos estudiando juntos. No es fácil enseñar a personas con tan poca formación teológica, pero son ellos los que el Señor provee para alcanzar a otros.»",
+    "epyl.quote1_cite": "Cristóbal Churata, sobre la capacitación en Curahuasi",
+    "blog.title": "Novedades del campo",
+    "blog.intro": "Noticias breves desde Cusco: nuevas visitas, oraciones contestadas y lo que Dios está haciendo semana a semana.",
+    "blog.all": "Todas",
+    "subscribe.label": "Sigamos en contacto",
+    "subscribe.title": "¿Quieres recibir novedades del ministerio?",
+    "subscribe.intro": "Nuevas capacitaciones, fotos del campo y motivos de oración, en tu correo cada vez que haya noticias desde Cusco.",
+    "subscribe.btn": "Suscribirme",
+    "subscribe.note": "Solo usamos tu correo para enviarte novedades del ministerio. Puedes darte de baja cuando quieras.",
+    "subscribe.done": "¡Gracias! Revisa tu correo para confirmar la suscripción.",
+    "subscribe.error": "Algo salió mal. Inténtalo de nuevo más tarde.",
+    "support.title": "Acompaña la obra en Cusco",
+    "support.intro": "Este ministerio se sostiene gracias al pueblo de Dios, cerca y lejos. Estas son algunas formas de ser parte, también desde fuera del Perú.",
+    "support.card1_title": "Ofrendar",
+    "support.card1_text": "Apoya directamente la plantación de la iglesia, las capacitaciones de EPYL y a la familia misionera. Se aceptan transferencias internacionales.",
+    "support.wise_title": "Transferencia internacional — Wise (CHF), SWIFT",
+    "support.usd_title": "Transferencia en EE. UU. — Wise (USD)",
+    "support.account_type_label": "Tipo de cuenta",
+    "support.routing_label": "Routing number — solo EE. UU. (wire / ACH)",
+    "support.usd_account_label": "Número de cuenta",
+    "support.usd_swift_label": "Swift / BIC — desde fuera de EE. UU.",
+    "support.bcp_title": "Transferencia en el Perú — BCP (Soles)",
+    "support.name_label": "Nombre",
+    "support.bank_label": "Banco",
+    "support.bcp_account": "Número de cuenta",
+    "support.bcp_cci": "Cuenta interbancaria (CCI)",
+    "support.card2_title": "Orar y animar",
+    "support.card2_text": "Envía unas palabras de ánimo o un motivo de oración: la familia lee cada mensaje.",
+    "support.card2_btn": "Escribir un mensaje",
+    "support.card3_title": "Venir a servir",
+    "support.card3_text": "Trae a tu iglesia en un viaje misionero a Cusco: evangelismo, enseñanza, construcción, Escuela Bíblica de Vacaciones.",
+    "support.card3_btn": "Planear un viaje",
+    "support.form_name": "Nombre",
+    "support.form_email": "Correo",
+    "support.form_country": "País",
+    "support.form_reason": "Motivo",
+    "support.form_reason_1": "Ánimo / Oración",
+    "support.form_reason_2": "Viaje misionero",
+    "support.form_reason_3": "Consulta sobre ofrendas",
+    "support.form_reason_4": "Otro",
+    "support.form_message": "Mensaje",
+    "support.form_submit": "Enviar mensaje",
+    "footer.slogan": "Sirviendo al <span class=\"shake\">Maestro</span> en Cusco, Perú.",
+    "footer.about": "La Iglesia Bautista VED y el ministerio EPYL, dirigidos por Cristóbal Churata y su familia: plantando iglesias y capacitando pastores en la región de Cusco, Perú.",
+    "footer.explore": "Explorar",
+    "footer.connect": "Contacto",
+    "footer.language": "Idioma",
+    "footer.copyright": "© {year} Cristóbal Churata · Iglesia VED y Ministerio EPYL, Cusco, Perú",
+    "footer.built": "Hecho con fe",
+    "card.read": "Leer la historia",
+    "post.prev": "Anterior",
+    "post.next": "Siguiente",
+    "blog.eyebrow": "Notas del campo",
+    "pill.new": "Nuevo",
+    "post.back": "Todas las novedades",
+    "epyl.eyebrow": "Equipando Pastores y Líderes",
+    "epyl.recent": "Desde el campo",
+    "epyl.recent_title": "Capacitaciones recientes",
+    "give.eyebrow": "Ofrendar · Orar · Contactar",
+    "home.label": "La obra",
+    "home.title": "Una familia, una iglesia, muchos pastores.",
+    "home.door1": "Cómo un joven de Cusco fue hallado por Dios y llamado a servir a su propio pueblo.",
+    "home.door2": "Una joven iglesia bautista en Cusco que predica la tumba vacía a cada alma de la ciudad.",
+    "home.door3": "Capacitando a pastores quechuas y aymaras con poca escolaridad y un hambre profunda por la Palabra.",
+    "home.read": "Leer",
+    "home.latest": "Lo último del campo",
+    "home.all": "Ver todas las novedades",
+    "tab.story": "Historia",
+    "tab.church": "Iglesia",
+    "kind.Training": "Capacitación",
+    "kind.Church": "Iglesia",
+    "kind.Journey": "Viaje",
+    "card.photos": "fotos",
   },
 };
 
@@ -461,9 +606,11 @@ const I18N = {
     }
 
     document.documentElement.lang = lang;
-    document.querySelectorAll(".nav__lang button").forEach((b) => {
-      b.setAttribute("aria-current", b.getAttribute("data-lang") === lang ? "true" : "false");
+    document.getElementById("langSelect").value = lang;
+    document.querySelectorAll("time[datetime]").forEach((t) => {
+      t.textContent = new Date(t.dateTime + "T00:00:00").toLocaleDateString(lang, { year: "numeric", month: "short", day: "numeric" });
     });
+    document.documentElement.classList.remove("i18n-pending");
 
     try {
       localStorage.setItem("ved_lang", lang);
@@ -475,10 +622,12 @@ const I18N = {
   window.applyLang = applyLang;
 
   document.addEventListener("DOMContentLoaded", () => {
-    let saved = "en";
+    // first visit follows the phone's language; after that, whatever the visitor picked
+    let saved = navigator.language.slice(0, 2);
     try {
-      saved = localStorage.getItem("ved_lang") || "en";
+      saved = localStorage.getItem("ved_lang") || saved;
     } catch (e) {}
+    if (!I18N[saved]) saved = "en";
 
     const copyEl = document.getElementById("copyrightLine");
     if (copyEl) {
@@ -486,6 +635,8 @@ const I18N = {
     }
 
     if (saved !== "en") applyLang(saved);
+    document.documentElement.classList.remove("i18n-pending");
+    document.getElementById("langSelect").addEventListener("change", (e) => applyLang(e.target.value));
 
     document.querySelectorAll("[data-lang]").forEach((btn) => {
       btn.addEventListener("click", (e) => {

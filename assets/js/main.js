@@ -1,5 +1,5 @@
 // ============================================================
-// MAIN — parallax hero, scroll reveal, nav state, contact form
+// MAIN — updates filter, lightbox, subscribe, analytics, contact form
 // ============================================================
 
 (function () {
@@ -8,93 +8,7 @@
   /* ---------- Year in footer (copyright line uses a {year} token, see i18n.js) ---------- */
   window.SITE_YEAR = new Date().getFullYear();
 
-  /* ---------- Sheep field parallax (movement + subtle zoom on scroll) ---------- */
-  const field = document.getElementById("sheepField");
-  const layers = field ? Array.from(field.querySelectorAll(".parallax-layer")) : [];
-  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  /* ---------- Generic scroll parallax — reused on section-header sheep
-     watermarks and story numbers/images, so the pasture motif keeps moving
-     as you scroll past the hero, not just inside it ---------- */
-  const parallaxEls = Array.from(document.querySelectorAll("[data-parallax]"));
-  const windowH = () => window.innerHeight;
-
-  let ticking = false;
-  function updateParallax() {
-    ticking = false;
-
-    if (field) {
-      const rect = field.getBoundingClientRect();
-      const heroHeight = rect.height || window.innerHeight;
-      // progress: 0 at top of hero, 1 once hero has fully scrolled past
-      const progress = Math.min(Math.max(-rect.top / heroHeight, 0), 1.4);
-
-      layers.forEach((layer) => {
-        const depth = parseFloat(layer.getAttribute("data-depth")) || 0.3;
-        const translateY = progress * depth * 140; // px — sheep drift up as you scroll
-        const scale = 1 + progress * depth * 0.16; // subtle "approaching" zoom
-        layer.style.transform = `translateY(${-translateY}px) scale(${scale})`;
-        layer.style.transformOrigin = "50% 100%";
-      });
-    }
-
-    const vh = windowH();
-    parallaxEls.forEach((el) => {
-      const depth = parseFloat(el.getAttribute("data-parallax")) || 0.2;
-      const extraScale = el.getAttribute("data-parallax-scale");
-      const rect = el.getBoundingClientRect();
-      const centerOffset = rect.top + rect.height / 2 - vh / 2;
-      const translate = `translateY(${(-centerOffset * depth).toFixed(1)}px)`;
-      el.style.transform = extraScale ? `${translate} scale(${extraScale})` : translate;
-    });
-  }
-
-  function onScroll() {
-    if (!ticking && !reduceMotion) {
-      window.requestAnimationFrame(updateParallax);
-      ticking = true;
-    }
-  }
-
-  if (!reduceMotion) {
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
-    updateParallax();
-  }
-
-  /* ---------- Slow ambient drift even without scrolling ---------- */
-  if (field && !reduceMotion) {
-    let t = 0;
-    function ambient() {
-      t += 0.0022;
-      layers.forEach((layer, i) => {
-        const depth = parseFloat(layer.getAttribute("data-depth")) || 0.3;
-        const driftX = Math.sin(t + i) * depth * 6;
-        layer.style.marginLeft = `${driftX}px`;
-      });
-      requestAnimationFrame(ambient);
-    }
-    requestAnimationFrame(ambient);
-  }
-
-  /* ---------- Scroll reveal ---------- */
-  const revealEls = document.querySelectorAll(".reveal");
-  if ("IntersectionObserver" in window && revealEls.length) {
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            io.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12, rootMargin: "0px 0px -60px 0px" }
-    );
-    revealEls.forEach((el) => io.observe(el));
-  } else {
-    revealEls.forEach((el) => el.classList.add("is-visible"));
-  }
+  document.querySelector(".nav__links [aria-current]").scrollIntoView({ inline: "center", block: "nearest" });
 
   /* ---------- Updates filter ---------- */
   const chips = document.getElementById("blogFilter");
@@ -113,7 +27,7 @@
     if (e.target.closest("#lightbox")) return lightbox.close();
     if (!e.target.matches("[data-zoom]")) return;
     lightbox.firstElementChild.src = e.target.dataset.zoom || e.target.src;
-    lightbox.lastElementChild.textContent = e.target.dataset.caption || "";
+    lightbox.lastElementChild.textContent = (document.documentElement.lang === "es" && e.target.dataset.captionEs) || e.target.dataset.caption || "";
     lightbox.showModal();
   });
 

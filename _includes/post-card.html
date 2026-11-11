@@ -1,7 +1,7 @@
 <article class="card" data-kind="{{ post.kind }}">
-  <div class="card__media"><img src="/{{ post.photos[0].src | replace: '.jpg', '.s.jpg' }}" alt="" loading="lazy"><span class="badge">{{ post.kind }}</span></div>
-  <span class="date">{{ post.date | date: "%b %-d, %Y" }} · {{ post.place }}{% if post.photos.size > 1 %} · {{ post.photos.size }} photos{% endif %}{% if post.videos %} + video{% endif %}</span>
-  <h3>{{ post.title }}</h3>
-  <p>{{ post.excerpt | strip_html }}</p>
-  <a class="btn solid" href="{{ post.url }}" aria-label="Read: {{ post.title }}" data-i18n="card.read">Read the story</a>
+  <div class="card__media"><img src="/{{ post.photos[0].src | replace: '.jpg', '.s.jpg' }}" alt="" loading="lazy"><span class="badge" data-i18n="kind.{{ post.kind }}">{{ post.kind }}</span></div>
+  <span class="date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time> · {{ post.place }}{% if post.photos.size > 1 %} · {{ post.photos.size }} <span data-i18n="card.photos">photos</span>{% endif %}{% if post.videos %} + video{% endif %}</span>
+  <h3><span class="l-en">{{ post.title }}</span><span class="l-es">{{ post.title_es | default: post.title }}</span></h3>
+  <p><span class="l-en">{{ post.excerpt | strip_html }}</span><span class="l-es">{{ post.excerpt_es | default: post.excerpt | strip_html }}</span></p>
+  <a class="btn solid" href="{{ post.url }}" aria-label="{{ post.title }}" data-i18n="card.read">Read the story</a>
 </article>

@@ -12,7 +12,7 @@ hero: assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
     <p class="body-text" data-i18n="blog.intro">Short updates from Cusco — new visits, answered prayers, and what God is doing week by week. New entries are added regularly.</p>
     <div class="blog-filter" id="blogFilter">
       <button class="chip" data-kind="" aria-pressed="true" data-i18n="blog.all">All</button>
-      {% assign kinds = site.posts | map: "kind" | uniq %}{% for k in kinds %}<button class="chip" data-kind="{{ k }}" aria-pressed="false">{{ k }}</button>{% endfor %}
+      {% assign kinds = site.posts | map: "kind" | uniq %}{% for k in kinds %}<button class="chip" data-kind="{{ k }}" aria-pressed="false" data-i18n="kind.{{ k }}">{{ k }}</button>{% endfor %}
     </div>
     <div class="cards" id="blogGrid">{% for post in site.posts %}{% include post-card.html %}{% endfor %}</div>
   </div>
