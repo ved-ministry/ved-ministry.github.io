@@ -1,7 +1,7 @@
-<a class="card" href="{{ post.url }}" data-kind="{{ post.kind }}">
-  <span class="card__media"><img src="/{{ post.photos[0].src | replace: '.jpg', '.s.jpg' }}" alt="" loading="lazy"><span class="badge">{{ post.kind }}</span></span>
-  <span class="date">{{ post.date | date: "%b %-d, %Y" }} · {{ post.place }}</span>
+<article class="card" data-kind="{{ post.kind }}">
+  <div class="card__media"><img src="/{{ post.photos[0].src | replace: '.jpg', '.s.jpg' }}" alt="" loading="lazy"><span class="badge">{{ post.kind }}</span></div>
+  <span class="date">{{ post.date | date: "%b %-d, %Y" }} · {{ post.place }}{% if post.photos.size > 1 %} · {{ post.photos.size }} photos{% endif %}{% if post.videos %} + video{% endif %}</span>
   <h3>{{ post.title }}</h3>
   <p>{{ post.excerpt | strip_html }}</p>
-  <span class="card__more">Read the story{% if post.photos.size > 1 %} · {{ post.photos.size }} photos{% endif %}{% if post.videos %} · video{% endif %} <i>→</i></span>
-</a>
+  <a class="btn solid" href="{{ post.url }}" aria-label="Read: {{ post.title }}" data-i18n="card.read">Read the story</a>
+</article>

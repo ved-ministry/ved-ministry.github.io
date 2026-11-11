@@ -3,23 +3,23 @@ layout: default
 ---
 <article class="post">
   <header class="post__head wrap">
-    <a class="back" href="/updates/">← <span data-i18n="post.back">All updates</span></a>
+    <a class="back" href="/updates/" data-i18n="post.back">All updates</a>
     <span class="date">{{ page.date | date: "%B %-d, %Y" }} · {{ page.place }}</span>
     <span class="label">{{ page.kind }}</span>
     <h1>{{ page.title }}</h1>
   </header>
   {% assign cover = page.photos[0] %}
-  <figure class="post__cover wrap"><img src="/{{ cover.src }}" alt="{{ cover.caption | default: page.title }}" data-zoom>{% if cover.caption %}<figcaption>{{ cover.caption }}</figcaption>{% endif %}</figure>
+  <figure class="post__cover wrap"><img src="/{{ cover.src }}" alt="{{ cover.caption | default: page.title }}" data-zoom data-caption="{{ cover.caption }}">{% if cover.caption %}<figcaption>{{ cover.caption }}</figcaption>{% endif %}</figure>
   <div class="post__body">{{ content }}</div>
   {% if page.photos.size > 1 %}
   <div class="gallery wrap">
-    {% for f in page.photos offset: 1 %}<figure{% if f.wide %} class="wide"{% endif %}><img src="/{{ f.src | replace: '.jpg', '.s.jpg' }}" data-zoom="/{{ f.src }}" alt="{{ f.caption | default: page.title }}" loading="lazy">{% if f.caption %}<figcaption>{{ f.caption }}</figcaption>{% endif %}</figure>
+    {% for f in page.photos offset: 1 %}<img{% if f.wide %} class="wide"{% endif %} src="/{{ f.src | replace: '.jpg', '.s.jpg' }}" data-zoom="/{{ f.src }}" data-caption="{{ f.caption }}" alt="{{ f.caption | default: page.title }}" loading="lazy">
     {% endfor %}
   </div>
   {% endif %}
   {% for v in page.videos %}<div class="wrap"><video src="/{{ v.src }}" poster="/{{ v.poster }}" controls playsinline preload="none"></video></div>{% endfor %}
   <nav class="post__nav wrap">
-    {% if page.previous %}<a href="{{ page.previous.url }}"><span class="date">← Earlier</span>{{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
-    {% if page.next %}<a href="{{ page.next.url }}" style="text-align:right"><span class="date">Next →</span>{{ page.next.title }}</a>{% endif %}
+    {% if page.previous %}<a href="{{ page.previous.url }}"><span class="date" data-i18n="post.prev">Earlier</span>{{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+    {% if page.next %}<a href="{{ page.next.url }}" style="text-align:right"><span class="date" data-i18n="post.next">Next</span>{{ page.next.title }}</a>{% endif %}
   </nav>
 </article>

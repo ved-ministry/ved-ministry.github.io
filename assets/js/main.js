@@ -96,45 +96,6 @@
     revealEls.forEach((el) => el.classList.add("is-visible"));
   }
 
-  /* ---------- Nav background on scroll (kept transparent w/ mix-blend, no-op placeholder) ---------- */
-  const nav = document.getElementById("siteNav");
-  function onNavScroll() {
-    if (!nav) return;
-    nav.style.padding = window.scrollY > 40 ? "14px clamp(20px, 5vw, 48px)" : "20px clamp(20px, 5vw, 48px)";
-  }
-  window.addEventListener("scroll", onNavScroll, { passive: true });
-
-  /* ---------- Mobile menu ---------- */
-  const burger = document.getElementById("navBurger");
-  const navLinks = document.getElementById("navLinks");
-  if (burger && navLinks) {
-    function closeMenu() {
-      navLinks.classList.remove("is-open");
-      burger.setAttribute("aria-expanded", "false");
-      document.body.style.overflow = "";
-    }
-    function toggleMenu() {
-      const open = navLinks.classList.toggle("is-open");
-      burger.setAttribute("aria-expanded", String(open));
-      document.body.style.overflow = open ? "hidden" : "";
-    }
-    burger.addEventListener("click", toggleMenu);
-    navLinks.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
-  }
-
-  /* ---------- "New" pill: stays hidden once dismissed, until a newer post replaces it ---------- */
-  const pill = document.getElementById("newsPill");
-  if (pill) {
-    let dismissed = null;
-    try { dismissed = localStorage.getItem("ved_pill"); } catch (e) {}
-    pill.hidden = dismissed === pill.dataset.id;
-    pill.querySelector("button").addEventListener("click", (e) => {
-      e.preventDefault();
-      pill.hidden = true;
-      try { localStorage.setItem("ved_pill", pill.dataset.id); } catch (e) {}
-    });
-  }
-
   /* ---------- Updates filter ---------- */
   const chips = document.getElementById("blogFilter");
   if (chips) {
@@ -152,6 +113,7 @@
     if (e.target.closest("#lightbox")) return lightbox.close();
     if (!e.target.matches("[data-zoom]")) return;
     lightbox.firstElementChild.src = e.target.dataset.zoom || e.target.src;
+    lightbox.lastElementChild.textContent = e.target.dataset.caption || "";
     lightbox.showModal();
   });
 
