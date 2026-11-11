@@ -19,7 +19,9 @@
 .nav__links a { padding: 9px 16px; border-radius: 99px; white-space: nowrap; color: var(--ink-soft); }
 .nav__links a:hover { background: var(--paper-2); }
 .nav__links a[aria-current] { background: var(--ved-green); color: var(--paper); }
-.nav select { order: 1; font: inherit; font-size: 14px; color: var(--ink); background: var(--paper-2); border: none; border-radius: 99px; padding: 8px 12px; cursor: pointer; }
+.nav__lang { display: flex; gap: 2px; order: 1; padding: 3px; border-radius: 99px; background: var(--paper-2); }
+.nav__lang button { background: none; border: none; border-radius: 99px; font: inherit; font-size: 13px; color: var(--stone); min-width: 38px; padding: 6px 8px; cursor: pointer; }
+.nav__lang button[aria-current="true"] { background: var(--paper); color: var(--ink); box-shadow: 0 1px 3px rgba(10,10,10,.15); }
 
 @media (max-width: 900px) {
   .nav__links { order: 2; width: 100%; justify-content: space-between; gap: 0; }
@@ -37,12 +39,13 @@
   color: var(--paper);
   padding: 150px 0 clamp(88px, 10vw, 110px);
 }
-.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(10,10,10,.25), rgba(10,10,10,.8)); }
+.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(10,10,10,.5), rgba(10,10,10,.82)); }  /* keeps the text readable over a bright sky */
 .hero__content { position: relative; }
 .hero__eyebrow { display: block; font-weight: 600; font-size: 15px; color: var(--gold); margin-bottom: 14px; }
 .hero__title { font-family: var(--font-display); font-weight: 300; font-size: clamp(38px, 7vw, 92px); line-height: 1; letter-spacing: -0.02em; max-width: 14ch; margin: 0; }
 .hero__title em { font-style: italic; color: var(--gold); }
-.hero__sub { margin: 24px 0 0; max-width: 46ch; font-size: clamp(16px, 1.6vw, 18px); line-height: 1.6; color: var(--paper-2); }
+.hero__sub { margin: 24px 0 0; max-width: 46ch; font-size: clamp(16px, 1.6vw, 18px); line-height: 1.6; color: var(--paper); }
+.hero__title, .hero__sub, .hero__eyebrow { text-shadow: 0 1px 12px rgba(10,10,10,.5); }
 .hero__cta { display: flex; gap: 12px; margin-top: 32px; flex-wrap: wrap; }
 .hero .btn.solid { background: var(--paper); border-color: var(--paper); color: var(--ink); }
 

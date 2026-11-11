@@ -606,7 +606,9 @@ const I18N = {
     }
 
     document.documentElement.lang = lang;
-    document.getElementById("langSelect").value = lang;
+    document.querySelectorAll(".nav__lang button").forEach((b) => {
+      b.setAttribute("aria-current", b.getAttribute("data-lang") === lang ? "true" : "false");
+    });
     document.querySelectorAll("time[datetime]").forEach((t) => {
       t.textContent = new Date(t.dateTime + "T00:00:00").toLocaleDateString(lang, { year: "numeric", month: "short", day: "numeric" });
     });
@@ -636,7 +638,6 @@ const I18N = {
 
     if (saved !== "en") applyLang(saved);
     document.documentElement.classList.remove("i18n-pending");
-    document.getElementById("langSelect").addEventListener("change", (e) => applyLang(e.target.value));
 
     document.querySelectorAll("[data-lang]").forEach((btn) => {
       btn.addEventListener("click", (e) => {
