@@ -1,254 +1,143 @@
 ---
 layout: post
-title: "Informe del primer curso en Desaguadero, Puno"
+title: "Report on the First Course in Desaguadero, Puno"
 title_es: "Informe del primer curso en Desaguadero, Puno"
 kind: Archive
 place: "Desaguadero"
-excerpt: "“… a fin de perfeccionar a los santos para la obra del\nministerio, para la edificación del cuerpo de Cristo,...” (Ef. 4: 12)"
+excerpt: "“…to equip the saints for the work of ministry, for building up the body of Christ” (Ephesians 4:12). Report by Enrique Hanco on the first EPYL course in Desaguadero."
 excerpt_es: "“… a fin de perfeccionar a los santos para la obra del\nministerio, para la edificación del cuerpo de Cristo,...” (Ef. 4: 12)"
 original: "https://equipandopastoresylideres-venid.blogspot.com/2012/04/informe-del-primer-curso-en-desaguadero.html"
-es_only: true
 image: /assets/img/posts/archivo/informe-del-primer-curso-en-desaguadero-puno/informe-del-primer-curso-en-desaguadero-puno-01.jpg
+title_de: "Bericht über den ersten Kurs in Desaguadero, Puno"
+title_fr: "Rapport sur le premier cours à Desaguadero, Puno"
+excerpt_de: "„…um die Heiligen auszurüsten für das Werk des Dienstes, für den Aufbau des Leibes Christi“ (Epheser 4,12). Bericht von Enrique Hanco über den ersten EPYL-Kurs in Desaguadero."
+excerpt_fr: "« …pour le perfectionnement des saints en vue de l’œuvre du ministère, pour l’édification du corps de Christ » (Éphésiens 4.12). Rapport d’Enrique Hanco sur le premier cours EPYL à Desaguadero."
+body_es: "“… a fin de perfeccionar a los santos para la obra del\nministerio, para la edificación del cuerpo de Cristo,...” (Ef. 4: 12)\n\nLa\nsemana que pasó, una vez más, tuve la oportunidad de dictar el primer curso de capacitación:\n“MÉTODOS DE ESTUDIO BÍBLICO Y REGLAS DE INTERPRETACIÓN”, en la ciudad de\nDesaguadero. Nunca antes había viajado a estas tierras a pesar de estar\nrelativamente cerca del Cusco. No conocía personalmente la realidad espiritual\nde la gente de esta región.\n\nComo\ntodos saben, Puno es conocido por dos cosas: el Titicaca, lago navegable más\nalto del mundo y la fiesta idolátrica de la Virgen de la Candelaria. Puno, como\ntodo el Perú, es un lugar muy religioso. La gente trabaja durante todo el año\ncon motivo de hacer un derroche en honor a su ídolo adorado. La perdición en\ntorno a este ídolo es detestable. En medio de todo este paganismo, Dios ha\nlevantado su iglesia. Una iglesia que tiene que batallar no solo con la idolatría\ndel mundo sino también con la contaminación de la sana doctrina.\n\nLos\npastores y líderes que estuvieron en este curso me informaron, y me hicieron\npreguntas al respecto, que un gran número de pastores y líderes de las Iglesias\nde esta región no aman la verdadera predicación de la Palabra. Es lamentable\nque durante las comuniones, convenciones, congresos y campamentos, se prefiera\na un “predicador” que más bien les entretenga y no les predique la sana\ndoctrina. Es triste saber que a los pastores que predican la Palabra, les\ncortan el tiempo de su predicación limitándolos a 20 minutos; en cambio a\nquienes pasan su tiempo contando chistes,\nanécdotas y experiencias diversas, les dejan todo el tiempo que quieran\nsobre el púlpito. No pueden sufrir la verdadera predicación.\n\nEsta\nrealidad espiritual demanda siervos preparados en el conocimiento de la Palabra\npara corregir lo deficiente. Los cursos de capacitación que se brindará en esta\nzona significarán cubrir una necesidad apremiante. El ministerio EPYL tiene en esta región un\ngran campo de labor. Necesitamos la ayuda del Señor para esta gran tarea.\nNecesitamos de las oraciones y el apoyo de todos aquellos quienes sienten el\npeso de la predicación del verdadero Evangelio.\n\n1. La asistencia:\n\nLos\nasistentes al curso fueron 29 personas,\nde los cuales: 5 fueron pastores y 24 líderes.\n\nDestacamos\nque la mayoría de los asistentes a este curso fueron miembros de la Iglesia\nAlfa y Omega.\n\n2. El dictado del curso en sí:\n\nEl\nhorario:\n\nEl dictado\ndel curso duró 6 días:\n\nLunes\na jueves: mañanas de 8am a 12:30pm, tardes de 2: 00pm a 6:00pm.\n\nSábado\nde 8am. a 2 pm. y Domingo\nde 3 a 6 pm.\n\nDe los alumnos:\n\n· En el grupo se pudo\ndistinguir a quienes saben leer medianamente bien y quienes leen con\ndeficiencia.\n\n·\nLa gran mayoría\nnecesita mejorar su comprensión lectora.\n\n·\nEl nivel académico de\nlos alumnos es de regular para abajo.\n\n·\nLa mayoría de los\nalumnos posee escaso conocimiento bíblico: solo dos personas leyeron toda la\nBiblia.\n\nRespecto del curso en sí:\n\nEl\ncurso se desarrolló de forma dinámica: los asistentes participaron con\npreguntas, aportes y diferentes opiniones.\n\nEl\ncurso fue una novedad para la mayoría de los asistentes.\n\nLos\nalumnos disfrutaron con mucho interés las enseñanzas.\n\nEl\nSeñor, a pesar de nuestras limitaciones, hizo de este curso muy provechoso.\n\n3. El ambiente y la comida:\n\n·\nLas hermanas se\nencargaron, por turnos, de preparar la comida: desayuno almuerzo y cena.\n\n·\nLa comida fue típica,\nabundante y rica.\n\n·\nEl ambiente, durante la\nsemana, fue muy amistoso y edificante.\n\n·\nHubieron 3 noches de\nrecreación en el Wali (campos deportivos de vóley)\n\n·\nEn general, fue una\nsemana de edificación y de estrechar lazos de amistad entre hermanos.\n\n4. Los resultados:\n\nLos\nhermanos, asumieron el reto de leer toda la Biblia.\n\nReconocieron\nsu falta de estudio metódico en el estudio de las Escrituras.\n\nSe\ndieron cuenta de su deficiencia en la predicación de la Palabra.\n\nValoraron\nla labor de los pastores y maestros en\nla preparación de sus mensajes: el tiempo y dificultad que esto significa.\n\nLos\n29 alumnos están decididos a estudiar los 9 cursos restantes.\n\nPor\nmi parte, cada vez aprendo más a adecuar el curso según el nivel, la demanda y\nrealidad de cada grupo.\n\n5. Necesidades y motivos de oración:\n\n·\nExisten iglesias, en\nlas comunidades que están a los alrededores de Desaguadero, que necesitan el\napoyo de obreros que lleven buena predicación y enseñanza.\n\n·\nLa Iglesia Bautista\nAlfa y Omega (lugar donde se dio la capacitación) está enviando obreros a iglesias\nque están a los alrededores de Desaguadero (2 horas a más de camino). Oremos\npara que se incremente el número y el Señor les brinde el recurso y la\nsabiduría necesaria para este trabajo.\n\n·\nNecesitamos trabajar con\nel objetivo que esta Iglesia, que está en el mismo Desaguadero, se convierta en\nun centro de capacitación de obreros con sana\ndoctrina y puedan ser un medio para corregir lo deficiente en las\niglesias de la región.\n\n·\nLa iglesia Bautista\nAlfa y Omega, es considerada por la unión de iglesias de la región como una\nIglesia muy correcta, oremos para que esta iglesia mantenga su testimonio y no\nse contamine con mala doctrina.\n\n·\nSegún el testimonio de\nlos hermanos, gran parte de la contaminación doctrinal viene del lado boliviano\nde las iglesias. En el ministerio EPYL estamos considerando extender nuestro\nministerio hasta ese país. Oremos por provisión y contactos.\n\n·\nOremos por la salvación\nde toda la región sur del Perú, para que el Señor saque de la idolatría a la\ngente de estos pueblos.\n\n·\nNecesitamos mucha\nsabiduría para la obra, ser guardados\npor el Señor y que nos siga proveyendo los recursos para seguir adelante con este\ntrabajo.\n\n·\nOren por mí, y por cada\nuno de los maestros de EPYL, para que el Señor nos guíe y siga utilizando en\neste ministerio.\n\n6. Gratitud\n\n[[foto1]]\n\nAgradezco\na Dios, nuestro Salvador, por darme el privilegio de ser útil y colaborar en su\nobra. A él sea la Gloria.\n\nGracias\nal Equipo EPYL, por, una vez más, darme su confianza y apoyo para esta labor.\n\nGracias\nal pastor Ascencio, que hizo todos los preparativos para que se llevara a cabo\neste curso.\n\nGracias\na cada uno de los hermanos de la Iglesia Alfa y Omega, de Desaguadero, por su\nhospitalidad, el cariño y aprecio que me brindaron durante toda la semana.\n\nGracias\na las hermanas de la iglesia, por cocinar rico y bastante.\n\nGracias\na la iglesia por su ofrenda para el ministerio EPYL.\n\nDe\nmanera especial, agradezco al hermano Jaime y a su esposa Martha, por\nproveernos el viaje de paseo a la Ciudad de la Paz, Bolivia.\n\nGracias\nal Señor por haberme permitido visitar las ruinas de Tiahuanaco junto con la\nhermana Noemí y Juan.\n\nGracias\na Dios, una vez más, porque ya se establecieron fechas para los próximos\ncursos.\n\nA DIOS SEA LA GLORIA POR TODO LO QUE VIENE HACIENDO\nY HARÁ POR NOSOTROS.\n\nDios los bendiga.\n\nEn su amor\n\nEnrique Hanco C.\n\nMinisterio EPYL Iglesia Bautista Ven-id"
+body_de: "„…um die Heiligen auszurüsten für das Werk des Dienstes, für den Aufbau des Leibes Christi…“ (Eph 4,12)\n\nIn der vergangenen Woche hatte ich wieder einmal die Gelegenheit, den ersten Schulungskurs zu halten: „METHODEN DES BIBELSTUDIUMS UND REGELN DER AUSLEGUNG“, in der Stadt Desaguadero. Ich war nie zuvor in diese Gegend gereist, obwohl sie relativ nah bei Cusco liegt. Ich kannte die geistliche Wirklichkeit der Menschen dieser Region nicht persönlich.\n\nWie alle wissen, ist Puno für zwei Dinge bekannt: den Titicacasee, den höchsten schiffbaren See der Welt, und das götzendienerische Fest der Virgen de la Candelaria. Puno ist wie ganz Peru ein sehr religiöser Ort. Die Menschen arbeiten das ganze Jahr, um zu Ehren ihres verehrten Götzen zu verschwenden. Das Verderben rund um diesen Götzen ist abscheulich. Mitten in all diesem Heidentum hat Gott seine Gemeinde erweckt, eine Gemeinde, die nicht nur gegen den Götzendienst der Welt kämpfen muss, sondern auch gegen die Verunreinigung der gesunden Lehre.\n\nDie Pastoren und Leiter in diesem Kurs berichteten mir davon und stellten mir Fragen dazu: Eine große Zahl von Pastoren und Leitern der Gemeinden dieser Region liebt die wahre Predigt des Wortes nicht. Es ist bedauerlich, dass man bei Zusammenkünften, Konventionen, Kongressen und Lagern einen „Prediger“ bevorzugt, der sie eher unterhält und ihnen nicht die gesunde Lehre predigt. Es ist traurig zu wissen, dass Pastoren, die das Wort predigen, die Predigtzeit gekürzt und auf 20 Minuten begrenzt wird, während denen, die ihre Zeit mit Witzen, Anekdoten und verschiedenen Erlebnissen verbringen, die ganze Zeit auf der Kanzel gelassen wird, die sie wollen. Sie ertragen die wahre Predigt nicht.\n\nDiese geistliche Wirklichkeit verlangt Diener, die in der Erkenntnis des Wortes vorbereitet sind, um das Mangelhafte zu korrigieren. Die Schulungskurse, die in diesem Gebiet gegeben werden, bedeuten, einem dringenden Bedarf zu begegnen. Der Dienst EPYL hat in dieser Region ein großes Arbeitsfeld. Wir brauchen die Hilfe des Herrn für diese große Aufgabe. Wir brauchen die Gebete und die Unterstützung aller, die das Gewicht der Predigt des wahren Evangeliums spüren.\n\n1. Die Teilnahme:\n\nAm Kurs nahmen 29 Personen teil, davon 5 Pastoren und 24 Leiter.\n\nWir heben hervor, dass die meisten Teilnehmer dieses Kurses Mitglieder der Gemeinde Alfa y Omega waren.\n\n2. Der Unterricht selbst:\n\nDer Stundenplan:\n\nDer Kurs dauerte 6 Tage:\n\nMontag bis Donnerstag: vormittags von 8 bis 12:30 Uhr, nachmittags von 14:00 bis 18:00 Uhr.\n\nSamstag von 8 bis 14 Uhr und Sonntag von 15 bis 18 Uhr.\n\nZu den Schülern:\n\n- In der Gruppe konnte man diejenigen unterscheiden, die ziemlich gut lesen, und diejenigen, die schlecht lesen.\n\n- Die große Mehrheit muss ihr Leseverständnis verbessern.\n\n- Das Bildungsniveau der Schüler ist durchschnittlich oder darunter.\n\n- Die meisten Schüler haben geringe Bibelkenntnisse: Nur zwei Personen hatten die ganze Bibel gelesen.\n\nZum Kurs selbst:\n\nDer Kurs verlief lebendig: Die Teilnehmer beteiligten sich mit Fragen, Beiträgen und verschiedenen Meinungen.\n\nDer Kurs war für die meisten Teilnehmer etwas Neues.\n\nDie Schüler genossen die Lehren mit großem Interesse.\n\nDer Herr hat diesen Kurs trotz unserer Grenzen sehr fruchtbar gemacht.\n\n3. Atmosphäre und Essen:\n\n- Die Schwestern bereiteten abwechselnd das Essen zu: Frühstück, Mittagessen und Abendessen.\n\n- Das Essen war typisch, reichlich und köstlich.\n\n- Die Atmosphäre war während der Woche sehr freundschaftlich und erbaulich.\n\n- Es gab 3 Abende der Erholung im Wali (Volleyballplätze).\n\n- Insgesamt war es eine Woche der Erbauung und der Vertiefung der Freundschaft unter Geschwistern.\n\n4. Die Ergebnisse:\n\nDie Geschwister nahmen die Herausforderung an, die ganze Bibel zu lesen.\n\nSie erkannten ihren Mangel an methodischem Studium der Schrift.\n\nSie merkten ihre Schwäche in der Predigt des Wortes.\n\nSie schätzten die Arbeit der Pastoren und Lehrer bei der Vorbereitung ihrer Botschaften: die Zeit und die Schwierigkeit, die das bedeutet.\n\nAlle 29 Schüler sind entschlossen, die übrigen 9 Kurse zu belegen.\n\nIch selbst lerne immer mehr, den Kurs an Niveau, Anspruch und Wirklichkeit jeder Gruppe anzupassen.\n\n5. Bedürfnisse und Gebetsanliegen:\n\n- Es gibt Gemeinden in den Dörfern rund um Desaguadero, die die Unterstützung von Arbeitern brauchen, die gute Predigt und Lehre bringen.\n\n- Die Baptistengemeinde Alfa y Omega (Ort der Schulung) sendet Arbeiter zu Gemeinden rund um Desaguadero (2 Stunden Weg und mehr). Beten wir, dass ihre Zahl wächst und der Herr ihnen die nötigen Mittel und die nötige Weisheit für diese Arbeit gibt.\n\n- Wir müssen darauf hinarbeiten, dass diese Gemeinde, die in Desaguadero selbst steht, zu einem Zentrum für die Schulung von Arbeitern mit gesunder Lehre wird und ein Mittel sein kann, das Mangelhafte in den Gemeinden der Region zu korrigieren.\n\n- Die Baptistengemeinde Alfa y Omega gilt beim Gemeindeverband der Region als sehr aufrechte Gemeinde; beten wir, dass diese Gemeinde ihr Zeugnis behält und nicht durch falsche Lehre verunreinigt wird.\n\n- Nach dem Zeugnis der Geschwister kommt ein großer Teil der Lehrverunreinigung von der bolivianischen Seite der Gemeinden. Im Dienst EPYL erwägen wir, unseren Dienst auf dieses Land auszudehnen. Beten wir um Versorgung und Kontakte.\n\n- Beten wir für die Rettung der ganzen Südregion Perus, dass der Herr die Menschen dieser Dörfer aus dem Götzendienst herausführe.\n\n- Wir brauchen viel Weisheit für das Werk, vom Herrn bewahrt zu werden und dass er uns weiter die Mittel gibt, mit dieser Arbeit voranzugehen.\n\n- Betet für mich und für jeden der EPYL-Lehrer, dass der Herr uns leite und weiter in diesem Dienst gebrauche.\n\n6. Dank\n\n[[foto1]]\n\nIch danke Gott, unserem Heiland, dass er mir das Vorrecht gab, nützlich zu sein und in seinem Werk mitzuarbeiten. Ihm sei die Ehre.\n\nDank an das EPYL-Team, dass es mir einmal mehr sein Vertrauen und seine Unterstützung für diese Arbeit schenkte.\n\nDank an Pastor Ascencio, der alle Vorbereitungen traf, damit dieser Kurs stattfinden konnte.\n\nDank an jeden der Geschwister der Gemeinde Alfa y Omega in Desaguadero für die Gastfreundschaft, die Zuneigung und die Wertschätzung, die sie mir die ganze Woche über erwiesen.\n\nDank an die Schwestern der Gemeinde, die lecker und reichlich kochten.\n\nDank an die Gemeinde für ihre Gabe für den Dienst EPYL.\n\nBesonderen Dank an Bruder Jaime und seine Frau Martha, die uns den Ausflug nach La Paz, Bolivien, ermöglichten.\n\nDank dem Herrn, dass er mir erlaubte, mit Schwester Noemí und Juan die Ruinen von Tiahuanaco zu besuchen.\n\nDank an Gott, wieder einmal, weil die Termine für die nächsten Kurse bereits festgelegt sind.\n\nGOTT SEI DIE EHRE FÜR ALLES, WAS ER FÜR UNS TUT UND TUN WIRD.\n\nGott segne Sie.\n\nIn seiner Liebe,\n\nEnrique Hanco C.\n\nDienst EPYL, Baptistengemeinde Ven-Id"
+body_fr: "« …pour le perfectionnement des saints en vue de l’œuvre du ministère, pour l’édification du corps de Christ… » (Éph. 4.12)\n\nLa semaine dernière, une fois de plus, j’ai eu l’occasion de donner le premier cours de formation : « MÉTHODES D’ÉTUDE BIBLIQUE ET RÈGLES D’INTERPRÉTATION », dans la ville de Desaguadero. Je n’avais jamais voyagé dans ces terres auparavant, bien qu’elles soient relativement proches de Cusco. Je ne connaissais pas personnellement la réalité spirituelle des gens de cette région.\n\nComme chacun le sait, Puno est connu pour deux choses : le Titicaca, le plus haut lac navigable du monde, et la fête idolâtre de la Vierge de la Candelaria. Puno, comme tout le Pérou, est un lieu très religieux. Les gens travaillent toute l’année pour gaspiller en l’honneur de leur idole adorée. La perdition autour de cette idole est détestable. Au milieu de tout ce paganisme, Dieu a suscité son Église : une Église qui doit lutter non seulement contre l’idolâtrie du monde mais aussi contre la contamination de la saine doctrine.\n\nLes pasteurs et les responsables présents à ce cours m’ont informé, et m’ont posé des questions à ce sujet, qu’un grand nombre de pasteurs et de responsables des églises de cette région n’aiment pas la véritable prédication de la Parole. Il est regrettable que, lors des rencontres, conventions, congrès et camps, on préfère un « prédicateur » qui divertit plutôt que de prêcher la saine doctrine. Il est triste de savoir que l’on coupe le temps de prédication des pasteurs qui prêchent la Parole, en les limitant à 20 minutes, tandis que ceux qui passent leur temps à raconter des blagues, des anecdotes et des expériences diverses ont tout le temps qu’ils veulent en chaire. Ils ne supportent pas la véritable prédication.\n\nCette réalité spirituelle demande des serviteurs préparés dans la connaissance de la Parole pour corriger ce qui est déficient. Les cours de formation donnés dans cette zone répondront à un besoin pressant. Le ministère EPYL a dans cette région un grand champ de travail. Nous avons besoin de l’aide du Seigneur pour cette grande tâche. Nous avons besoin des prières et du soutien de tous ceux qui sentent le poids de la prédication du véritable Évangile.\n\n1. La présence :\n\nLes participants au cours étaient au nombre de 29, dont 5 pasteurs et 24 responsables.\n\nNous soulignons que la plupart des participants à ce cours étaient membres de l’église Alfa y Omega.\n\n2. L’enseignement du cours lui-même :\n\nL’horaire :\n\nLe cours a duré 6 jours :\n\nDu lundi au jeudi : matinées de 8 h à 12 h 30, après-midis de 14 h à 18 h.\n\nSamedi de 8 h à 14 h et dimanche de 15 h à 18 h.\n\nConcernant les étudiants :\n\n- Dans le groupe, on pouvait distinguer ceux qui lisent assez bien et ceux qui lisent mal.\n\n- La grande majorité doit améliorer sa compréhension de lecture.\n\n- Le niveau scolaire des étudiants est moyen ou en dessous.\n\n- La plupart des étudiants ont peu de connaissances bibliques : seules deux personnes avaient lu toute la Bible.\n\nConcernant le cours lui-même :\n\nLe cours s’est déroulé de façon dynamique : les participants ont posé des questions, apporté des contributions et exprimé différentes opinions.\n\nLe cours était une nouveauté pour la plupart des participants.\n\nLes étudiants ont savouré les enseignements avec beaucoup d’intérêt.\n\nLe Seigneur, malgré nos limites, a rendu ce cours très profitable.\n\n3. L’ambiance et la nourriture :\n\n- Les sœurs se sont chargées, à tour de rôle, de préparer la nourriture : petit-déjeuner, déjeuner et dîner.\n\n- La nourriture était typique, abondante et délicieuse.\n\n- L’ambiance, pendant la semaine, était très amicale et édifiante.\n\n- Il y a eu 3 soirées de détente au Wali (terrains de volley).\n\n- En général, ce fut une semaine d’édification et de renforcement des liens d’amitié entre frères.\n\n4. Les résultats :\n\nLes frères ont relevé le défi de lire toute la Bible.\n\nIls ont reconnu leur manque d’étude méthodique des Écritures.\n\nIls ont pris conscience de leur déficience dans la prédication de la Parole.\n\nIls ont apprécié le travail des pasteurs et des enseignants dans la préparation de leurs messages : le temps et la difficulté que cela représente.\n\nLes 29 étudiants sont décidés à étudier les 9 cours restants.\n\nPour ma part, j’apprends de plus en plus à adapter le cours au niveau, à la demande et à la réalité de chaque groupe.\n\n5. Besoins et sujets de prière :\n\n- Il existe des églises, dans les communautés autour de Desaguadero, qui ont besoin du soutien d’ouvriers qui apportent une bonne prédication et un bon enseignement.\n\n- L’église baptiste Alfa y Omega (lieu de la formation) envoie des ouvriers dans les églises autour de Desaguadero (2 heures de route et plus). Prions pour que leur nombre augmente et que le Seigneur leur donne les ressources et la sagesse nécessaires pour ce travail.\n\n- Nous devons œuvrer pour que cette église, située à Desaguadero même, devienne un centre de formation d’ouvriers à la saine doctrine et puisse être un moyen de corriger ce qui est déficient dans les églises de la région.\n\n- L’église baptiste Alfa y Omega est considérée par l’union des églises de la région comme une église très droite ; prions pour que cette église garde son témoignage et ne soit pas contaminée par une mauvaise doctrine.\n\n- Selon le témoignage des frères, une grande partie de la contamination doctrinale vient du côté bolivien des églises. Dans le ministère EPYL, nous envisageons d’étendre notre ministère jusqu’à ce pays. Prions pour la provision et les contacts.\n\n- Prions pour le salut de toute la région sud du Pérou, afin que le Seigneur tire de l’idolâtrie les gens de ces villages.\n\n- Nous avons besoin de beaucoup de sagesse pour l’œuvre, d’être gardés par le Seigneur et qu’il continue de nous fournir les ressources pour poursuivre ce travail.\n\n- Priez pour moi, et pour chacun des enseignants d’EPYL, afin que le Seigneur nous guide et continue de nous utiliser dans ce ministère.\n\n6. Gratitude\n\n[[foto1]]\n\nJe remercie Dieu, notre Sauveur, de m’avoir donné le privilège d’être utile et de collaborer à son œuvre. À lui soit la gloire.\n\nMerci à l’équipe EPYL de m’avoir, une fois de plus, accordé sa confiance et son soutien pour ce travail.\n\nMerci au pasteur Ascencio, qui a fait tous les préparatifs pour que ce cours puisse avoir lieu.\n\nMerci à chacun des frères de l’église Alfa y Omega de Desaguadero pour l’hospitalité, l’affection et l’estime qu’ils m’ont témoignées toute la semaine.\n\nMerci aux sœurs de l’église, qui ont cuisiné délicieusement et en abondance.\n\nMerci à l’église pour son offrande au ministère EPYL.\n\nDe façon particulière, je remercie le frère Jaime et son épouse Martha, qui nous ont offert l’excursion à La Paz, en Bolivie.\n\nMerci au Seigneur de m’avoir permis de visiter les ruines de Tiahuanaco avec la sœur Noemí et Juan.\n\nMerci à Dieu, une fois de plus, car les dates des prochains cours sont déjà fixées.\n\nÀ DIEU SOIT LA GLOIRE POUR TOUT CE QU’IL FAIT ET FERA POUR NOUS.\n\nQue Dieu vous bénisse.\n\nDans son amour,\n\nEnrique Hanco C.\n\nMinistère EPYL, église baptiste Ven-Id"
 photos:
   - src: assets/img/posts/archivo/informe-del-primer-curso-en-desaguadero-puno/informe-del-primer-curso-en-desaguadero-puno-01.jpg
   - src: assets/img/posts/archivo/informe-del-primer-curso-en-desaguadero-puno/informe-del-primer-curso-en-desaguadero-puno-02.jpg
     inline: true
 ---
-“… a fin de perfeccionar a los santos para la obra del
-ministerio, para la edificación del cuerpo de Cristo,...” (Ef. 4: 12)
+“…to equip the saints for the work of ministry, for building up the body of Christ…” (Eph. 4:12)
 
-La
-semana que pasó, una vez más, tuve la oportunidad de dictar el primer curso de capacitación:
-“MÉTODOS DE ESTUDIO BÍBLICO Y REGLAS DE INTERPRETACIÓN”, en la ciudad de
-Desaguadero. Nunca antes había viajado a estas tierras a pesar de estar
-relativamente cerca del Cusco. No conocía personalmente la realidad espiritual
-de la gente de esta región.
+Last week, once again, I had the opportunity to teach the first training course, “BIBLE STUDY METHODS AND RULES OF INTERPRETATION”, in the city of Desaguadero. I had never before traveled to these lands, even though they are relatively close to Cusco. I did not know personally the spiritual reality of the people of this region.
 
-Como
-todos saben, Puno es conocido por dos cosas: el Titicaca, lago navegable más
-alto del mundo y la fiesta idolátrica de la Virgen de la Candelaria. Puno, como
-todo el Perú, es un lugar muy religioso. La gente trabaja durante todo el año
-con motivo de hacer un derroche en honor a su ídolo adorado. La perdición en
-torno a este ídolo es detestable. En medio de todo este paganismo, Dios ha
-levantado su iglesia. Una iglesia que tiene que batallar no solo con la idolatría
-del mundo sino también con la contaminación de la sana doctrina.
+As everyone knows, Puno is known for two things: Titicaca, the highest navigable lake in the world, and the idolatrous festival of the Virgen de la Candelaria. Puno, like all of Peru, is a very religious place. People work all year to squander it in honor of their worshiped idol. The ruin surrounding this idol is detestable. In the midst of all this paganism, God has raised up his church: a church that has to battle not only the idolatry of the world but also the contamination of sound doctrine.
 
-Los
-pastores y líderes que estuvieron en este curso me informaron, y me hicieron
-preguntas al respecto, que un gran número de pastores y líderes de las Iglesias
-de esta región no aman la verdadera predicación de la Palabra. Es lamentable
-que durante las comuniones, convenciones, congresos y campamentos, se prefiera
-a un “predicador” que más bien les entretenga y no les predique la sana
-doctrina. Es triste saber que a los pastores que predican la Palabra, les
-cortan el tiempo de su predicación limitándolos a 20 minutos; en cambio a
-quienes pasan su tiempo contando chistes,
-anécdotas y experiencias diversas, les dejan todo el tiempo que quieran
-sobre el púlpito. No pueden sufrir la verdadera predicación.
+The pastors and leaders who were in this course told me, and asked me questions about it, that a large number of pastors and leaders of the churches of this region do not love true preaching of the Word. It is regrettable that at fellowships, conventions, congresses and camps they prefer a “preacher” who entertains them rather than preaching sound doctrine. It is sad to know that pastors who preach the Word have their preaching time cut, limited to 20 minutes, while those who spend their time telling jokes, anecdotes and various experiences are allowed all the time they want in the pulpit. They cannot stand true preaching.
 
-Esta
-realidad espiritual demanda siervos preparados en el conocimiento de la Palabra
-para corregir lo deficiente. Los cursos de capacitación que se brindará en esta
-zona significarán cubrir una necesidad apremiante. El ministerio EPYL tiene en esta región un
-gran campo de labor. Necesitamos la ayuda del Señor para esta gran tarea.
-Necesitamos de las oraciones y el apoyo de todos aquellos quienes sienten el
-peso de la predicación del verdadero Evangelio.
+This spiritual reality demands servants prepared in the knowledge of the Word to correct what is deficient. The training courses to be given in this area will mean meeting a pressing need. The EPYL ministry has in this region a great field of work. We need the Lord’s help for this great task. We need the prayers and support of all those who feel the weight of preaching the true Gospel.
 
-1. La asistencia:
+1. Attendance:
 
-Los
-asistentes al curso fueron 29 personas,
-de los cuales: 5 fueron pastores y 24 líderes.
+Those who attended the course were 29 people, of whom 5 were pastors and 24 leaders.
 
-Destacamos
-que la mayoría de los asistentes a este curso fueron miembros de la Iglesia
-Alfa y Omega.
+We note that most of the attendees at this course were members of the Alfa y Omega Church.
 
-2. El dictado del curso en sí:
+2. The teaching of the course itself:
 
-El
-horario:
+Schedule:
 
-El dictado
-del curso duró 6 días:
+The course lasted 6 days:
 
-Lunes
-a jueves: mañanas de 8am a 12:30pm, tardes de 2: 00pm a 6:00pm.
+Monday to Thursday: mornings from 8 a.m. to 12:30 p.m., afternoons from 2:00 p.m. to 6:00 p.m.
 
-Sábado
-de 8am. a 2 pm. y Domingo
-de 3 a 6 pm.
+Saturday from 8 a.m. to 2 p.m. and Sunday from 3 to 6 p.m.
 
-De los alumnos:
+About the students:
 
-· En el grupo se pudo
-distinguir a quienes saben leer medianamente bien y quienes leen con
-deficiencia.
+- In the group we could distinguish those who read fairly well from those who read poorly.
 
-·
-La gran mayoría
-necesita mejorar su comprensión lectora.
+- The great majority need to improve their reading comprehension.
 
-·
-El nivel académico de
-los alumnos es de regular para abajo.
+- The academic level of the students is average or below.
 
-·
-La mayoría de los
-alumnos posee escaso conocimiento bíblico: solo dos personas leyeron toda la
-Biblia.
+- Most of the students have little biblical knowledge: only two people had read the whole Bible.
 
-Respecto del curso en sí:
+About the course itself:
 
-El
-curso se desarrolló de forma dinámica: los asistentes participaron con
-preguntas, aportes y diferentes opiniones.
+The course was dynamic: the attendees took part with questions, contributions and different opinions.
 
-El
-curso fue una novedad para la mayoría de los asistentes.
+The course was a novelty for most of the attendees.
 
-Los
-alumnos disfrutaron con mucho interés las enseñanzas.
+The students enjoyed the teachings with great interest.
 
-El
-Señor, a pesar de nuestras limitaciones, hizo de este curso muy provechoso.
+The Lord, in spite of our limitations, made this course very profitable.
 
-3. El ambiente y la comida:
+3. Atmosphere and food:
 
-·
-Las hermanas se
-encargaron, por turnos, de preparar la comida: desayuno almuerzo y cena.
+- The sisters took turns preparing the food: breakfast, lunch and dinner.
 
-·
-La comida fue típica,
-abundante y rica.
+- The food was typical, abundant and delicious.
 
-·
-El ambiente, durante la
-semana, fue muy amistoso y edificante.
+- The atmosphere during the week was very friendly and edifying.
 
-·
-Hubieron 3 noches de
-recreación en el Wali (campos deportivos de vóley)
+- There were 3 evenings of recreation at the Wali (volleyball courts).
 
-·
-En general, fue una
-semana de edificación y de estrechar lazos de amistad entre hermanos.
+- In general, it was a week of edification and of strengthening bonds of friendship among brothers.
 
-4. Los resultados:
+4. The results:
 
-Los
-hermanos, asumieron el reto de leer toda la Biblia.
+The brothers took up the challenge of reading the whole Bible.
 
-Reconocieron
-su falta de estudio metódico en el estudio de las Escrituras.
+They recognized their lack of methodical study of the Scriptures.
 
-Se
-dieron cuenta de su deficiencia en la predicación de la Palabra.
+They realized their deficiency in preaching the Word.
 
-Valoraron
-la labor de los pastores y maestros en
-la preparación de sus mensajes: el tiempo y dificultad que esto significa.
+They valued the work of pastors and teachers in preparing their messages: the time and difficulty that this means.
 
-Los
-29 alumnos están decididos a estudiar los 9 cursos restantes.
+All 29 students are determined to study the remaining 9 courses.
 
-Por
-mi parte, cada vez aprendo más a adecuar el curso según el nivel, la demanda y
-realidad de cada grupo.
+For my part, I keep learning more and more to adapt the course to the level, demand and reality of each group.
 
-5. Necesidades y motivos de oración:
+5. Needs and prayer requests:
 
-·
-Existen iglesias, en
-las comunidades que están a los alrededores de Desaguadero, que necesitan el
-apoyo de obreros que lleven buena predicación y enseñanza.
+- There are churches, in the communities around Desaguadero, that need the support of workers who bring good preaching and teaching.
 
-·
-La Iglesia Bautista
-Alfa y Omega (lugar donde se dio la capacitación) está enviando obreros a iglesias
-que están a los alrededores de Desaguadero (2 horas a más de camino). Oremos
-para que se incremente el número y el Señor les brinde el recurso y la
-sabiduría necesaria para este trabajo.
+- The Alfa y Omega Baptist Church (where the training took place) is sending workers to churches around Desaguadero (2 hours or more of travel). Let us pray that the number increases and that the Lord gives them the resources and wisdom this work requires.
 
-·
-Necesitamos trabajar con
-el objetivo que esta Iglesia, que está en el mismo Desaguadero, se convierta en
-un centro de capacitación de obreros con sana
-doctrina y puedan ser un medio para corregir lo deficiente en las
-iglesias de la región.
+- We need to work toward this church, located in Desaguadero itself, becoming a center for training workers in sound doctrine, able to be a means of correcting what is deficient in the churches of the region.
 
-·
-La iglesia Bautista
-Alfa y Omega, es considerada por la unión de iglesias de la región como una
-Iglesia muy correcta, oremos para que esta iglesia mantenga su testimonio y no
-se contamine con mala doctrina.
+- The Alfa y Omega Baptist Church is considered by the union of churches of the region as a very upright church; let us pray that this church keeps its testimony and is not contaminated by bad doctrine.
 
-·
-Según el testimonio de
-los hermanos, gran parte de la contaminación doctrinal viene del lado boliviano
-de las iglesias. En el ministerio EPYL estamos considerando extender nuestro
-ministerio hasta ese país. Oremos por provisión y contactos.
+- According to the brothers’ testimony, much of the doctrinal contamination comes from the Bolivian side of the churches. In the EPYL ministry we are considering extending our ministry to that country. Let us pray for provision and contacts.
 
-·
-Oremos por la salvación
-de toda la región sur del Perú, para que el Señor saque de la idolatría a la
-gente de estos pueblos.
+- Let us pray for the salvation of the whole south of Peru, that the Lord would bring the people of these towns out of idolatry.
 
-·
-Necesitamos mucha
-sabiduría para la obra, ser guardados
-por el Señor y que nos siga proveyendo los recursos para seguir adelante con este
-trabajo.
+- We need much wisdom for the work, to be kept by the Lord, and for him to keep providing the resources to carry on with this work.
 
-·
-Oren por mí, y por cada
-uno de los maestros de EPYL, para que el Señor nos guíe y siga utilizando en
-este ministerio.
+- Pray for me, and for each of the EPYL teachers, that the Lord guide us and keep using us in this ministry.
 
-6. Gratitud
+6. Gratitude
 
 [[foto1]]
 
-Agradezco
-a Dios, nuestro Salvador, por darme el privilegio de ser útil y colaborar en su
-obra. A él sea la Gloria.
+I thank God, our Savior, for giving me the privilege of being useful and of collaborating in his work. To him be the glory.
 
-Gracias
-al Equipo EPYL, por, una vez más, darme su confianza y apoyo para esta labor.
+Thanks to the EPYL Team for, once again, giving me their trust and support for this work.
 
-Gracias
-al pastor Ascencio, que hizo todos los preparativos para que se llevara a cabo
-este curso.
+Thanks to Pastor Ascencio, who made all the preparations for this course to take place.
 
-Gracias
-a cada uno de los hermanos de la Iglesia Alfa y Omega, de Desaguadero, por su
-hospitalidad, el cariño y aprecio que me brindaron durante toda la semana.
+Thanks to each one of the brothers of the Alfa y Omega Church in Desaguadero, for the hospitality, affection and appreciation they showed me throughout the week.
 
-Gracias
-a las hermanas de la iglesia, por cocinar rico y bastante.
+Thanks to the sisters of the church, for cooking delicious food, and plenty of it.
 
-Gracias
-a la iglesia por su ofrenda para el ministerio EPYL.
+Thanks to the church for their offering for the EPYL ministry.
 
-De
-manera especial, agradezco al hermano Jaime y a su esposa Martha, por
-proveernos el viaje de paseo a la Ciudad de la Paz, Bolivia.
+In a special way, I thank brother Jaime and his wife Martha, for providing the sightseeing trip to the city of La Paz, Bolivia.
 
-Gracias
-al Señor por haberme permitido visitar las ruinas de Tiahuanaco junto con la
-hermana Noemí y Juan.
+Thanks to the Lord for allowing me to visit the ruins of Tiahuanaco with sister Noemí and Juan.
 
-Gracias
-a Dios, una vez más, porque ya se establecieron fechas para los próximos
-cursos.
+Thanks to God, once again, because the dates for the next courses have already been set.
 
-A DIOS SEA LA GLORIA POR TODO LO QUE VIENE HACIENDO
-Y HARÁ POR NOSOTROS.
+TO GOD BE THE GLORY FOR ALL HE HAS BEEN DOING AND WILL DO FOR US.
 
-Dios los bendiga.
+God bless you.
 
-En su amor
+In his love,
 
 Enrique Hanco C.
 
-Ministerio EPYL Iglesia Bautista Ven-id
+EPYL Ministry, Ven-Id Baptist Church
