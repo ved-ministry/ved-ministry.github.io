@@ -1,86 +1,53 @@
 ---
 layout: post
-title: "Informe del tercer módulo: Perspectiva general del Nuevo Testamento"
+title: "Report on the Third Module: New Testament Survey"
 title_es: "Informe del tercer módulo: Perspectiva general del Nuevo Testamento"
 kind: Archive
 place: "Desaguadero"
-excerpt: "Salí de la ciudad de Trujillo hacia lima el día 25 de octubre llegando\nen la mañana y tome el vuelo a Juliaca\nel día viernes por la tarde llegando a las 8 de la noche…"
+excerpt: "Report by David Rodríguez, pastor of Belén Baptist Church in Trujillo, on the third module taught in Desaguadero."
 excerpt_es: "Salí de la ciudad de Trujillo hacia lima el día 25 de octubre llegando\nen la mañana y tome el vuelo a Juliaca\nel día viernes por la tarde llegando a las 8 de la noche…"
 original: "https://equipandopastoresylideres-venid.blogspot.com/2012/12/informe-del-tercer-modulo-de.html"
-es_only: true
 image: /assets/img/posts/archivo/informe-del-tercer-modulo-perspectiva-general-del-nuevo/informe-del-tercer-modulo-perspectiva-general-del-nuevo-01.jpg
+title_de: "Bericht über das dritte Modul: Überblick über das Neue Testament"
+title_fr: "Rapport sur le troisième module : Panorama du Nouveau Testament"
+excerpt_de: "Bericht von David Rodríguez, Pastor der Baptistengemeinde Belén in Trujillo, über das dritte Modul in Desaguadero."
+excerpt_fr: "Rapport de David Rodríguez, pasteur de l’église baptiste Belén de Trujillo, sur le troisième module donné à Desaguadero."
+body_es: "PRIMERO: DEL VIAJE\n\nSalí de la ciudad de Trujillo hacia lima el día 25 de octubre llegando\nen la mañana y tome el vuelo a Juliaca\nel día viernes por la tarde llegando a las 8 de la noche con la bendición de\nDios. Todo el viaje hasta allí fue sin novedad,\ny en Juliaca me esperaba el pastor Asencio Sarmiento con el hermano Domingo y su\nfamiliar que me recibieron y en ese mismo instante fuimos rumbo a desaguadero\npara comenzar con las enseñanzas del módulo llegando casi a las 12 de la noche con el cuidado de Dios.\n\nSEGUNDO: DE LA APERTURA DEL MÓDULO\n\nEL día sábado 27 de octubre se dio inicio al módulo perspectiva del\nnuevo testamento con la participación de muchos pastores y hermanos líderes de\nla iglesia “Alfa y Omega”\n\nTERCERO: DEL DESARROLLO\n\nEL día sábado que se inicio el curso tuvimos la participación de muchos\nhermanos pastores y lideres con mucho deseo de llevar el curso dando su tiempo\npara dichas clases, que se desarrollaron\ndesde el día sábado 27 de octubre al jueves 1 de noviembre el horario fue de 8\nde la mañana a 5 de la tarde con algunos recesos de refrigerio y alimentación. Resalto que para dicho módulo fue de bastante\nbendición, ver a las damas de la iglesia contribuyendo en el hospedaje y la\nalimentación de los estudiantes, pero a\nla vez, algunas de ellas dando su tiempo para también estar en clases\naprendiendo el curso. La participación de los hermanos con su presencia y en los ejercicios del curso como en sus\ndiferentes preguntas que realizaron sobre la Escritura mostraron el interés de\ntodos para saber y comprender las verdades de nuestro Dios.\n\nPresento mi gratitud al pastor Asencio y su hermosa familia, al hermano\nBasilio y su familia que me acogieron en su casa, al hermano Domingo y su\nesposa, a los pastores, los hermanos y hermanas de la iglesia bautista Alfa y Omega nombre por nombre que\nme atendieron con mucho amor. La obra\nque ellos realizaron me hizo pensar mucho en la iglesia de Tesalónica donde el\napóstol Pablo compartió lo siguiente “Y\nvosotros vinisteis a ser imitadores de nosotros y del Señor, recibiendo la\npalabra en medio de gran tribulación, con gozo del Espíritu Santo, de tal\nmanera que habéis sido ejemplo a todos los de Macedonia y de Acaya que han\ncreído. Porque partiendo de\nvosotros ha sido divulgada la palabra del Señor, no sólo en Macedonia y Acaya,\nsino que también en todo lugar vuestra fe en Dios se ha extendido, de modo que\nnosotros no tenemos necesidad de hablar nada;” 1 Tesalonicenses 1:6-8. Sigan\nadelante mi estimado pastor y pastores con los hermanos de la iglesia\ndivulgando la verdad de Dios a sus familias y pueblos alrededores.\n\nCUARTO: DE LA\nCLAUSURA\n\nClausuramos el módulo el día jueves primero de noviembre en la tarde. Con un\nbuen promedio de estudiantes permanentes\npuesto que los 35 libros incluyendo el libro de su servidor tuvo que ser dejado\npor que los que adquirieron los libros\nfue un total de 36 hermanos\n\nGracias a Dios porque me permitió servirle con estas enseñanzas a su pueblo, pero también\ngracias a Él porque he sido muy edificado al considerar la fe creciente de\ntodos mis hermanos en el pueblo de desaguadero.\n\nESTOY SEGURO QUE DIOS ESTARÁ SIEMPRE BENDICIENDO A SU PUEBLO EN SALUD, ECONOMÍA Y VIDA ESPIRITUAL.\n\nHASTA OTRA OPORTUNIDAD\n\nSU SERVIDOR\n\nDAVID RODRIGUEZ\n\nPASTOR. I.B. BELEN\n\nTRUJILLO -PERU\n\nMinisterio Epyl"
+body_de: "ERSTENS: DIE REISE\n\nIch verließ die Stadt Trujillo nach Lima am 25. Oktober, kam am Morgen an und nahm am Freitagnachmittag den Flug nach Juliaca, wo ich mit Gottes Segen um 8 Uhr abends ankam. Die ganze Reise bis dorthin verlief ohne besondere Vorkommnisse, und in Juliaca erwartete mich Pastor Asencio Sarmiento mit Bruder Domingo und seiner Familie, die mich empfingen, und sofort fuhren wir nach Desaguadero, um mit dem Unterricht des Moduls zu beginnen, und kamen fast um 12 Uhr nachts unter Gottes Bewahrung an.\n\nZWEITENS: DIE ERÖFFNUNG DES MODULS\n\nAm Samstag, dem 27. Oktober, begann das Modul „Überblick über das Neue Testament“ mit der Teilnahme vieler Pastoren und Leiter der Gemeinde „Alfa y Omega“.\n\nDRITTENS: DER VERLAUF\n\nAn dem Samstag, an dem der Kurs begann, nahmen viele Pastoren und Leiter mit großem Verlangen teil und gaben ihre Zeit für den Unterricht, der von Samstag, dem 27. Oktober, bis Donnerstag, dem 1. November, jeweils von 8 Uhr morgens bis 17 Uhr mit einigen Pausen für Erfrischung und Essen stattfand. Ich hebe hervor, dass das Modul ein großer Segen war: zu sehen, wie die Frauen der Gemeinde zur Unterkunft und Verpflegung der Schüler beitrugen und zugleich einige von ihnen auch ihre Zeit gaben, um im Unterricht zu sein und den Kurs zu lernen. Die Teilnahme der Geschwister durch ihre Anwesenheit und bei den Übungen des Kurses sowie durch ihre verschiedenen Fragen zur Schrift zeigte das Interesse aller, die Wahrheiten unseres Gottes zu kennen und zu verstehen.\n\nIch spreche meinen Dank aus an Pastor Asencio und seine schöne Familie, an Bruder Basilio und seine Familie, die mich in ihrem Haus aufnahmen, an Bruder Domingo und seine Frau, an die Pastoren, die Brüder und Schwestern der Baptistengemeinde Alfa y Omega, Name für Name, die sich mit viel Liebe um mich kümmerten. Das Werk, das sie taten, ließ mich viel an die Gemeinde in Thessalonich denken, von der der Apostel Paulus sagte: „Und ihr seid unsere Nachfolger geworden und die des Herrn und habt das Wort aufgenommen in großer Bedrängnis mit Freuden im Heiligen Geist, sodass ihr ein Vorbild geworden seid für alle Gläubigen in Mazedonien und Achaia. Denn von euch aus ist das Wort des Herrn erschollen nicht allein in Mazedonien und Achaia, sondern an allen Orten ist euer Glaube an Gott bekannt geworden, sodass wir es nicht nötig haben, etwas darüber zu sagen“ (1. Thessalonicher 1,6-8). Macht weiter, mein lieber Pastor und ihr Pastoren, mit den Geschwistern der Gemeinde und verbreitet die Wahrheit Gottes unter euren Familien und in den umliegenden Dörfern.\n\nVIERTENS: DER ABSCHLUSS\n\nWir schlossen das Modul am Donnerstag, dem 1. November, am Nachmittag ab, mit einer guten Zahl fester Schüler, denn die 35 Bücher, einschließlich meines eigenen Exemplars, mussten zurückgelassen werden, weil die Zahl derer, die die Bücher erwarben, 36 Geschwister betrug.\n\nGott sei Dank, dass er mir erlaubt hat, ihm mit diesen Lehren an seinem Volk zu dienen, aber auch Dank ihm, denn ich bin sehr erbaut worden, als ich den wachsenden Glauben aller meiner Geschwister im Ort Desaguadero betrachtete.\n\nICH BIN SICHER, DASS GOTT SEIN VOLK IMMER SEGNEN WIRD IN GESUNDHEIT, FINANZEN UND GEISTLICHEM LEBEN.\n\nBIS ZU EINER ANDEREN GELEGENHEIT\n\nIHR DIENER\n\nDAVID RODRÍGUEZ\n\nPASTOR, BAPTISTENGEMEINDE BELÉN\n\nTRUJILLO, PERU\n\nDienst EPYL"
+body_fr: "PREMIÈREMENT : LE VOYAGE\n\nJ’ai quitté la ville de Trujillo pour Lima le 25 octobre, arrivant le matin, et j’ai pris le vol pour Juliaca le vendredi après-midi, arrivant à 8 h du soir avec la bénédiction de Dieu. Tout le voyage jusque-là s’est passé sans incident, et à Juliaca le pasteur Asencio Sarmiento m’attendait avec le frère Domingo et sa famille, qui m’ont accueilli, et à l’instant même nous sommes partis pour Desaguadero afin de commencer l’enseignement du module, arrivant presque à minuit sous la garde de Dieu.\n\nDEUXIÈMEMENT : L’OUVERTURE DU MODULE\n\nLe samedi 27 octobre a commencé le module « Panorama du Nouveau Testament », avec la participation de nombreux pasteurs et responsables de l’église « Alfa y Omega ».\n\nTROISIÈMEMENT : LE DÉROULEMENT\n\nLe samedi où le cours a commencé, nous avons eu la participation de nombreux pasteurs et responsables avec un grand désir de suivre le cours, donnant leur temps pour les cours, qui se sont déroulés du samedi 27 octobre au jeudi 1er novembre, de 8 h du matin à 17 h, avec quelques pauses pour les rafraîchissements et les repas. Je souligne que le module fut une grande bénédiction : voir les femmes de l’église contribuer à l’hébergement et à la nourriture des étudiants, et en même temps certaines d’entre elles donner de leur temps pour être aussi en classe et apprendre le cours. La participation des frères par leur présence et dans les exercices du cours, ainsi que dans les différentes questions qu’ils ont posées sur l’Écriture, a montré l’intérêt de tous pour connaître et comprendre les vérités de notre Dieu.\n\nJ’exprime ma gratitude au pasteur Asencio et à sa belle famille, au frère Basilio et à sa famille qui m’ont accueilli chez eux, au frère Domingo et à son épouse, aux pasteurs, aux frères et sœurs de l’église baptiste Alfa y Omega, nom par nom, qui m’ont reçu avec beaucoup d’amour. L’œuvre qu’ils ont accomplie m’a fait beaucoup penser à l’église de Thessalonique, dont l’apôtre Paul a dit : « Et vous, vous êtes devenus nos imitateurs et ceux du Seigneur, en recevant la parole au milieu de bien des tribulations, avec la joie du Saint-Esprit, de sorte que vous êtes devenus un modèle pour tous les croyants de la Macédoine et de l’Achaïe. Car non seulement la parole du Seigneur a retenti de chez vous en Macédoine et en Achaïe, mais votre foi en Dieu s’est fait connaître en tout lieu, de sorte que nous n’avons pas besoin d’en parler » (1 Thessaloniciens 1.6-8). Continuez, mon cher pasteur et vous, pasteurs, avec les frères de l’église, à répandre la vérité de Dieu auprès de vos familles et des villages alentour.\n\nQUATRIÈMEMENT : LA CLÔTURE\n\nNous avons clôturé le module le jeudi 1er novembre dans l’après-midi, avec une bonne moyenne d’étudiants permanents, puisque les 35 livres, y compris mon propre exemplaire, ont dû être laissés, car ceux qui ont acquis les livres étaient au total 36 frères.\n\nGrâce à Dieu, qui m’a permis de le servir avec ces enseignements auprès de son peuple, mais grâce à lui aussi parce que j’ai été très édifié en considérant la foi grandissante de tous mes frères dans le village de Desaguadero.\n\nJE SUIS SÛR QUE DIEU BÉNIRA TOUJOURS SON PEUPLE EN SANTÉ, EN FINANCES ET EN VIE SPIRITUELLE.\n\nJUSQU’À UNE PROCHAINE OCCASION\n\nVOTRE SERVITEUR\n\nDAVID RODRÍGUEZ\n\nPASTEUR, ÉGLISE BAPTISTE BELÉN\n\nTRUJILLO, PÉROU\n\nMinistère EPYL"
 photos:
   - src: assets/img/posts/archivo/informe-del-tercer-modulo-perspectiva-general-del-nuevo/informe-del-tercer-modulo-perspectiva-general-del-nuevo-01.jpg
 ---
-PRIMERO: DEL VIAJE
+FIRST: THE JOURNEY
 
-Salí de la ciudad de Trujillo hacia lima el día 25 de octubre llegando
-en la mañana y tome el vuelo a Juliaca
-el día viernes por la tarde llegando a las 8 de la noche con la bendición de
-Dios. Todo el viaje hasta allí fue sin novedad,
-y en Juliaca me esperaba el pastor Asencio Sarmiento con el hermano Domingo y su
-familiar que me recibieron y en ese mismo instante fuimos rumbo a desaguadero
-para comenzar con las enseñanzas del módulo llegando casi a las 12 de la noche con el cuidado de Dios.
+I left the city of Trujillo for Lima on October 25, arriving in the morning, and took the flight to Juliaca on Friday afternoon, arriving at 8 in the evening with God’s blessing. The whole trip there was uneventful, and in Juliaca Pastor Asencio Sarmiento was waiting for me with brother Domingo and his family, who received me, and right then we set out for Desaguadero to begin the module’s teaching, arriving almost at 12 midnight under God’s care.
 
-SEGUNDO: DE LA APERTURA DEL MÓDULO
+SECOND: THE OPENING OF THE MODULE
 
-EL día sábado 27 de octubre se dio inicio al módulo perspectiva del
-nuevo testamento con la participación de muchos pastores y hermanos líderes de
-la iglesia “Alfa y Omega”
+On Saturday, October 27, the New Testament Survey module began, with the participation of many pastors and leaders of the “Alfa y Omega” church.
 
-TERCERO: DEL DESARROLLO
+THIRD: THE DEVELOPMENT
 
-EL día sábado que se inicio el curso tuvimos la participación de muchos
-hermanos pastores y lideres con mucho deseo de llevar el curso dando su tiempo
-para dichas clases, que se desarrollaron
-desde el día sábado 27 de octubre al jueves 1 de noviembre el horario fue de 8
-de la mañana a 5 de la tarde con algunos recesos de refrigerio y alimentación. Resalto que para dicho módulo fue de bastante
-bendición, ver a las damas de la iglesia contribuyendo en el hospedaje y la
-alimentación de los estudiantes, pero a
-la vez, algunas de ellas dando su tiempo para también estar en clases
-aprendiendo el curso. La participación de los hermanos con su presencia y en los ejercicios del curso como en sus
-diferentes preguntas que realizaron sobre la Escritura mostraron el interés de
-todos para saber y comprender las verdades de nuestro Dios.
+On the Saturday the course began we had the participation of many pastors and leaders with great desire to take the course, giving their time for the classes, which ran from Saturday, October 27, to Thursday, November 1, from 8 in the morning to 5 in the afternoon with some breaks for refreshments and meals. I highlight that the module was a great blessing, seeing the women of the church contributing to the lodging and feeding of the students, and at the same time some of them giving their time to be in class as well, learning the course. The brothers’ participation, with their presence and in the course exercises, and in the different questions they asked about Scripture, showed everyone’s interest in knowing and understanding the truths of our God.
 
-Presento mi gratitud al pastor Asencio y su hermosa familia, al hermano
-Basilio y su familia que me acogieron en su casa, al hermano Domingo y su
-esposa, a los pastores, los hermanos y hermanas de la iglesia bautista Alfa y Omega nombre por nombre que
-me atendieron con mucho amor. La obra
-que ellos realizaron me hizo pensar mucho en la iglesia de Tesalónica donde el
-apóstol Pablo compartió lo siguiente “Y
-vosotros vinisteis a ser imitadores de nosotros y del Señor, recibiendo la
-palabra en medio de gran tribulación, con gozo del Espíritu Santo, de tal
-manera que habéis sido ejemplo a todos los de Macedonia y de Acaya que han
-creído. Porque partiendo de
-vosotros ha sido divulgada la palabra del Señor, no sólo en Macedonia y Acaya,
-sino que también en todo lugar vuestra fe en Dios se ha extendido, de modo que
-nosotros no tenemos necesidad de hablar nada;” 1 Tesalonicenses 1:6-8. Sigan
-adelante mi estimado pastor y pastores con los hermanos de la iglesia
-divulgando la verdad de Dios a sus familias y pueblos alrededores.
+I express my gratitude to Pastor Asencio and his beautiful family, to brother Basilio and his family who welcomed me into their home, to brother Domingo and his wife, and to the pastors, brothers and sisters of the Alfa y Omega Baptist church, name by name, who looked after me with much love. The work they did made me think a great deal of the church in Thessalonica, of which the apostle Paul said: “And you became imitators of us and of the Lord, for you received the word in much affliction, with the joy of the Holy Spirit, so that you became an example to all the believers in Macedonia and in Achaia. For not only has the word of the Lord sounded forth from you in Macedonia and Achaia, but your faith in God has gone forth everywhere, so that we need not say anything” (1 Thessalonians 1:6-8). Keep going, my dear pastor and pastors, with the brothers of the church, spreading the truth of God to your families and the surrounding towns.
 
-CUARTO: DE LA
-CLAUSURA
+FOURTH: THE CLOSING
 
-Clausuramos el módulo el día jueves primero de noviembre en la tarde. Con un
-buen promedio de estudiantes permanentes
-puesto que los 35 libros incluyendo el libro de su servidor tuvo que ser dejado
-por que los que adquirieron los libros
-fue un total de 36 hermanos
+We closed the module on Thursday, November 1, in the afternoon, with a good average of permanent students, since the 35 books, including my own copy, had to be left behind, because those who acquired the books totaled 36 brothers.
 
-Gracias a Dios porque me permitió servirle con estas enseñanzas a su pueblo, pero también
-gracias a Él porque he sido muy edificado al considerar la fe creciente de
-todos mis hermanos en el pueblo de desaguadero.
+Thanks be to God for allowing me to serve him with these teachings to his people, but also thanks to him because I have been greatly edified by considering the growing faith of all my brothers in the town of Desaguadero.
 
-ESTOY SEGURO QUE DIOS ESTARÁ SIEMPRE BENDICIENDO A SU PUEBLO EN SALUD, ECONOMÍA Y VIDA ESPIRITUAL.
+I AM SURE THAT GOD WILL ALWAYS BE BLESSING HIS PEOPLE IN HEALTH, FINANCES AND SPIRITUAL LIFE.
 
-HASTA OTRA OPORTUNIDAD
+UNTIL ANOTHER OPPORTUNITY
 
-SU SERVIDOR
+YOUR SERVANT
 
-DAVID RODRIGUEZ
+DAVID RODRÍGUEZ
 
-PASTOR. I.B. BELEN
+PASTOR, BELÉN BAPTIST CHURCH
 
-TRUJILLO -PERU
+TRUJILLO, PERU
 
-Ministerio Epyl
+EPYL ministry
