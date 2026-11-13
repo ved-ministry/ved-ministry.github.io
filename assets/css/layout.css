@@ -272,9 +272,10 @@
 .back::before { content: "‹ "; }
 .post figure { margin: 0; }
 .post figcaption { font-size: 14px; line-height: 1.4; color: var(--stone); padding-top: 8px; }
-.post .post__cover { margin-top: var(--m-l); }
+.post > .wrap, .post__body { max-width: 900px; margin-inline: auto; }
+.post .post__cover { margin: var(--m-l) auto 0; }
 .post__cover img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r); }
-.post__body { max-width: 720px; margin: var(--m-l) auto; padding-inline: clamp(20px, 5vw, 48px); font-size: 18px; line-height: 1.75; color: var(--ink-soft); }
+.post__body { margin-block: var(--m-l); padding-inline: clamp(20px, 5vw, 48px); font-size: 18px; line-height: 1.75; color: var(--ink-soft); }
 .post__body p:first-child { font-family: var(--font-display); font-size: clamp(22px, 2.6vw, 28px); line-height: 1.4; color: var(--ink); }
 .post__body blockquote { margin: 40px 0; padding-left: 24px; border-left: 2px solid var(--accent); font-family: var(--font-display); font-style: italic; font-size: 24px; line-height: 1.4; color: var(--ink); }
 
