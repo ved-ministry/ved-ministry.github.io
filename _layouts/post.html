@@ -6,24 +6,30 @@ layout: default
     <a class="back" href="/updates/" data-i18n="post.back">All updates</a>
     <span class="date"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %-d, %Y" }}</time> · {{ page.place }}</span>
     <span class="label" data-i18n="kind.{{ page.kind }}">{{ page.kind }}</span>
-    <h1><span class="l-en">{{ page.title }}</span><span class="l-es">{{ page.title_es | default: page.title }}</span></h1>
+    <h1>{% include tx.html o=page f="title" %}</h1>
   </header>
   {% if page.photos %}
   {% assign cover = page.photos[0] %}
   <figure class="post__cover wrap"><img src="/{{ cover.src }}" alt="{{ cover.caption | default: page.title }}" data-zoom data-caption="{{ cover.caption }}" data-caption-es="{{ cover.caption_es }}">{% if cover.caption %}<figcaption><span class="l-en">{{ cover.caption }}</span><span class="l-es">{{ cover.caption_es | default: cover.caption }}</span></figcaption>{% endif %}</figure>
   {% endif %}
-  {% if page.es_only %}<p class="post__note wrap l-en" data-i18n="post.es_only">This piece is available in Spanish.</p>{% endif %}
+  {% if page.es_only %}<p class="post__note wrap t-en" data-i18n="post.es_only">This piece is available in Spanish.</p>{% endif %}
   {% assign body_en = content %}
   {% assign body_es = page.body_es | default: content %}
   {% if page.body_es %}{% assign body_es = page.body_es | markdownify %}{% endif %}
+  {% assign body_de = content %}{% if page.body_de %}{% assign body_de = page.body_de | markdownify %}{% endif %}
+  {% assign body_fr = content %}{% if page.body_fr %}{% assign body_fr = page.body_fr | markdownify %}{% endif %}
   {% for f in page.photos %}{% if f.inline %}
     {% capture fig %}{% include foto.html n=forloop.index0 %}{% endcapture %}
     {% assign tok = "<p>[[foto" | append: forloop.index0 | append: "]]</p>" %}
     {% assign body_en = body_en | replace: tok, fig %}
     {% assign body_es = body_es | replace: tok, fig %}
+    {% assign body_de = body_de | replace: tok, fig %}
+    {% assign body_fr = body_fr | replace: tok, fig %}
   {% endif %}{% endfor %}
-  <div class="post__body l-en">{{ body_en }}</div>
-  <div class="post__body l-es">{{ body_es }}</div>
+  <div class="post__body l4 l-en">{{ body_en }}</div>
+  <div class="post__body l4 l-es">{{ body_es }}</div>
+  <div class="post__body l4 l-de">{{ body_de }}</div>
+  <div class="post__body l4 l-fr">{{ body_fr }}</div>
   {% if page.photos.size > 1 %}
   <div class="gallery wrap">
     {% for f in page.photos offset: 1 %}{% unless f.inline %}<img{% if f.wide %} class="wide"{% endif %} src="/{{ f.src | replace: '.jpg', '.s.jpg' }}" data-zoom="/{{ f.src }}" data-caption="{{ f.caption }}" data-caption-es="{{ f.caption_es }}" alt="{{ f.caption | default: page.title }}" loading="lazy">
@@ -33,7 +39,7 @@ layout: default
   {% for v in page.videos %}<div class="wrap"><video src="/{{ v.src }}" poster="/{{ v.poster }}" controls playsinline preload="none"></video></div>{% endfor %}
   {% include need.html %}
   <nav class="post__nav wrap">
-    {% if page.previous %}<a href="{{ page.previous.url }}"><span class="date" data-i18n="post.prev">Earlier</span><span class="l-en">{{ page.previous.title }}</span><span class="l-es">{{ page.previous.title_es | default: page.previous.title }}</span></a>{% else %}<span></span>{% endif %}
-    {% if page.next %}<a href="{{ page.next.url }}" style="text-align:right"><span class="date" data-i18n="post.next">Next</span><span class="l-en">{{ page.next.title }}</span><span class="l-es">{{ page.next.title_es | default: page.next.title }}</span></a>{% endif %}
+    {% if page.previous %}<a href="{{ page.previous.url }}"><span class="date" data-i18n="post.prev">Earlier</span>{% include tx.html o=page.previous f="title" %}</a>{% else %}<span></span>{% endif %}
+    {% if page.next %}<a href="{{ page.next.url }}" style="text-align:right"><span class="date" data-i18n="post.next">Next</span>{% include tx.html o=page.next f="title" %}</a>{% endif %}
   </nav>
 </article>
