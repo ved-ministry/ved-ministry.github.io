@@ -9,6 +9,8 @@ excerpt_es: "Las montañas de la sierra de Cusco, Job 28 y por qué los pueblos 
 es_only: true
 photos:
   - src: assets/img/posts/boletines/el-hierro-se-saca-del-polvo/el-hierro-se-saca-del-polvo-01.jpg
+    caption: "Huaracco community"
+    caption_es: "Comunidad de Huaracco"
 ---
 ## El corazón de las montañas
 

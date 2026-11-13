@@ -80,6 +80,6 @@ Una habilidad para llevar a cabo algo que se nos ha pedido hacer, para modificar
 
 - ¿Cómo llego a fin de mes? - Andrés Panasiuk
 
-- Las finanzas y la biblia - Conceptos financieros Crown
+- Las finanzas y la Biblia - Conceptos financieros Crown
 
-- los negocios y la biblia - Dr. Larry Burkett
+- los negocios y la Biblia - Dr. Larry Burkett

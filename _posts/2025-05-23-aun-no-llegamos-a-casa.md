@@ -9,6 +9,8 @@ excerpt_es: "La historia del misionero Henry Morrison, y un recuerdo del pastor 
 es_only: true
 photos:
   - src: assets/img/posts/boletines/aun-no-llegamos-a-casa/aun-no-llegamos-a-casa-01.jpg
+    caption: "Remembering Pastor José M. and brother Pío Huayhua"
+    caption_es: "Recordando al pr. José M. y al hermano Pío Huayhua"
 ---
 Morrison fue un misionero en África a finales de 1800.
 
@@ -23,5 +25,3 @@ Henry Morrison dijo: "simplemente no parece justo nosotros hemos estado sirviend
 Un autor escribió "si nos dieran todo lo que quisiéramos aquí en la tierra, nuestros corazones se conformarían con este mundo. Dios está siempre atrayéndonos hacia él y su reino donde ciertamente encontraremos lo que siempre hemos deseado. Nuestro hogar no está aquí – esta allá. ¿Cómo es que llegamos de aquí a allá? Gracias a Nuestro Redentor – el Mesías – Jesucristo.
 
 Tomado del sermón - sabiduría para el corazón - Job, episodio 15
-
-Recordando al pr. José M, y al hermano Pio Huayhua

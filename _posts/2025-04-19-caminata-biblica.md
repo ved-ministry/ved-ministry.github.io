@@ -9,7 +9,8 @@ excerpt_es: "La Semana Santa es para caminar y dar gloria al Cristo glorificado.
 es_only: true
 photos:
   - src: assets/img/posts/boletines/caminata-biblica/caminata-biblica-01.jpg
-    wide: true
+    caption: "Photo taken by Camila Dana Ch. during our walk, Huilcarpay"
+    caption_es: "Foto tomada por Camila Dana Ch. durante nuestra caminata, Huilcarpay"
 ---
 > Lucas 24:26 - ¿No era necesario que el Cristo padeciera estas cosas, y que entrara en su gloria?
 
@@ -34,5 +35,3 @@ Recordar la resurrección de Cristo es traer paz al corazón y no turbación. Lu
 ## Cristo ha sido glorificado
 
 Sus padecimientos fueron temporales para traer vida en abundancia a los que creyeron en ÉL. Las Escrituras revelan a Cristo, sus atributos y su obra perfecta. Como discípulos de Cristo andemos contando acerca de Él a otros. La semana santa es; para caminar y dar gloria al Cristo Glorificado. Amén.
-
-Foto tomado por Camila Dana Ch. durante nuestra caminata - Huilcarpay
