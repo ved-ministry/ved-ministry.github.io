@@ -1,19 +1,25 @@
 ---
 layout: post
-title: "Tenemos mayor eficacia en el ministerio cuando somos ayudados por otros"
+title: "We Are More Effective in Ministry When Others Help Us"
 title_es: "Tenemos mayor eficacia en el ministerio cuando somos ayudados por otros"
 kind: Archive
 place: "Cusco"
-excerpt: "¿Cómo realizar la obra el Señor? Con un poco de ayuda de mis amigos. El trabajo de un pastor sería difícil sin la ayuda de algunos siervos dispuestos a seguir al Señor.…"
+excerpt: "How does the Lord’s work get done? With a little help from my friends. A pastor’s work would be hard without servants willing to follow the Lord."
 excerpt_es: "¿Cómo realizar la obra el Señor? Con un poco de ayuda de mis amigos. El trabajo de un pastor sería difícil sin la ayuda de algunos siervos dispuestos a seguir al Señor.…"
 original: "https://equipandopastoresylideres-venid.blogspot.com/2011/05/tenemos-mayor-eficacia-en-el-ministerio.html"
-es_only: true
 image: /assets/img/posts/archivo/tenemos-mayor-eficacia-en-el-ministerio-cuando-somos-ay/tenemos-mayor-eficacia-en-el-ministerio-cuando-somos-ay-01.jpg
+title_de: "Wir sind im Dienst wirksamer, wenn andere uns helfen"
+title_fr: "Nous sommes plus efficaces dans le ministère quand d’autres nous aident"
+excerpt_de: "Wie geschieht das Werk des Herrn? Mit ein wenig Hilfe meiner Freunde. Die Arbeit eines Pastors wäre schwer ohne Diener, die bereit sind, dem Herrn zu folgen."
+excerpt_fr: "Comment l’œuvre du Seigneur s’accomplit-elle ? Avec un peu d’aide de mes amis. Le travail d’un pasteur serait difficile sans des serviteurs prêts à suivre le Seigneur."
+body_es: "¿Cómo realizar la obra el Señor? Con un poco de ayuda de mis amigos. El trabajo de un pastor sería difícil sin la ayuda de algunos siervos dispuestos a seguir al Señor. Efraín es el brazo derecho del pastor Felipe.\n\nEn la carta a los Colosenses encontramos varios ejemplos de hombres dispuestos a servir bajo el liderazgo de un siervo Col. 4:7-18. Este hombre no lo hubiera podido hacer, sin la ayuda de sus amigos. ¿De quien hablamos? De Pablo. Ahora Pablo pone el ejemplo e incentivo para quienes leen la carta. Para Pablo estas personas eran necesarios y de gran valor para su ministerio. Él sabia que, no podía hacerlo solo, y en verdad nadie puede solo. Ejemplos tenemos en las escrituras Ex. 17:8-13 Moisés necesitaba ayuda para cumplir con su ministerio. Pablo nunca sirvió solo en el ministerio\n\nTenemos mayor eficacia en el ministerio cuando somos ayudados por otros."
+body_de: "Wie geschieht das Werk des Herrn? Mit ein wenig Hilfe meiner Freunde. Die Arbeit eines Pastors wäre schwer ohne die Hilfe einiger Diener, die bereit sind, dem Herrn zu folgen. Efraín ist die rechte Hand von Pastor Felipe.\n\nIm Brief an die Kolosser finden wir mehrere Beispiele von Männern, die bereit waren, unter der Leitung eines Dieners zu dienen (Kol 4,7-18). Dieser Mann hätte es ohne die Hilfe seiner Freunde nicht tun können. Von wem sprechen wir? Von Paulus. Nun gibt Paulus denen, die den Brief lesen, ein Beispiel und einen Ansporn. Für Paulus waren diese Menschen notwendig und von großem Wert für seinen Dienst. Er wusste, dass er es nicht allein tun konnte, und in Wahrheit kann es niemand allein. Beispiele haben wir in der Schrift: In 2. Mose 17,8-13 brauchte Mose Hilfe, um seinen Dienst zu erfüllen. Paulus hat nie allein im Dienst gestanden.\n\nWir sind im Dienst wirksamer, wenn andere uns helfen."
+body_fr: "Comment l’œuvre du Seigneur s’accomplit-elle ? Avec un peu d’aide de mes amis. Le travail d’un pasteur serait difficile sans l’aide de quelques serviteurs prêts à suivre le Seigneur. Éphraïn est le bras droit du pasteur Felipe.\n\nDans la lettre aux Colossiens, nous trouvons plusieurs exemples d’hommes prêts à servir sous la direction d’un serviteur (Col. 4.7-18). Cet homme n’aurait pas pu le faire sans l’aide de ses amis. De qui parlons-nous ? De Paul. Maintenant Paul donne l’exemple et l’encouragement à ceux qui lisent la lettre. Pour Paul, ces personnes étaient nécessaires et de grande valeur pour son ministère. Il savait qu’il ne pouvait pas le faire seul, et en vérité personne ne le peut. Nous avons des exemples dans les Écritures : en Exode 17.8-13, Moïse avait besoin d’aide pour accomplir son ministère. Paul n’a jamais servi seul dans le ministère.\n\nNous sommes plus efficaces dans le ministère quand d’autres nous aident."
 photos:
   - src: assets/img/posts/archivo/tenemos-mayor-eficacia-en-el-ministerio-cuando-somos-ay/tenemos-mayor-eficacia-en-el-ministerio-cuando-somos-ay-01.jpg
 ---
-¿Cómo realizar la obra el Señor? Con un poco de ayuda de mis amigos. El trabajo de un pastor sería difícil sin la ayuda de algunos siervos dispuestos a seguir al Señor. Efraín es el brazo derecho del pastor Felipe.
+How does the Lord’s work get done? With a little help from my friends. A pastor’s work would be hard without the help of some servants willing to follow the Lord. Efraín is Pastor Felipe’s right hand.
 
-En la carta a los Colosenses encontramos varios ejemplos de hombres dispuestos a servir bajo el liderazgo de un siervo Col. 4:7-18. Este hombre no lo hubiera podido hacer, sin la ayuda de sus amigos. ¿De quien hablamos? De Pablo. Ahora Pablo pone el ejemplo e incentivo para quienes leen la carta. Para Pablo estas personas eran necesarios y de gran valor para su ministerio. Él sabia que, no podía hacerlo solo, y en verdad nadie puede solo. Ejemplos tenemos en las escrituras Ex. 17:8-13 Moisés necesitaba ayuda para cumplir con su ministerio. Pablo nunca sirvió solo en el ministerio
+In the letter to the Colossians we find several examples of men willing to serve under the leadership of a servant (Col. 4:7-18). This man could not have done it without the help of his friends. Who are we speaking of? Paul. Now Paul sets the example and the encouragement for those who read the letter. For Paul these people were necessary and of great value to his ministry. He knew he could not do it alone, and indeed no one can. We have examples in the Scriptures: in Exodus 17:8-13 Moses needed help to fulfill his ministry. Paul never served alone in the ministry.
 
-Tenemos mayor eficacia en el ministerio cuando somos ayudados por otros.
+We are more effective in ministry when others help us.

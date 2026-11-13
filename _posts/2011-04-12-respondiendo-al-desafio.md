@@ -1,39 +1,45 @@
 ---
 layout: post
-title: "Respondiendo al Desafío"
+title: "Answering the Challenge"
 title_es: "Respondiendo al Desafío"
 kind: Archive
 place: "Quispicanchis"
-excerpt: "Carta del pastor Darío Sara Ferro, expositor invitado al campamento de jóvenes, compartida en el blog."
+excerpt: "Letter from Pastor Darío Sara Ferro, guest speaker at the youth camp, shared on the blog."
 excerpt_es: "Carta del pastor Darío Sara Ferro, expositor invitado al campamento de jóvenes, compartida en el blog."
 original: "https://equipandopastoresylideres-venid.blogspot.com/2011/04/respondiendo-al-desafio.html"
-es_only: true
 image: /assets/img/posts/archivo/respondiendo-al-desafio/respondiendo-al-desafio-01.jpg
+title_de: "Der Herausforderung antworten"
+title_fr: "Répondre au défi"
+excerpt_de: "Brief von Pastor Darío Sara Ferro, Gastredner beim Jugendlager, im Blog weitergegeben."
+excerpt_fr: "Lettre du pasteur Darío Sara Ferro, invité du camp de jeunes, partagée sur le blog."
+body_es: "> Carta del pastor Darío Sara Ferro, expositor invitado al campamento de jóvenes, compartida en el blog.\n\nAmados Jóvenes de la “Región Inca”\n\nNuestro tiempo se ha llamado la época del “si se puede” del énfasis sobre crecimiento de la iglesia basado en métodos psicológicos de ventas con estudio de mercadotecnia, etc. donde el fin justifica los medios “hay que recurrir a cuanta herramienta tengamos alcance” dicen algunos, NO… NO…, es tiempos de descubrir la voluntad de Dios para alcanzar alturas más elevadas, bajando mayores profundidades. Por cavar más hondo en el mismo sitio, los arqueólogos a veces hacen descubrimientos excepcionales, lo mismo sucede con frecuencia cuando volvemos a cavar en las escrituras.\n\nPero, si alguien levanta la vista para hacer un diagnostico de los jóvenes fácilmente podemos preguntar que estando en una condición pasiva, sin retos, sin proyectos y sin presencia en la sociedad ¿podrán ser luz y sal del mundo?\n\nEntonces ¿podemos hablar del desarrollo de la iglesia individual, sino estamos al día con los avances de la tecnología? ¿Acaso la cultura de la iglesia está separada, aislada de la cultura que mueve a este mundo (Juan 9: 5)\n\nPara ello se necesita cristianos fieles e idóneos capaces de desarrollar un servicio basado no en sus circunstancias que le toca vivir, sino en la realidad de la palabra de Dios, aquella que es espíritu y vida (Juan 6:33) que tendrá como consecuencia la transformación de la generación de hoy y como secuela el impacto de la generación que viene. Me siento tan culpable de no haber hecho lo suficiente, no encuentro excusa ¿la tienes tú?\n\nDios está desafiando hoy a su iglesia, la que compro con su sangre, que se pongan en la brecha a favor de esta generación. ¿Te unes a mí en el esfuerzo de conformarnos a su voluntad?\n\n¿Serás tú el que responda a este desafió?\n\n¿Serás tú el que rinda su vida al servicio de nuestro gran Dios?\n\nEn Dios haremos proezas\n\nPastor: Darío Sara Ferro\n\nExpositor invitado al Campamento de jóvenes Quispicanchis “Expedición Ausangate”\n\nAgosto 1-5 - 2011"
+body_de: "> Brief von Pastor Darío Sara Ferro, Gastredner beim Jugendlager, im Blog weitergegeben.\n\nLiebe junge Menschen der „Inka-Region“,\n\nUnsere Zeit wurde das Zeitalter des „Ja, wir schaffen es“ genannt, in dem Gemeindewachstum mit psychologischen Verkaufsmethoden und Marktforschung betont wird und der Zweck die Mittel heiligt: „Wir müssen jedes Werkzeug nutzen, das wir erreichen können“, sagen manche. NEIN… NEIN…, es ist eine Zeit, den Willen Gottes zu entdecken, um höhere Höhen zu erreichen, indem wir tiefer hinabsteigen. Wer am selben Ort tiefer gräbt, macht als Archäologe manchmal außergewöhnliche Entdeckungen; dasselbe geschieht oft, wenn wir erneut in den Schriften graben.\n\nWenn man aber den Blick hebt, um die Jugend zu beurteilen, kann man leicht fragen: Können sie in einem passiven Zustand, ohne Herausforderungen, ohne Projekte und ohne Präsenz in der Gesellschaft Licht und Salz der Welt sein?\n\nKönnen wir dann von der Entwicklung der einzelnen Gemeinde sprechen, wenn wir mit den Fortschritten der Technik nicht auf dem Laufenden sind? Ist die Kultur der Gemeinde etwa von der Kultur getrennt und abgeschottet, die diese Welt bewegt? (Johannes 9,5)\n\nDafür braucht es treue und fähige Christen, die einen Dienst entwickeln können, der sich nicht auf die Umstände gründet, in denen sie leben, sondern auf die Wirklichkeit des Wortes Gottes, das Geist und Leben ist (Johannes 6,63), mit dem Ergebnis, dass die heutige Generation verwandelt wird und die kommende Generation davon geprägt wird. Ich fühle mich so schuldig, nicht genug getan zu haben; ich finde keine Entschuldigung. Hast du eine?\n\nGott fordert heute seine Gemeinde, die er mit seinem Blut erkauft hat, heraus, für diese Generation in die Bresche zu springen. Schließt du dich mir an in dem Bemühen, uns seinem Willen zu fügen?\n\nWirst du es sein, der auf diese Herausforderung antwortet?\n\nWirst du es sein, der sein Leben dem Dienst unseres großen Gottes hingibt?\n\nMit Gott werden wir Großes tun.\n\nPastor: Darío Sara Ferro\n\nGastredner beim Jugendlager Quispicanchis, „Ausangate-Expedition“\n\n1.–5. August 2011"
+body_fr: "> Lettre du pasteur Darío Sara Ferro, invité du camp de jeunes, partagée sur le blog.\n\nChers jeunes de la « Région Inca »,\n\nNotre époque a été appelée celle du « oui, c’est possible », où l’on met l’accent sur la croissance de l’Église à partir de méthodes psychologiques de vente avec études de marché, etc., où la fin justifie les moyens : « il faut recourir à tous les outils à notre portée », disent certains. NON… NON…, c’est un temps pour découvrir la volonté de Dieu afin d’atteindre des hauteurs plus élevées en descendant à de plus grandes profondeurs. En creusant plus profondément au même endroit, les archéologues font parfois des découvertes exceptionnelles ; il en va souvent de même quand nous creusons de nouveau dans les Écritures.\n\nMais si l’on lève les yeux pour faire un diagnostic des jeunes, on peut facilement se demander : dans une condition passive, sans défis, sans projets et sans présence dans la société, peuvent-ils être la lumière et le sel du monde ?\n\nAlors, peut-on parler du développement de l’Église locale si nous ne sommes pas à jour des progrès de la technologie ? La culture de l’Église est-elle donc séparée, isolée de la culture qui fait avancer ce monde ? (Jean 9.5)\n\nPour cela il faut des chrétiens fidèles et capables de développer un service fondé non pas sur les circonstances dans lesquelles ils vivent, mais sur la réalité de la parole de Dieu, qui est esprit et vie (Jean 6.63), avec pour conséquence la transformation de la génération d’aujourd’hui et, par suite, l’impact sur la génération à venir. Je me sens si coupable de ne pas en avoir fait assez ; je ne trouve pas d’excuse. En as-tu une ?\n\nDieu met aujourd’hui au défi son Église, celle qu’il a acquise par son sang, de se placer dans la brèche en faveur de cette génération. Te joins-tu à moi dans l’effort de nous conformer à sa volonté ?\n\nSeras-tu celui qui répondra à ce défi ?\n\nSeras-tu celui qui consacrera sa vie au service de notre grand Dieu ?\n\nAvec Dieu nous ferons des exploits.\n\nPasteur : Darío Sara Ferro\n\nInvité du camp de jeunes de Quispicanchis, « Expédition Ausangate »\n\n1er–5 août 2011"
 photos:
   - src: assets/img/posts/archivo/respondiendo-al-desafio/respondiendo-al-desafio-01.jpg
 ---
-> Carta del pastor Darío Sara Ferro, expositor invitado al campamento de jóvenes, compartida en el blog.
+> Letter from Pastor Darío Sara Ferro, guest speaker at the youth camp, shared on the blog.
 
-Amados Jóvenes de la “Región Inca”
+Beloved young people of the “Inca Region”,
 
-Nuestro tiempo se ha llamado la época del “si se puede” del énfasis sobre crecimiento de la iglesia basado en métodos psicológicos de ventas con estudio de mercadotecnia, etc. donde el fin justifica los medios “hay que recurrir a cuanta herramienta tengamos alcance” dicen algunos, NO… NO…, es tiempos de descubrir la voluntad de Dios para alcanzar alturas más elevadas, bajando mayores profundidades. Por cavar más hondo en el mismo sitio, los arqueólogos a veces hacen descubrimientos excepcionales, lo mismo sucede con frecuencia cuando volvemos a cavar en las escrituras.
+Our time has been called the age of “yes we can”, of an emphasis on church growth based on psychological sales methods with market research and so on, where the end justifies the means: “we must use every tool within our reach,” some say. NO… NO…, it is a time to discover God’s will in order to reach higher heights by going to greater depths. By digging deeper in the same place, archaeologists sometimes make exceptional discoveries; the same often happens when we dig again in the Scriptures.
 
-Pero, si alguien levanta la vista para hacer un diagnostico de los jóvenes fácilmente podemos preguntar que estando en una condición pasiva, sin retos, sin proyectos y sin presencia en la sociedad ¿podrán ser luz y sal del mundo?
+But if someone looks up to make a diagnosis of the young people, we can easily ask: in a passive condition, without challenges, without projects and without a presence in society, can they be light and salt of the world?
 
-Entonces ¿podemos hablar del desarrollo de la iglesia individual, sino estamos al día con los avances de la tecnología? ¿Acaso la cultura de la iglesia está separada, aislada de la cultura que mueve a este mundo (Juan 9: 5)
+Then, can we speak of the development of the individual church if we are not up to date with advances in technology? Is the culture of the church separate and isolated from the culture that moves this world? (John 9:5)
 
-Para ello se necesita cristianos fieles e idóneos capaces de desarrollar un servicio basado no en sus circunstancias que le toca vivir, sino en la realidad de la palabra de Dios, aquella que es espíritu y vida (Juan 6:33) que tendrá como consecuencia la transformación de la generación de hoy y como secuela el impacto de la generación que viene. Me siento tan culpable de no haber hecho lo suficiente, no encuentro excusa ¿la tienes tú?
+For this we need faithful and capable Christians who can develop a service based not on the circumstances they happen to live in, but on the reality of the word of God, which is spirit and life (John 6:63), with the result of transforming today’s generation and, as a consequence, impacting the generation to come. I feel so guilty for not having done enough; I find no excuse. Do you have one?
 
-Dios está desafiando hoy a su iglesia, la que compro con su sangre, que se pongan en la brecha a favor de esta generación. ¿Te unes a mí en el esfuerzo de conformarnos a su voluntad?
+God is challenging his church today, the one he bought with his blood, to stand in the gap on behalf of this generation. Will you join me in the effort to conform ourselves to his will?
 
-¿Serás tú el que responda a este desafió?
+Will you be the one who answers this challenge?
 
-¿Serás tú el que rinda su vida al servicio de nuestro gran Dios?
+Will you be the one who surrenders his life to the service of our great God?
 
-En Dios haremos proezas
+With God we will do valiantly.
 
 Pastor: Darío Sara Ferro
 
-Expositor invitado al Campamento de jóvenes Quispicanchis “Expedición Ausangate”
+Guest speaker at the Quispicanchis Youth Camp, “Ausangate Expedition”
 
-Agosto 1-5 - 2011
+August 1–5, 2011
