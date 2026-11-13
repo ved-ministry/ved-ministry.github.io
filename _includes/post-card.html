@@ -1,5 +1,5 @@
 <article class="card" data-kind="{{ post.kind }}">
-  <div class="card__media"><img src="/{{ post.photos[0].src | replace: '.jpg', '.s.jpg' }}" alt="" loading="lazy"><span class="badge" data-i18n="kind.{{ post.kind }}">{{ post.kind }}</span></div>
+  <div class="card__media">{% if post.photos %}<img src="/{{ post.photos[0].src | replace: '.jpg', '.s.jpg' }}" alt="" loading="lazy">{% else %}<img class="mark" src="/assets/img/logos/logo-epyl.png" alt="" loading="lazy">{% endif %}<span class="badge" data-i18n="kind.{{ post.kind }}">{{ post.kind }}</span></div>
   <span class="date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time> · {{ post.place }}{% if post.photos.size > 1 %} · {{ post.photos.size }} <span data-i18n="card.photos">photos</span>{% endif %}{% if post.videos %} + video{% endif %}</span>
   <h3><span class="l-en">{{ post.title }}</span><span class="l-es">{{ post.title_es | default: post.title }}</span></h3>
   <p><span class="l-en">{{ post.excerpt | strip_html }}</span><span class="l-es">{{ post.excerpt_es | default: post.excerpt | strip_html }}</span></p>

@@ -7,6 +7,13 @@
 
 const I18N = {
   en: {
+    "kind.Report": "Field report",
+    "kind.Reflection": "Reflection",
+    "kind.Gospel": "Gospel",
+    "post.es_only": "This piece is available in Spanish.",
+    "need.title": "A home, and a way to reach it",
+    "need.text": "Cristóbal and Celia serve full time. Today they live in a single room while they build their house little by little, and they have no vehicle to get up to it. They are praying for transport.",
+    "need.btn": "See how to help",
     "church.gather": "Together at VED",
     "yt.title": "Watch the courses",
     "yt.text": "Every EPYL course is recorded and shared on our YouTube channel, free for pastors and leaders anywhere.",
@@ -161,6 +168,13 @@ const I18N = {
   },
 
   de: {
+    "kind.Report": "Bericht",
+    "kind.Reflection": "Andacht",
+    "kind.Gospel": "Evangelium",
+    "post.es_only": "Dieser Beitrag ist auf Spanisch verfügbar.",
+    "need.title": "Ein Zuhause, und ein Weg dorthin",
+    "need.text": "Cristóbal und Celia dienen vollzeitlich. Heute leben sie in einem einzigen Zimmer, während sie ihr Haus nach und nach bauen, und sie haben kein Fahrzeug, um dorthin zu gelangen. Sie beten für ein Fahrzeug.",
+    "need.btn": "So können Sie helfen",
     "church.gather": "Gemeinsam bei VED",
     "yt.title": "Die Kurse ansehen",
     "yt.text": "Jeder EPYL-Kurs wird aufgezeichnet und auf unserem YouTube-Kanal geteilt, kostenlos für Pastoren und Leiter überall.",
@@ -315,6 +329,13 @@ const I18N = {
   },
 
   fr: {
+    "kind.Report": "Rapport",
+    "kind.Reflection": "Méditation",
+    "kind.Gospel": "Évangile",
+    "post.es_only": "Ce texte est disponible en espagnol.",
+    "need.title": "Une maison, et un moyen d’y arriver",
+    "need.text": "Cristóbal et Celia servent à plein temps. Aujourd’hui ils vivent dans une seule pièce pendant qu’ils construisent leur maison peu à peu, et ils n’ont pas de véhicule pour y monter. Ils prient pour un moyen de transport.",
+    "need.btn": "Voir comment aider",
     "church.gather": "Ensemble à VED",
     "yt.title": "Regarder les cours",
     "yt.text": "Chaque cours EPYL est enregistré et partagé sur notre chaîne YouTube, gratuitement pour les pasteurs et responsables partout.",
@@ -468,6 +489,13 @@ const I18N = {
     "home.all": "Voir toutes les nouvelles",
   },
   es: {
+    "kind.Report": "Informe",
+    "kind.Reflection": "Reflexión",
+    "kind.Gospel": "Evangelio",
+    "post.es_only": "",
+    "need.title": "Una casa, y cómo llegar a ella",
+    "need.text": "Cristóbal y Celia sirven a tiempo completo. Hoy viven en un solo cuarto mientras construyen su casa poco a poco, y no tienen movilidad para subir hasta ella. Están orando por una movilidad.",
+    "need.btn": "Ver cómo apoyar",
     "church.gather": "Juntos en VED",
     "yt.title": "Mira los cursos",
     "yt.text": "Cada curso de EPYL se graba y se comparte en nuestro canal de YouTube, gratis para pastores y líderes en cualquier lugar.",

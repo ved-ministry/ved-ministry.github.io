@@ -106,10 +106,9 @@
 </nav>
 
 
-{% assign latest = site.posts.first %}{% if latest and latest.url != page.url %}
-<a class="pill" href="{{ latest.url }}">
-  <b data-i18n="pill.new">New</b><span class="l-en">{{ latest.title }}</span><span class="l-es">{{ latest.title_es | default: latest.title }}</span>
-</a>{% endif %}
+<div class="pill" id="newsPill">{% for p in site.posts limit: 3 %}
+  <a href="{{ p.url }}"{% if forloop.first %} class="is-on"{% endif %}><b data-i18n="pill.new">New</b><span class="l-en">{{ p.title }}</span><span class="l-es">{{ p.title_es | default: p.title }}</span></a>{% endfor %}
+</div>
 
 {% if page.hero %}
 <header class="page-hero" style="background-image:url(/{{ page.hero }})">

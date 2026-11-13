@@ -10,6 +10,17 @@
 
   document.querySelector(".nav__links [aria-current]").scrollIntoView({ inline: "center", block: "nearest" });
 
+  /* ---------- "New" pill: one item at a time, changing every few seconds ---------- */
+  const pillItems = document.querySelectorAll("#newsPill a");
+  if (pillItems.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    let on = 0;
+    setInterval(() => {
+      pillItems[on].classList.remove("is-on");
+      on = (on + 1) % pillItems.length;
+      pillItems[on].classList.add("is-on");
+    }, 5000);
+  }
+
   /* ---------- Updates filter ---------- */
   const chips = document.getElementById("blogFilter");
   if (chips) {
