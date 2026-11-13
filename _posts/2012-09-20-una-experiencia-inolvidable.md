@@ -1,14 +1,20 @@
 ---
 layout: post
-title: "Una Experiencia Inolvidable"
+title: "An Unforgettable Experience"
 title_es: "Una Experiencia Inolvidable"
 kind: Archive
 place: "Chancay"
-excerpt: "La iglesia Bautista\nBetesda cumplió 22 años y para su servidor fue una bonita oportunidad para\nservir al Señor en este ministerio que Dios esta haciendo en Chancay –…"
+excerpt: "Betesda Baptist Church turned 22, and it was a beautiful opportunity to serve the Lord in the ministry God is doing in Chancay, Lima."
 excerpt_es: "La iglesia Bautista\nBetesda cumplió 22 años y para su servidor fue una bonita oportunidad para\nservir al Señor en este ministerio que Dios esta haciendo en Chancay –…"
 original: "https://equipandopastoresylideres-venid.blogspot.com/2012/09/una-experiencia-inolvidable_20.html"
-es_only: true
 image: /assets/img/posts/archivo/una-experiencia-inolvidable/una-experiencia-inolvidable-01.jpg
+title_de: "Ein unvergessliches Erlebnis"
+title_fr: "Une expérience inoubliable"
+excerpt_de: "Die Baptistengemeinde Betesda feierte ihr 22-jähriges Bestehen, und für mich war es eine schöne Gelegenheit, dem Herrn in dem Werk zu dienen, das Gott in Chancay, Lima, tut."
+excerpt_fr: "L’église baptiste Betesda a fêté ses 22 ans, et ce fut pour moi une belle occasion de servir le Seigneur dans l’œuvre que Dieu accomplit à Chancay, Lima."
+body_es: "La iglesia Bautista\nBetesda cumplió 22 años y para su servidor fue una bonita oportunidad para\nservir al Señor en este ministerio que Dios esta haciendo en Chancay – Lima.\n\nDios esta usando al\nPastor José Manuel Jimenez Tirado\njunto a su familia para la gloria de Dios. La iglesia en conjunto trabajó\narduamente para que este aniversario sea de bendición para ellos y hermanos de\notra iglesia que llegaron para este tiempo de canticos, alabanzas y predicación\nde la Palabra de Dios.\n\nPuedo decir que Dios\ntiene mucha misericordia de chancay porque tiene a un líder espiritual haciendo\nla labor de evangelista. Durante los tres días de aniversario llegaron varios\namigos (as) invitados por los hermanos para ser expuesto a la Palabra de Dios.\n\n[[foto1]]\n\nEl día central (sábado)\nllego una maestra amiga de la esposa (Cristina) del pastor, quien tuvo palabras\nde agradecimiento a la iglesia y al pastor por ser sus amigos y ayudarle en su\nvida. La profesora Jessica Sanchez y su pequeña hija, piden que Dios les ayude a tener\npaz y tranquilidad. Nuestra oración es que ella se convierta y sea salva para\nque Dios la use.\n\nPara nuestros amigos\ncolaboradores que nos siguen en el blog y el facebook del MINISTERIO EPYL,\ncomparto que el pastor Manuel y su ministerio tienen el deseo de ayudar orando,\ncolaborando con su tiempo y ofrendas para\nque Dios nos siga usando en equipar a los líderes en Cusco y otros\nlugares. Dios me dio la oportunidad de presentar el ministerio a toda la iglesia\ny hermanos de la iglesia de Huaral.\n\n[[foto2]]\n\nGracias iglesia\nBetesda, sigan adelante en el trabajo por el Señor, que el enemigo de nuestras\nalmas no les amilane porque el que esta en vosotros es mas grande y poderoso\npara ayudarles a cumplir vuestras metas y sueños para su honra y gloria.\n\nEsta es mi oración por\nustedes en palabras del Señor y la vida del gran apóstol Pablo.\n\n“Pero de ninguna cosa hago caso, ni\nestimo preciosa mi vida para mí mismo, con tal que acabe mi carrera con gozo, y\nel ministerio que recibí del Señor Jesús, para dar testimonio del evangelio de\nla gracia de Dios”\n\nHch. 20:24\n\nCumplan con\ngozo el ministerio que Dios les ha encargado y siempre den testimonio del\nevangelio de Dios.\n\nAMEN."
+body_de: "Die Baptistengemeinde Betesda feierte ihr 22-jähriges Bestehen, und für Ihren Diener war es eine schöne Gelegenheit, dem Herrn in diesem Werk zu dienen, das Gott in Chancay, Lima, tut.\n\nGott gebraucht Pastor José Manuel Jiménez Tirado zusammen mit seiner Familie zur Ehre Gottes. Die ganze Gemeinde arbeitete hart, damit dieses Jubiläum für sie und für die Geschwister einer anderen Gemeinde, die zu dieser Zeit der Lieder, des Lobpreises und der Predigt des Wortes Gottes kamen, zum Segen wurde.\n\nIch kann sagen, dass Gott großes Erbarmen mit Chancay hat, weil er dort einen geistlichen Leiter hat, der das Werk eines Evangelisten tut. An den drei Tagen des Jubiläums kamen mehrere Freunde, von den Geschwistern eingeladen, um dem Wort Gottes ausgesetzt zu werden.\n\n[[foto1]]\n\nAm Haupttag (Samstag) kam eine Lehrerin, eine Freundin der Frau des Pastors (Cristina), die Dankesworte an die Gemeinde und den Pastor sprach, weil sie ihre Freunde sind und ihr im Leben helfen. Die Lehrerin Jessica Sánchez und ihre kleine Tochter bitten darum, dass Gott ihnen hilft, Frieden und Ruhe zu finden. Unser Gebet ist, dass sie sich bekehrt und gerettet wird, damit Gott sie gebrauchen kann.\n\nFür unsere Mitarbeiter, die uns im Blog und auf Facebook des DIENSTES EPYL folgen: Ich teile mit, dass Pastor Manuel und sein Dienst den Wunsch haben, durch Gebet, Zeit und Gaben zu helfen, damit Gott uns weiter gebrauchen kann, Leiter in Cusco und an anderen Orten auszurüsten. Gott gab mir die Gelegenheit, den Dienst der ganzen Gemeinde und den Geschwistern der Gemeinde in Huaral vorzustellen.\n\n[[foto2]]\n\nDanke, Gemeinde Betesda. Macht weiter in der Arbeit für den Herrn. Der Feind unserer Seelen soll euch nicht entmutigen, denn der in euch ist, ist größer und mächtiger, euch zu helfen, eure Ziele und Träume zu seiner Ehre und Herrlichkeit zu erreichen.\n\nDas ist mein Gebet für euch, in den Worten des Herrn und im Leben des großen Apostels Paulus:\n\n„Aber ich achte mein Leben nicht der Rede wert, wenn ich nur meinen Lauf vollende und das Amt ausrichte, das ich von dem Herrn Jesus empfangen habe, zu bezeugen das Evangelium von der Gnade Gottes.“\n\nApg 20,24\n\nErfüllt mit Freude den Dienst, den Gott euch anvertraut hat, und legt immer Zeugnis ab vom Evangelium Gottes.\n\nAMEN."
+body_fr: "L’église baptiste Betesda a fêté ses 22 ans, et pour votre serviteur ce fut une belle occasion de servir le Seigneur dans cette œuvre que Dieu accomplit à Chancay, Lima.\n\nDieu utilise le pasteur José Manuel Jiménez Tirado avec sa famille pour la gloire de Dieu. Toute l’église a travaillé dur pour que cet anniversaire soit une bénédiction pour eux et pour les frères d’une autre église venus pour ce temps de chants, de louange et de prédication de la Parole de Dieu.\n\nJe peux dire que Dieu a une grande miséricorde pour Chancay, parce qu’il y a un responsable spirituel qui fait le travail d’évangéliste. Pendant les trois jours de l’anniversaire, plusieurs amis sont venus, invités par les frères, pour être exposés à la Parole de Dieu.\n\n[[foto1]]\n\nLe jour principal (samedi), une enseignante, amie de l’épouse du pasteur (Cristina), est venue et a eu des paroles de remerciement pour l’église et pour le pasteur, d’être ses amis et de l’aider dans sa vie. L’enseignante Jessica Sánchez et sa petite fille demandent que Dieu les aide à avoir la paix et la tranquillité. Notre prière est qu’elle se convertisse et soit sauvée pour que Dieu puisse l’utiliser.\n\nPour nos collaborateurs qui nous suivent sur le blog et sur Facebook du MINISTÈRE EPYL, je partage que le pasteur Manuel et son ministère désirent aider par la prière, en offrant leur temps et leurs offrandes, afin que Dieu continue de nous utiliser pour équiper les responsables à Cusco et dans d’autres lieux. Dieu m’a donné l’occasion de présenter le ministère à toute l’église et aux frères de l’église de Huaral.\n\n[[foto2]]\n\nMerci, église Betesda. Continuez dans le travail pour le Seigneur. Que l’ennemi de nos âmes ne vous décourage pas, car celui qui est en vous est plus grand et plus puissant pour vous aider à atteindre vos buts et vos rêves pour son honneur et sa gloire.\n\nC’est ma prière pour vous, dans les paroles du Seigneur et dans la vie du grand apôtre Paul :\n\n« Mais je ne fais aucun cas de ma vie, comme si elle m’était précieuse, pourvu que j’accomplisse ma course avec joie, et le ministère que j’ai reçu du Seigneur Jésus, d’annoncer la bonne nouvelle de la grâce de Dieu. »\n\nActes 20.24\n\nAccomplissez avec joie le ministère que Dieu vous a confié, et rendez toujours témoignage de l’Évangile de Dieu.\n\nAMEN."
 photos:
   - src: assets/img/posts/archivo/una-experiencia-inolvidable/una-experiencia-inolvidable-01.jpg
   - src: assets/img/posts/archivo/una-experiencia-inolvidable/una-experiencia-inolvidable-02.jpg
@@ -16,58 +22,28 @@ photos:
   - src: assets/img/posts/archivo/una-experiencia-inolvidable/una-experiencia-inolvidable-03.jpg
     inline: true
 ---
-La iglesia Bautista
-Betesda cumplió 22 años y para su servidor fue una bonita oportunidad para
-servir al Señor en este ministerio que Dios esta haciendo en Chancay – Lima.
+Betesda Baptist Church turned 22, and for your servant it was a beautiful opportunity to serve the Lord in this ministry that God is doing in Chancay, Lima.
 
-Dios esta usando al
-Pastor José Manuel Jimenez Tirado
-junto a su familia para la gloria de Dios. La iglesia en conjunto trabajó
-arduamente para que este aniversario sea de bendición para ellos y hermanos de
-otra iglesia que llegaron para este tiempo de canticos, alabanzas y predicación
-de la Palabra de Dios.
+God is using Pastor José Manuel Jiménez Tirado together with his family for the glory of God. The whole church worked hard so that this anniversary would be a blessing to them and to the brothers from another church who came for this time of songs, praise and preaching of the Word of God.
 
-Puedo decir que Dios
-tiene mucha misericordia de chancay porque tiene a un líder espiritual haciendo
-la labor de evangelista. Durante los tres días de aniversario llegaron varios
-amigos (as) invitados por los hermanos para ser expuesto a la Palabra de Dios.
+I can say that God has great mercy on Chancay, because he has a spiritual leader doing the work of an evangelist. During the three days of the anniversary, several friends came, invited by the brothers, to be exposed to the Word of God.
 
 [[foto1]]
 
-El día central (sábado)
-llego una maestra amiga de la esposa (Cristina) del pastor, quien tuvo palabras
-de agradecimiento a la iglesia y al pastor por ser sus amigos y ayudarle en su
-vida. La profesora Jessica Sanchez y su pequeña hija, piden que Dios les ayude a tener
-paz y tranquilidad. Nuestra oración es que ella se convierta y sea salva para
-que Dios la use.
+On the main day (Saturday) a teacher who is a friend of the pastor’s wife (Cristina) came, and she had words of thanks to the church and the pastor for being her friends and helping her in her life. The teacher Jessica Sánchez and her little daughter ask that God would help them to have peace and calm. Our prayer is that she would be converted and saved so that God can use her.
 
-Para nuestros amigos
-colaboradores que nos siguen en el blog y el facebook del MINISTERIO EPYL,
-comparto que el pastor Manuel y su ministerio tienen el deseo de ayudar orando,
-colaborando con su tiempo y ofrendas para
-que Dios nos siga usando en equipar a los líderes en Cusco y otros
-lugares. Dios me dio la oportunidad de presentar el ministerio a toda la iglesia
-y hermanos de la iglesia de Huaral.
+For our fellow workers who follow us on the blog and the Facebook of the EPYL MINISTRY, I share that Pastor Manuel and his ministry desire to help by praying and by contributing their time and offerings, so that God may keep using us to equip leaders in Cusco and other places. God gave me the opportunity to present the ministry to the whole church and to the brothers of the church in Huaral.
 
 [[foto2]]
 
-Gracias iglesia
-Betesda, sigan adelante en el trabajo por el Señor, que el enemigo de nuestras
-almas no les amilane porque el que esta en vosotros es mas grande y poderoso
-para ayudarles a cumplir vuestras metas y sueños para su honra y gloria.
+Thank you, Betesda church. Keep going in the work for the Lord. May the enemy of our souls not discourage you, because he who is in you is greater and more powerful, to help you fulfill your goals and dreams for his honor and glory.
 
-Esta es mi oración por
-ustedes en palabras del Señor y la vida del gran apóstol Pablo.
+This is my prayer for you, in the Lord’s words and in the life of the great apostle Paul:
 
-“Pero de ninguna cosa hago caso, ni
-estimo preciosa mi vida para mí mismo, con tal que acabe mi carrera con gozo, y
-el ministerio que recibí del Señor Jesús, para dar testimonio del evangelio de
-la gracia de Dios”
+“But I do not account my life of any value nor as precious to myself, if only I may finish my course and the ministry that I received from the Lord Jesus, to testify to the gospel of the grace of God.”
 
-Hch. 20:24
+Acts 20:24
 
-Cumplan con
-gozo el ministerio que Dios les ha encargado y siempre den testimonio del
-evangelio de Dios.
+Fulfill with joy the ministry that God has entrusted to you, and always bear witness to the gospel of God.
 
 AMEN.

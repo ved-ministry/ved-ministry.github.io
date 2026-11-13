@@ -1,51 +1,57 @@
 ---
 layout: post
-title: "Centro de Capacitación Bíblica"
+title: "Bible Training Center"
 title_es: "Centro de Capacitación Bíblica"
 kind: Archive
 place: "Calca"
-excerpt: "Agradecemos a Dio por ayudarnos a comenzar un ministerio capacitador y fortalecedor en diferentes zonas del cusco – Perú. Estamos listos para dictar el primer curso en…"
+excerpt: "We thank God for helping us begin a training and strengthening ministry in different areas of Cusco. We are ready to teach the first course."
 excerpt_es: "Agradecemos a Dio por ayudarnos a comenzar un ministerio capacitador y fortalecedor en diferentes zonas del cusco – Perú. Estamos listos para dictar el primer curso en…"
 original: "https://equipandopastoresylideres-venid.blogspot.com/2012/01/centro-de-capacitacion-biblica.html"
-es_only: true
 image: /assets/img/posts/archivo/centro-de-capacitacion-biblica/centro-de-capacitacion-biblica-01.jpg
+title_de: "Bibelschulungszentrum"
+title_fr: "Centre de formation biblique"
+excerpt_de: "Wir danken Gott, dass er uns geholfen hat, in verschiedenen Gebieten von Cusco einen Schulungs- und Stärkungsdienst zu beginnen. Wir sind bereit, den ersten Kurs zu halten."
+excerpt_fr: "Nous remercions Dieu de nous avoir aidés à commencer un ministère de formation et d’affermissement dans différentes zones de Cusco. Nous sommes prêts à donner le premier cours."
+body_es: "Agradecemos a Dio por ayudarnos a comenzar un ministerio capacitador y fortalecedor en diferentes zonas del cusco – Perú. Estamos listos para dictar el primer curso en la iglesia bautista independiente misionera – Calca.\n\nLos materiales, libros que usaremos son del Centro de Capacitación Bíblica para Pastores (CCBP) es un programa diseñado para capacitar a pastores y líderes cristianos por medio de profesores calificados y a través de una relación de discipulado. Su enfoque es la asimilación de verdades, principios y conceptos bíblicos, y el crecimiento espiritual de cada participante. Centrado de manera singular en la Biblia, utilizándola como su libro de texto principal junto con los libros de las distintas materias del programa, el CCBP ofrece el equivalente a un programa bíblico básico de nivel superior.\n\nEl CURSO NUMERO UNO\n\nMétodos DE ESTUDIO Bíblico Y REGLAS DE INTERPRETACIÓN\n\nDescripción del Curso:\n\nUna introducción a los métodos básicos de estudio bíblico y a las reglas de interpretación, con especial énfasis en la adecuada comprensión y obediencia de la Palabra de Dios, así como en el desarrollo de aptitudes prácticas. Los estudiantes aprenderán a determinar qué es lo que dice la Escritura, cuál es su significado y en qué forma debe ser aplicada.\n\nObjetivos del Curso:\n\n1. Entrenar a los pastores en el estudio e interpretación adecuados y sistemáticos de la Biblia con el objetivo de que “usen bien la Palabra de Dios,” de manera que puedan estar “preparados para toda buena obra.”\n\n2. Conducir a los pastores hacia una constante vigilancia de la necesidad de aplicar y obedecer la Biblia en forma personal, conforme la predican y la enseñan a otros.\n\n3. Convencer al pastor que un importante propósito del estudio personal de la Biblia redunda en su propia “instrucción en justicia,” con lo cual será cada vez más semejante a Jesucristo.\n\n4. Hacer énfasis en la necesidad de que el pastor dependa totalmente del ministerio de enseñanza y de la iluminación del Espíritu Santo que habita en él.\n\n5. Animar al pastor a comprometerse en un serio, personal, cotidiano y textual estudio de la Escritura.\n\nPROVISIÓN Y ORACIÓN\n\nEl martes 17 llegaron 50 libros de la ciudad de Lima. Rogamos sus oraciones para que Dios provea la economía que son S/. 500 nuevos Soles. Dios proveyó el 50 % que hoy estaremos depositando al ministerio que nos provee los libros. Cada libro tiene un costo de S/. 20.00 nuevos soles. Si usted quiere apoyarnos y ser parte de este ministerio junto a nosotros, ayúdenos con sus oraciones y en la medida que Dios le guie en oración haga un aporte de una ofrenda (si desea donar avísenos a los siguientes correos: churataquispe@yahoo.com; churatas@hotmail.com; le mandaremos un número de cuenta).\n\nAgradecemos por su interés y ayuda\n\nCon amor\n\nCristóbal Churata Quispe director del ministerio\n\nFlorencio Ch. Q. Coordinador\n\nMisionero: Alcides Peña Tesorero"
+body_de: "Wir danken Gott, dass er uns geholfen hat, in verschiedenen Gebieten von Cusco, Peru, einen Schulungs- und Stärkungsdienst zu beginnen. Wir sind bereit, den ersten Kurs in der Unabhängigen Missionsbaptistengemeinde in Calca zu halten.\n\nDie Materialien und Bücher, die wir verwenden, stammen vom Bibelschulungszentrum für Pastoren (CCBP), einem Programm, das christliche Pastoren und Leiter durch qualifizierte Lehrer und in einer Jüngerschaftsbeziehung ausbilden soll. Sein Schwerpunkt ist die Aneignung biblischer Wahrheiten, Grundsätze und Begriffe sowie das geistliche Wachstum jedes Teilnehmers. Das CCBP ist einzigartig auf die Bibel ausgerichtet, nutzt sie als Hauptlehrbuch zusammen mit den Büchern der verschiedenen Fächer des Programms und bietet das Äquivalent eines grundlegenden Bibelprogramms auf höherer Stufe.\n\nKURS NUMMER EINS\n\nMethoden des Bibelstudiums und Regeln der Auslegung\n\nKursbeschreibung:\n\nEine Einführung in die grundlegenden Methoden des Bibelstudiums und die Regeln der Auslegung, mit besonderem Gewicht auf dem richtigen Verstehen und Befolgen des Wortes Gottes sowie auf der Entwicklung praktischer Fähigkeiten. Die Teilnehmer lernen zu bestimmen, was die Schrift sagt, was sie bedeutet und wie sie angewendet werden soll.\n\nKursziele:\n\n1. Pastoren im richtigen und systematischen Studium und in der Auslegung der Bibel zu schulen, damit sie „das Wort Gottes recht austeilen“ und „zu jedem guten Werk ausgerüstet“ sind.\n\n2. Pastoren zu einer ständigen Wachsamkeit zu führen, die Bibel persönlich anzuwenden und zu befolgen, so wie sie sie anderen predigen und lehren.\n\n3. Den Pastor davon zu überzeugen, dass ein wichtiger Zweck des persönlichen Bibelstudiums seine eigene „Unterweisung in der Gerechtigkeit“ ist, durch die er Jesus Christus immer ähnlicher wird.\n\n4. Zu betonen, dass der Pastor ganz vom Lehrdienst und von der Erleuchtung des in ihm wohnenden Heiligen Geistes abhängen muss.\n\n5. Den Pastor zu ermutigen, sich zu einem ernsthaften, persönlichen, täglichen und textbezogenen Studium der Schrift zu verpflichten.\n\nVERSORGUNG UND GEBET\n\nAm Dienstag, dem 17., trafen 50 Bücher aus der Stadt Lima ein. Wir bitten um Ihre Gebete, dass Gott die Mittel gibt, nämlich S/. 500 neue Soles. Gott hat 50 % davon gegeben, die wir heute bei dem Dienst einzahlen, der uns die Bücher liefert. Jedes Buch kostet S/. 20,00 neue Soles. Wenn Sie uns unterstützen und mit uns Teil dieses Dienstes sein möchten, helfen Sie uns mit Ihren Gebeten und, soweit Gott Sie im Gebet leitet, mit einer Gabe (wenn Sie spenden möchten, teilen Sie es uns an folgende Adressen mit: churataquispe@yahoo.com; churatas@hotmail.com; wir senden Ihnen eine Kontonummer).\n\nWir danken für Ihr Interesse und Ihre Hilfe.\n\nIn Liebe,\n\nCristóbal Churata Quispe, Leiter des Dienstes\n\nFlorencio Ch. Q., Koordinator\n\nMissionar Alcides Peña, Schatzmeister"
+body_fr: "Nous remercions Dieu de nous avoir aidés à commencer un ministère de formation et d’affermissement dans différentes zones de Cusco, au Pérou. Nous sommes prêts à donner le premier cours à l’Église baptiste indépendante missionnaire de Calca.\n\nLe matériel et les livres que nous utiliserons proviennent du Centre de formation biblique pour pasteurs (CCBP), un programme conçu pour former des pasteurs et des responsables chrétiens par des enseignants qualifiés et par une relation de disciplat. Son but est l’assimilation des vérités, principes et concepts bibliques et la croissance spirituelle de chaque participant. Centré de manière unique sur la Bible, qu’il utilise comme manuel principal avec les livres des diverses matières du programme, le CCBP offre l’équivalent d’un programme biblique de base de niveau supérieur.\n\nCOURS NUMÉRO UN\n\nMéthodes d’étude biblique et règles d’interprétation\n\nDescription du cours :\n\nUne introduction aux méthodes de base de l’étude biblique et aux règles d’interprétation, avec un accent particulier sur la bonne compréhension et l’obéissance à la Parole de Dieu, ainsi que sur le développement d’aptitudes pratiques. Les étudiants apprendront à déterminer ce que dit l’Écriture, ce qu’elle signifie et comment elle doit être appliquée.\n\nObjectifs du cours :\n\n1. Former les pasteurs à l’étude et à l’interprétation correctes et systématiques de la Bible afin qu’ils « dispensent droitement la parole de Dieu » et soient « préparés à toute bonne œuvre ».\n\n2. Conduire les pasteurs à une vigilance constante quant à la nécessité d’appliquer et d’obéir personnellement à la Bible, comme ils la prêchent et l’enseignent aux autres.\n\n3. Convaincre le pasteur qu’un but important de l’étude personnelle de la Bible est sa propre « instruction dans la justice », par laquelle il ressemblera toujours davantage à Jésus-Christ.\n\n4. Souligner la nécessité pour le pasteur de dépendre entièrement du ministère d’enseignement et de l’illumination du Saint-Esprit qui habite en lui.\n\n5. Encourager le pasteur à s’engager dans une étude de l’Écriture sérieuse, personnelle, quotidienne et fondée sur le texte.\n\nPROVISION ET PRIÈRE\n\nLe mardi 17, 50 livres sont arrivés de la ville de Lima. Nous vous demandons de prier pour que Dieu pourvoie les fonds, qui s’élèvent à S/. 500 nouveaux soles. Dieu a pourvu 50 % de cette somme, que nous verserons aujourd’hui au ministère qui nous fournit les livres. Chaque livre coûte S/. 20,00 nouveaux soles. Si vous voulez nous soutenir et faire partie de ce ministère avec nous, aidez-nous par vos prières et, selon que Dieu vous conduira dans la prière, par une offrande (si vous souhaitez donner, faites-le-nous savoir aux adresses suivantes : churataquispe@yahoo.com ; churatas@hotmail.com ; nous vous enverrons un numéro de compte).\n\nNous vous remercions de votre intérêt et de votre aide.\n\nAvec amour,\n\nCristóbal Churata Quispe, directeur du ministère\n\nFlorencio Ch. Q., coordinateur\n\nMissionnaire Alcides Peña, trésorier"
 photos:
   - src: assets/img/posts/archivo/centro-de-capacitacion-biblica/centro-de-capacitacion-biblica-01.jpg
 ---
-Agradecemos a Dio por ayudarnos a comenzar un ministerio capacitador y fortalecedor en diferentes zonas del cusco – Perú. Estamos listos para dictar el primer curso en la iglesia bautista independiente misionera – Calca.
+We thank God for helping us begin a training and strengthening ministry in different areas of Cusco, Peru. We are ready to teach the first course at the Independent Missionary Baptist Church in Calca.
 
-Los materiales, libros que usaremos son del Centro de Capacitación Bíblica para Pastores (CCBP) es un programa diseñado para capacitar a pastores y líderes cristianos por medio de profesores calificados y a través de una relación de discipulado. Su enfoque es la asimilación de verdades, principios y conceptos bíblicos, y el crecimiento espiritual de cada participante. Centrado de manera singular en la Biblia, utilizándola como su libro de texto principal junto con los libros de las distintas materias del programa, el CCBP ofrece el equivalente a un programa bíblico básico de nivel superior.
+The materials and books we will use come from the Bible Training Center for Pastors (CCBP), a program designed to train pastors and Christian leaders through qualified teachers and through a discipling relationship. Its focus is the assimilation of biblical truths, principles and concepts, and the spiritual growth of each participant. Centered uniquely on the Bible, using it as its main textbook along with the books for the program’s various subjects, the CCBP offers the equivalent of a basic higher-level Bible program.
 
-El CURSO NUMERO UNO
+COURSE NUMBER ONE
 
-Métodos DE ESTUDIO Bíblico Y REGLAS DE INTERPRETACIÓN
+Bible Study Methods and Rules of Interpretation
 
-Descripción del Curso:
+Course description:
 
-Una introducción a los métodos básicos de estudio bíblico y a las reglas de interpretación, con especial énfasis en la adecuada comprensión y obediencia de la Palabra de Dios, así como en el desarrollo de aptitudes prácticas. Los estudiantes aprenderán a determinar qué es lo que dice la Escritura, cuál es su significado y en qué forma debe ser aplicada.
+An introduction to the basic methods of Bible study and the rules of interpretation, with special emphasis on rightly understanding and obeying the Word of God, as well as on developing practical skills. Students will learn to determine what Scripture says, what it means, and how it should be applied.
 
-Objetivos del Curso:
+Course objectives:
 
-1. Entrenar a los pastores en el estudio e interpretación adecuados y sistemáticos de la Biblia con el objetivo de que “usen bien la Palabra de Dios,” de manera que puedan estar “preparados para toda buena obra.”
+1. To train pastors in the proper and systematic study and interpretation of the Bible so that they may “rightly handle the word of God” and be “equipped for every good work.”
 
-2. Conducir a los pastores hacia una constante vigilancia de la necesidad de aplicar y obedecer la Biblia en forma personal, conforme la predican y la enseñan a otros.
+2. To lead pastors to a constant watchfulness over the need to apply and obey the Bible personally, as they preach and teach it to others.
 
-3. Convencer al pastor que un importante propósito del estudio personal de la Biblia redunda en su propia “instrucción en justicia,” con lo cual será cada vez más semejante a Jesucristo.
+3. To convince the pastor that an important purpose of personal Bible study is his own “training in righteousness,” so that he becomes more and more like Jesus Christ.
 
-4. Hacer énfasis en la necesidad de que el pastor dependa totalmente del ministerio de enseñanza y de la iluminación del Espíritu Santo que habita en él.
+4. To emphasize the need for the pastor to depend wholly on the teaching ministry and illumination of the Holy Spirit who dwells in him.
 
-5. Animar al pastor a comprometerse en un serio, personal, cotidiano y textual estudio de la Escritura.
+5. To encourage the pastor to commit to a serious, personal, daily and textual study of Scripture.
 
-PROVISIÓN Y ORACIÓN
+PROVISION AND PRAYER
 
-El martes 17 llegaron 50 libros de la ciudad de Lima. Rogamos sus oraciones para que Dios provea la economía que son S/. 500 nuevos Soles. Dios proveyó el 50 % que hoy estaremos depositando al ministerio que nos provee los libros. Cada libro tiene un costo de S/. 20.00 nuevos soles. Si usted quiere apoyarnos y ser parte de este ministerio junto a nosotros, ayúdenos con sus oraciones y en la medida que Dios le guie en oración haga un aporte de una ofrenda (si desea donar avísenos a los siguientes correos: churataquispe@yahoo.com; churatas@hotmail.com; le mandaremos un número de cuenta).
+On Tuesday the 17th, 50 books arrived from the city of Lima. We ask for your prayers that God would provide the funds, which are S/. 500 new soles. God provided 50% of it, which we will deposit today to the ministry that supplies the books. Each book costs S/. 20.00 new soles. If you want to support us and be part of this ministry with us, help us with your prayers and, as God leads you in prayer, make an offering (if you wish to donate, let us know at the following addresses: churataquispe@yahoo.com; churatas@hotmail.com; we will send you an account number).
 
-Agradecemos por su interés y ayuda
+We thank you for your interest and help.
 
-Con amor
+With love,
 
-Cristóbal Churata Quispe director del ministerio
+Cristóbal Churata Quispe, director of the ministry
 
-Florencio Ch. Q. Coordinador
+Florencio Ch. Q., coordinator
 
-Misionero: Alcides Peña Tesorero
+Missionary Alcides Peña, treasurer
