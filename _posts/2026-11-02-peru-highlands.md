@@ -8,6 +8,12 @@ title_es: "La sierra del Perú es muy hermosa"
 excerpt_es: "A 3 800 metros, Desaguadero se asienta a orillas del lago Titicaca. Ven a ver dónde viven y sirven las iglesias aymaras."
 body_es: "La sierra del Perú es muy hermosa. Después de un día de enseñanza subimos al cerro sobre Desaguadero: el pueblo abajo, el lago Titicaca hasta el horizonte y los nevados detrás.\n\nEsta es la tierra de las iglesias aymaras a las que servimos. Si tu iglesia está orando por un viaje misionero al Perú, ven a verla con tus propios ojos."
 image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
+title_de: "Das Hochland von Peru ist wunderschön"
+title_fr: "Les hautes terres du Pérou sont magnifiques"
+excerpt_de: "Auf 3.800 Metern liegt Desaguadero am Ufer des Titicacasees. Komm und sieh, wo die Aymara-Gemeinden leben und dienen."
+excerpt_fr: "À 3 800 mètres, Desaguadero se trouve au bord du lac Titicaca. Venez voir où vivent et servent les églises aymaras."
+body_de: "Die Sierra von Peru ist wunderschön. Nach einem Tag des Unterrichts stiegen wir auf den Hügel über Desaguadero: unten die Stadt, der Titicacasee bis zum Horizont und dahinter die Schneegipfel.\n\nDies ist das Land der Aymara-Gemeinden, denen wir dienen. Wenn deine Gemeinde über eine Missionsreise nach Peru betet, komm und sieh es mit eigenen Augen."
+body_fr: "La sierra du Pérou est magnifique. Après une journée d’enseignement, nous avons gravi la colline au-dessus de Desaguadero : le village en bas, le lac Titicaca jusqu’à l’horizon et les pics enneigés derrière.\n\nC’est la terre des églises aymaras que nous servons. Si votre église prie au sujet d’un voyage missionnaire au Pérou, venez la voir de vos propres yeux."
 photos:
   - src: assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
     wide: true
