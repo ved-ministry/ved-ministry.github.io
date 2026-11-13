@@ -1,69 +1,47 @@
 ---
 layout: post
-title: "Testimonio del pastor José Laura Ururi"
+title: "Testimony of Pastor José Laura Ururi"
 title_es: "Testimonio del pastor José Laura Ururi"
 kind: Archive
 place: "Desaguadero"
-excerpt: "Mi nombre es; Gil Jose Laura Ururi y naci el 01 de setiembre\ndel año 1959."
+excerpt: "My name is Gil José Laura Ururi, and I was born on September 1, 1959. I have only a fifth-grade education."
 excerpt_es: "Mi nombre es; Gil Jose Laura Ururi y naci el 01 de setiembre\ndel año 1959."
 original: "https://equipandopastoresylideres-venid.blogspot.com/2017/11/testimonio-del-pastor-jose-laura-ururi.html"
-es_only: true
 image: /assets/img/posts/archivo/testimonio-del-pastor-jose-laura-ururi/testimonio-del-pastor-jose-laura-ururi-01.jpg
+title_de: "Zeugnis von Pastor José Laura Ururi"
+title_fr: "Témoignage du pasteur José Laura Ururi"
+excerpt_de: "Mein Name ist Gil José Laura Ururi, und ich wurde am 1. September 1959 geboren. Meine Schulbildung beträgt nur die fünfte Klasse."
+excerpt_fr: "Je m’appelle Gil José Laura Ururi et je suis né le 1er septembre 1959. Mon instruction se limite à la cinquième année du primaire."
+body_es: "TESTIMONIO DEL PASTOR JOSE LAURA URURI\n\nMi nombre es; Gil Jose Laura Ururi y naci el 01 de setiembre\ndel año 1959.\n\nMi educación es solamente\n5To de primaria y soy miembro de la iglesia bautista “Alfa y Omega”.\n\nLa iglesia donde trabajo\ncomo obrero es: Iglesia Bautista de Totoroma, comunidad Collana, sector\ntotoroma, distrito Desaguadero, provincia Chucuito – Juli, departamento Puno –\nPerú.\n\nLleve una vida llena de\npecados y siguiendo la tradición. En una ocasión en un compromiso familiar me\nexcedí de bebidas alcohólicas y a causa de eso tuve un accidente y estuve\ninconsciente durante tres días y tres noches. Postrado en cama en mi casa\nesperando mi recuperación recibí la visita de los hermanos de la iglesia y el\npastor me testifico acerca del Salvador Jesucristo. Entendí que estaba perdido\ny acepte a Jesucristo como mi único Salvador personal un domingo por la tarde a\nlos 49 años.\n\nEstoy casado con Isabel\nHonori Estalla por 27 años y tenemos 4 hijos: Victoria, Fredy, Miriam y\nCristian. Ninguno de ellos vive con nosotros, ruego sus\noraciones para salvación.\n\n¿Cómo me llamo\nDios al ministerio para servirle?\n\n[[foto1]]\n\nVi una gran necesidad de\nobreros para la mies, es así que decide prepararme en las capacitaciones del\nMINISTERIO EPYL, durante los tres años y medio que se impartieron en mi iglesia\nde desaguadero. Al terminar todos los módulos de capacitación, tuve que poner\nen partica lo que aprendí. Una iglesia de la zona no tenía pastor y yo dije:\n“Heme aquí envíame a mí”. La iglesia bautista Alfa y Omega me envió como obrero\na este lugar para servir al Señor y a mis hermanos.\n\nEstoy pastoreando dos\naños y la mayoría de los congregantes son de la tercera edad. Cada domingo me\ntraslado en mi motocicleta al lugar con mi esposa por 30 minutos. Hasta ahora\nha sido difícil para mí en cuanto a aconsejar familias y estoy agradecido por\nlos libros/mini biblioteca que Dios ha provisto para mí.\n\nDios me los bendiga, será\nde mucha ayuda para mí y para su mies.\n\nNota: el pastor\nJosé recibió una biblioteca que los hermanos de la editorial EBI producen.\n\nchurataquispe@yahoo.com"
+body_de: "ZEUGNIS VON PASTOR JOSÉ LAURA URURI\n\nMein Name ist Gil José Laura Ururi, und ich wurde am 1. September 1959 geboren.\n\nMeine Schulbildung beträgt nur die fünfte Klasse der Grundschule, und ich bin Mitglied der Baptistengemeinde „Alfa y Omega“.\n\nDie Gemeinde, in der ich als Arbeiter diene, ist die Baptistengemeinde von Totoroma, Gemeinschaft Collana, Sektor Totoroma, Distrikt Desaguadero, Provinz Chucuito–Juli, Departement Puno, Peru.\n\nIch führte ein Leben voller Sünden und folgte der Tradition. Bei einer Familienfeier trank ich zu viel Alkohol, und deswegen hatte ich einen Unfall und war drei Tage und drei Nächte bewusstlos. Als ich zu Hause im Bett lag und auf meine Genesung wartete, besuchten mich die Geschwister der Gemeinde, und der Pastor bezeugte mir den Heiland Jesus Christus. Ich verstand, dass ich verloren war, und nahm Jesus Christus an einem Sonntagnachmittag im Alter von 49 Jahren als meinen einzigen persönlichen Heiland an.\n\nIch bin seit 27 Jahren mit Isabel Honori Estalla verheiratet, und wir haben 4 Kinder: Victoria, Fredy, Miriam und Cristian. Keines von ihnen wohnt bei uns; ich bitte um Ihre Gebete für ihre Rettung.\n\nWie hat Gott mich in den Dienst gerufen, um ihm zu dienen?\n\n[[foto1]]\n\nIch sah einen großen Mangel an Arbeitern für die Ernte, und so entschloss ich mich, mich in den Schulungen des DIENSTES EPYL vorzubereiten, während der dreieinhalb Jahre, in denen sie in meiner Gemeinde in Desaguadero gehalten wurden. Als alle Module der Schulung abgeschlossen waren, musste ich in die Praxis umsetzen, was ich gelernt hatte. Eine Gemeinde in der Gegend hatte keinen Pastor, und ich sagte: „Hier bin ich, sende mich.“ Die Baptistengemeinde Alfa y Omega schickte mich als Arbeiter an diesen Ort, um dem Herrn und meinen Geschwistern zu dienen.\n\nIch bin seit zwei Jahren Pastor, und die meisten in der Gemeinde sind älter. Jeden Sonntag fahre ich mit meiner Frau auf meinem Motorrad dorthin, 30 Minuten lang. Bisher war es für mich schwierig, Familien zu beraten, und ich bin dankbar für die Bücher und die kleine Bibliothek, die Gott mir gegeben hat.\n\nGott segne Sie; es wird mir und seiner Ernte eine große Hilfe sein.\n\nHinweis: Pastor José erhielt eine Bibliothek, die von den Geschwistern des Verlags EBI hergestellt wird.\n\nchurataquispe@yahoo.com"
+body_fr: "TÉMOIGNAGE DU PASTEUR JOSÉ LAURA URURI\n\nJe m’appelle Gil José Laura Ururi et je suis né le 1er septembre 1959.\n\nMon instruction se limite à la cinquième année du primaire, et je suis membre de l’église baptiste « Alfa y Omega ».\n\nL’église où je travaille comme ouvrier est l’église baptiste de Totoroma, communauté de Collana, secteur de Totoroma, district de Desaguadero, province de Chucuito–Juli, département de Puno, Pérou.\n\nJ’ai mené une vie pleine de péchés, en suivant la tradition. Lors d’une réunion de famille, j’ai bu trop d’alcool, et à cause de cela j’ai eu un accident et je suis resté inconscient pendant trois jours et trois nuits. Alité chez moi en attendant ma guérison, j’ai reçu la visite des frères de l’église, et le pasteur m’a témoigné du Sauveur Jésus-Christ. J’ai compris que j’étais perdu et j’ai accepté Jésus-Christ comme mon seul Sauveur personnel un dimanche après-midi, à l’âge de 49 ans.\n\nJe suis marié depuis 27 ans à Isabel Honori Estalla et nous avons 4 enfants : Victoria, Fredy, Miriam et Cristian. Aucun d’eux ne vit avec nous ; je demande vos prières pour leur salut.\n\nComment Dieu m’a-t-il appelé au ministère pour le servir ?\n\n[[foto1]]\n\nJ’ai vu un grand besoin d’ouvriers pour la moisson, et j’ai donc décidé de me préparer dans les formations du MINISTÈRE EPYL, pendant les trois ans et demi où elles ont été données dans mon église de Desaguadero. Quand tous les modules de formation ont été terminés, j’ai dû mettre en pratique ce que j’avais appris. Une église de la zone n’avait pas de pasteur et j’ai dit : « Me voici, envoie-moi. » L’église baptiste Alfa y Omega m’a envoyé comme ouvrier à cet endroit pour servir le Seigneur et mes frères.\n\nJe suis pasteur depuis deux ans, et la plupart des fidèles sont des personnes âgées. Chaque dimanche je me rends sur place avec ma femme à moto, pendant 30 minutes. Jusqu’à présent, il m’a été difficile de conseiller les familles, et je suis reconnaissant pour les livres et la petite bibliothèque que Dieu m’a procurés.\n\nQue Dieu vous bénisse ; ce sera d’une grande aide pour moi et pour sa moisson.\n\nNote : le pasteur José a reçu une bibliothèque produite par les frères de la maison d’édition EBI.\n\nchurataquispe@yahoo.com"
 photos:
   - src: assets/img/posts/archivo/testimonio-del-pastor-jose-laura-ururi/testimonio-del-pastor-jose-laura-ururi-01.jpg
   - src: assets/img/posts/archivo/testimonio-del-pastor-jose-laura-ururi/testimonio-del-pastor-jose-laura-ururi-02.jpg
     inline: true
 ---
-TESTIMONIO DEL PASTOR JOSE LAURA URURI
+TESTIMONY OF PASTOR JOSÉ LAURA URURI
 
-Mi nombre es; Gil Jose Laura Ururi y naci el 01 de setiembre
-del año 1959.
+My name is Gil José Laura Ururi, and I was born on September 1, 1959.
 
-Mi educación es solamente
-5To de primaria y soy miembro de la iglesia bautista “Alfa y Omega”.
+My education is only the fifth grade of primary school, and I am a member of the “Alfa y Omega” Baptist church.
 
-La iglesia donde trabajo
-como obrero es: Iglesia Bautista de Totoroma, comunidad Collana, sector
-totoroma, distrito Desaguadero, provincia Chucuito – Juli, departamento Puno –
-Perú.
+The church where I work as a laborer is the Baptist Church of Totoroma, community of Collana, sector of Totoroma, district of Desaguadero, province of Chucuito–Juli, department of Puno, Peru.
 
-Lleve una vida llena de
-pecados y siguiendo la tradición. En una ocasión en un compromiso familiar me
-excedí de bebidas alcohólicas y a causa de eso tuve un accidente y estuve
-inconsciente durante tres días y tres noches. Postrado en cama en mi casa
-esperando mi recuperación recibí la visita de los hermanos de la iglesia y el
-pastor me testifico acerca del Salvador Jesucristo. Entendí que estaba perdido
-y acepte a Jesucristo como mi único Salvador personal un domingo por la tarde a
-los 49 años.
+I led a life full of sins, following tradition. On one occasion, at a family gathering, I drank too much alcohol, and because of that I had an accident and was unconscious for three days and three nights. Lying in bed at home waiting for my recovery, I received a visit from the brothers of the church, and the pastor testified to me about the Savior Jesus Christ. I understood that I was lost and accepted Jesus Christ as my only personal Savior one Sunday afternoon at the age of 49.
 
-Estoy casado con Isabel
-Honori Estalla por 27 años y tenemos 4 hijos: Victoria, Fredy, Miriam y
-Cristian. Ninguno de ellos vive con nosotros, ruego sus
-oraciones para salvación.
+I have been married to Isabel Honori Estalla for 27 years and we have 4 children: Victoria, Fredy, Miriam and Cristian. None of them lives with us; I ask for your prayers for their salvation.
 
-¿Cómo me llamo
-Dios al ministerio para servirle?
+How did God call me into the ministry to serve him?
 
 [[foto1]]
 
-Vi una gran necesidad de
-obreros para la mies, es así que decide prepararme en las capacitaciones del
-MINISTERIO EPYL, durante los tres años y medio que se impartieron en mi iglesia
-de desaguadero. Al terminar todos los módulos de capacitación, tuve que poner
-en partica lo que aprendí. Una iglesia de la zona no tenía pastor y yo dije:
-“Heme aquí envíame a mí”. La iglesia bautista Alfa y Omega me envió como obrero
-a este lugar para servir al Señor y a mis hermanos.
+I saw a great need for workers for the harvest, and so I decided to prepare myself in the trainings of the EPYL MINISTRY, during the three and a half years they were given at my church in Desaguadero. When all the training modules were finished, I had to put into practice what I had learned. A church in the area had no pastor and I said: “Here I am, send me.” The Alfa y Omega Baptist church sent me as a laborer to this place to serve the Lord and my brothers.
 
-Estoy pastoreando dos
-años y la mayoría de los congregantes son de la tercera edad. Cada domingo me
-traslado en mi motocicleta al lugar con mi esposa por 30 minutos. Hasta ahora
-ha sido difícil para mí en cuanto a aconsejar familias y estoy agradecido por
-los libros/mini biblioteca que Dios ha provisto para mí.
+I have been pastoring for two years, and most of the congregation are elderly. Every Sunday I travel to the place on my motorbike with my wife, a 30-minute ride. So far it has been hard for me when it comes to counseling families, and I am grateful for the books and mini library that God has provided for me.
 
-Dios me los bendiga, será
-de mucha ayuda para mí y para su mies.
+God bless you; it will be of great help to me and to his harvest.
 
-Nota: el pastor
-José recibió una biblioteca que los hermanos de la editorial EBI producen.
+Note: Pastor José received a library produced by the brothers of the publisher EBI.
 
 churataquispe@yahoo.com

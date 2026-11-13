@@ -1,78 +1,51 @@
 ---
 layout: post
-title: "El crecimiento lo da Dios"
+title: "God Gives the Growth"
 title_es: "El crecimiento lo da Dios"
 kind: Archive
 place: "Desaguadero"
-excerpt: "Tengo\nmucha consideración por la fe de estos hermanos, que con mucha disciplina y\ndedicación lograron seguir el programa de preparación de tres años del “CENTRO\nDE…"
+excerpt: "I have great regard for the faith of these brothers, who with much discipline completed the three-year program of the Bible Training Center for Pastors."
 excerpt_es: "Tengo\nmucha consideración por la fe de estos hermanos, que con mucha disciplina y\ndedicación lograron seguir el programa de preparación de tres años del “CENTRO\nDE…"
 original: "https://equipandopastoresylideres-venid.blogspot.com/2014/08/el-crecimiento-lo-da-dios.html"
-es_only: true
 image: /assets/img/posts/archivo/el-crecimiento-lo-da-dios/el-crecimiento-lo-da-dios-01.jpg
+title_de: "Gott gibt das Gedeihen"
+title_fr: "Dieu fait croître"
+excerpt_de: "Ich habe große Hochachtung vor dem Glauben dieser Brüder, die mit viel Disziplin das dreijährige Programm des Bibelschulungszentrums für Pastoren durchhielten."
+excerpt_fr: "J’ai une grande considération pour la foi de ces frères, qui avec beaucoup de discipline ont suivi le programme de trois ans du Centre de formation biblique pour pasteurs."
+body_es: "Tengo\nmucha consideración por la fe de estos hermanos, que con mucha disciplina y\ndedicación lograron seguir el programa de preparación de tres años del “CENTRO\nDE CAPACITACIÓN BÍBLICA PARA PASTORES” dictado por el MINISTERIO EPYL, que fue comisionado\npara hacer esta labor en el año 2012 por la Iglesia Bautista Ven-id.\n\n¿QUÉ NOS MOTIVA PARA HACER ESTE\nMINISTERIO? En un artículo\nanterior explique las razones que nos motiva a cultivar, alimentar, cuidar,\nequipar a los santos para la obra del ministerio (Efesios 4:11-13).\n\nYo planté, Apolos regó (1 Corintios 3:6)\n\nEL apóstol Pablo\npor inspiración divida dijo; Yo planté, Apolos regó; pero el crecimiento\nlo ha dado Dios (1 Corintios 3:6). En\nel pasado, cuando la iglesia fue empezada en la región inka, muchos fueron los\nque plantaron y trabajaron arduamente (2 Timoteo 2:6) El labrador,\npara participar de los frutos, debe trabajar primero.\n\nAl transcurrir el\ntiempo el trabajo de los plantadores se hizo cada vez más difícil, porque\nla obra estaba creciendo en una forma natural y espontanea por la labor de los\nmismos creyentes en diferentes lugares. Ahora estamos viviendo estos tiempos de\ncrecimiento espontaneo y para los nuevos creyentes e iglesias\nnuevas les es difícil seguir avanzando por muchas razones.\n\nPRIMERO\n\nLa falta de obres preparados con pasión de servicio\ny no buscando ganancias deshonestas.\n\nSEGUNDO\n\nIglesias que se enfoquen en las personas y vidas de\nlas iglesias rurales.\n\nTERCERO\n\nAyuda de hermanos\ne iglesias maduras que puedan invertir tiempo y recursos para seguir equipando\na nuevos líderes en sus zonas.\n\nEn el ministerio\nEPYL hemos aceptado e impulsado este desafío. Tenemos\nel único deseo de buscar el bienestar espiritual y madures de los nuevos\nlíderes sin alejarles de su contexto geográfico y vivencial.\nEste modelo es una reminiscencia del apóstol\nPablo “Yo planté, Apolos regó; pero el crecimiento lo ha dado Dios”. Cuando el objetivo es el fruto espiritual para\nla gloria de Dios ¿Quién es más importante? El que planto o el que regó o\n¿Quiénes enseñan? ¿Quiénes darán para esta labor? Dios es el que da y sostiene\nsu obra para su gloria.\n\nGracias\npor alentarnos a seguir infundiendo la Palabra de nuestro Dios.\n\nMisionero:\nCristobal Churata Q.\n\nSirviendo\nal Maestro en Cusco\n\nHermano Andrés Quiñones Jihuaña de la iglesia de\nCopani-desaguadero recibiendo su certificado"
+body_de: "Ich habe große Hochachtung vor dem Glauben dieser Brüder, die mit viel Disziplin und Hingabe das dreijährige Programm des „BIBELSCHULUNGSZENTRUMS FÜR PASTOREN“ durchhielten, das vom DIENST EPYL gehalten wurde, der 2012 von der Baptistengemeinde Ven-Id mit dieser Arbeit beauftragt wurde.\n\nWAS MOTIVIERT UNS ZU DIESEM DIENST? In einem früheren Artikel habe ich die Gründe erklärt, die uns bewegen, die Heiligen für das Werk des Dienstes zu pflegen, zu nähren, zu behüten und auszurüsten (Epheser 4,11-13).\n\nIch habe gepflanzt, Apollos hat begossen (1. Korinther 3,6)\n\nDer Apostel Paulus sagte aus göttlicher Eingebung: Ich habe gepflanzt, Apollos hat begossen, aber Gott hat das Gedeihen gegeben (1. Korinther 3,6). In der Vergangenheit, als die Gemeinde in der Inka-Region begonnen wurde, waren es viele, die pflanzten und hart arbeiteten (2. Timotheus 2,6): Der Ackermann, der den Acker bestellt, soll als Erster von den Früchten genießen.\n\nIm Lauf der Zeit wurde die Arbeit der Pflanzer immer schwerer, weil das Werk auf natürliche und spontane Weise durch die Arbeit der Gläubigen selbst an verschiedenen Orten wuchs. Nun leben wir in diesen Zeiten spontanen Wachstums, und für neue Gläubige und neue Gemeinden ist es aus vielen Gründen schwer, weiter voranzukommen.\n\nERSTENS\n\nDer Mangel an vorbereiteten Arbeitern mit Leidenschaft für den Dienst, die nicht unehrlichen Gewinn suchen.\n\nZWEITENS\n\nGemeinden, die sich auf die Menschen und das Leben der ländlichen Gemeinden konzentrieren.\n\nDRITTENS\n\nHilfe von reifen Geschwistern und Gemeinden, die Zeit und Mittel investieren können, um neue Leiter in ihren Gebieten weiter auszurüsten.\n\nIm Dienst EPYL haben wir diese Herausforderung angenommen und vorangetrieben. Wir haben nur den Wunsch, das geistliche Wohl und die Reife der neuen Leiter zu fördern, ohne sie aus ihrem geografischen und Lebensumfeld herauszureißen. Dieses Modell erinnert an den Apostel Paulus: „Ich habe gepflanzt, Apollos hat begossen, aber Gott hat das Gedeihen gegeben.“ Wenn das Ziel geistliche Frucht zur Ehre Gottes ist, wer ist wichtiger? Der, der gepflanzt hat, oder der, der begossen hat? Oder wer lehrt? Wer wird für dieses Werk geben? Gott ist es, der gibt und sein Werk zu seiner Ehre erhält.\n\nDanke, dass Sie uns ermutigen, das Wort unseres Gottes weiter auszuströmen.\n\nMissionar: Cristóbal Churata Q.\n\nIm Dienst des Meisters in Cusco\n\nBruder Andrés Quiñones Jihuaña von der Gemeinde in Copani-Desaguadero erhält sein Zertifikat"
+body_fr: "J’ai une grande considération pour la foi de ces frères, qui avec beaucoup de discipline et de dévouement ont suivi le programme de trois ans du « CENTRE DE FORMATION BIBLIQUE POUR PASTEURS » donné par le MINISTÈRE EPYL, qui avait été chargé de ce travail en 2012 par l’église baptiste Ven-Id.\n\nQU’EST-CE QUI NOUS MOTIVE POUR FAIRE CE MINISTÈRE ? Dans un article précédent, j’ai expliqué les raisons qui nous poussent à cultiver, nourrir, soigner et équiper les saints pour l’œuvre du ministère (Éphésiens 4.11-13).\n\nJ’ai planté, Apollos a arrosé (1 Corinthiens 3.6)\n\nL’apôtre Paul, par inspiration divine, a dit : J’ai planté, Apollos a arrosé, mais c’est Dieu qui a fait croître (1 Corinthiens 3.6). Autrefois, quand l’Église a été commencée dans la région inca, nombreux furent ceux qui ont planté et travaillé dur (2 Timothée 2.6) : il faut que le laboureur travaille d’abord, pour avoir part aux fruits.\n\nAvec le temps, le travail des planteurs est devenu de plus en plus difficile, car l’œuvre croissait de façon naturelle et spontanée par le travail des croyants eux-mêmes en différents lieux. Nous vivons maintenant ces temps de croissance spontanée, et pour les nouveaux croyants et les nouvelles églises il est difficile d’avancer, pour de nombreuses raisons.\n\nPREMIÈREMENT\n\nLe manque d’ouvriers préparés, passionnés par le service, qui ne cherchent pas un gain malhonnête.\n\nDEUXIÈMEMENT\n\nDes églises qui se concentrent sur les personnes et la vie des églises rurales.\n\nTROISIÈMEMENT\n\nL’aide de frères et d’églises mûres qui puissent investir du temps et des ressources pour continuer à équiper de nouveaux responsables dans leurs zones.\n\nDans le ministère EPYL, nous avons accepté et relevé ce défi. Nous avons le seul désir de chercher le bien-être spirituel et la maturité des nouveaux responsables sans les éloigner de leur contexte géographique et de vie. Ce modèle rappelle l’apôtre Paul : « J’ai planté, Apollos a arrosé, mais c’est Dieu qui a fait croître. » Quand le but est le fruit spirituel pour la gloire de Dieu, qui est le plus important ? Celui qui a planté ou celui qui a arrosé ? Ou ceux qui enseignent ? Qui donnera pour cette œuvre ? C’est Dieu qui donne et soutient son œuvre pour sa gloire.\n\nMerci de nous encourager à continuer de répandre la Parole de notre Dieu.\n\nMissionnaire : Cristóbal Churata Q.\n\nAu service du Maître à Cusco\n\nLe frère Andrés Quiñones Jihuaña, de l’église de Copani-Desaguadero, recevant son certificat"
 photos:
   - src: assets/img/posts/archivo/el-crecimiento-lo-da-dios/el-crecimiento-lo-da-dios-01.jpg
 ---
-Tengo
-mucha consideración por la fe de estos hermanos, que con mucha disciplina y
-dedicación lograron seguir el programa de preparación de tres años del “CENTRO
-DE CAPACITACIÓN BÍBLICA PARA PASTORES” dictado por el MINISTERIO EPYL, que fue comisionado
-para hacer esta labor en el año 2012 por la Iglesia Bautista Ven-id.
+I have great regard for the faith of these brothers, who with much discipline and dedication managed to complete the three-year program of the “BIBLE TRAINING CENTER FOR PASTORS” taught by the EPYL MINISTRY, which was commissioned to do this work in 2012 by Ven-Id Baptist Church.
 
-¿QUÉ NOS MOTIVA PARA HACER ESTE
-MINISTERIO? En un artículo
-anterior explique las razones que nos motiva a cultivar, alimentar, cuidar,
-equipar a los santos para la obra del ministerio (Efesios 4:11-13).
+WHAT MOTIVATES US TO DO THIS MINISTRY? In an earlier article I explained the reasons that move us to cultivate, feed, care for and equip the saints for the work of ministry (Ephesians 4:11-13).
 
-Yo planté, Apolos regó (1 Corintios 3:6)
+I planted, Apollos watered (1 Corinthians 3:6)
 
-EL apóstol Pablo
-por inspiración divida dijo; Yo planté, Apolos regó; pero el crecimiento
-lo ha dado Dios (1 Corintios 3:6). En
-el pasado, cuando la iglesia fue empezada en la región inka, muchos fueron los
-que plantaron y trabajaron arduamente (2 Timoteo 2:6) El labrador,
-para participar de los frutos, debe trabajar primero.
+The apostle Paul, by divine inspiration, said: I planted, Apollos watered, but God gave the growth (1 Corinthians 3:6). In the past, when the church was begun in the Inca region, many were those who planted and worked hard (2 Timothy 2:6): the farmer who labors must be first to share in the crops.
 
-Al transcurrir el
-tiempo el trabajo de los plantadores se hizo cada vez más difícil, porque
-la obra estaba creciendo en una forma natural y espontanea por la labor de los
-mismos creyentes en diferentes lugares. Ahora estamos viviendo estos tiempos de
-crecimiento espontaneo y para los nuevos creyentes e iglesias
-nuevas les es difícil seguir avanzando por muchas razones.
+As time went by, the work of the planters became harder and harder, because the work was growing in a natural and spontaneous way through the labor of the believers themselves in different places. Now we are living in these times of spontaneous growth, and for new believers and new churches it is hard to keep moving forward, for many reasons.
 
-PRIMERO
+FIRST
 
-La falta de obres preparados con pasión de servicio
-y no buscando ganancias deshonestas.
+The lack of prepared workers with a passion for service, who are not seeking dishonest gain.
 
-SEGUNDO
+SECOND
 
-Iglesias que se enfoquen en las personas y vidas de
-las iglesias rurales.
+Churches that focus on the people and lives of the rural churches.
 
-TERCERO
+THIRD
 
-Ayuda de hermanos
-e iglesias maduras que puedan invertir tiempo y recursos para seguir equipando
-a nuevos líderes en sus zonas.
+Help from mature brothers and churches who can invest time and resources to keep equipping new leaders in their areas.
 
-En el ministerio
-EPYL hemos aceptado e impulsado este desafío. Tenemos
-el único deseo de buscar el bienestar espiritual y madures de los nuevos
-líderes sin alejarles de su contexto geográfico y vivencial.
-Este modelo es una reminiscencia del apóstol
-Pablo “Yo planté, Apolos regó; pero el crecimiento lo ha dado Dios”. Cuando el objetivo es el fruto espiritual para
-la gloria de Dios ¿Quién es más importante? El que planto o el que regó o
-¿Quiénes enseñan? ¿Quiénes darán para esta labor? Dios es el que da y sostiene
-su obra para su gloria.
+In the EPYL ministry we have accepted and taken up this challenge. We have the sole desire to seek the spiritual well-being and maturity of the new leaders without taking them away from their geographic and living context. This model is a reminder of the apostle Paul: “I planted, Apollos watered, but God gave the growth.” When the goal is spiritual fruit for the glory of God, who is more important? The one who planted, or the one who watered? Or who teaches? Who will give for this work? God is the one who gives and sustains his work for his glory.
 
-Gracias
-por alentarnos a seguir infundiendo la Palabra de nuestro Dios.
+Thank you for encouraging us to keep pouring out the Word of our God.
 
-Misionero:
-Cristobal Churata Q.
+Missionary: Cristóbal Churata Q.
 
-Sirviendo
-al Maestro en Cusco
+Serving the Master in Cusco
 
-Hermano Andrés Quiñones Jihuaña de la iglesia de
-Copani-desaguadero recibiendo su certificado
+Brother Andrés Quiñones Jihuaña, of the church of Copani-Desaguadero, receiving his certificate
