@@ -10,8 +10,13 @@ es_only: true
 photos:
   - src: assets/img/posts/boletines/langostas-y-miel/langostas-y-miel-01.jpg
   - src: assets/img/posts/boletines/langostas-y-miel/langostas-y-miel-02.jpg
+    inline: true
+    caption: "Photo taken around the Pisonaypata Baptist Church grounds, Curahuasi."
+    caption_es: "Foto tomada en los alrededores de la iglesia Bautista Pisonaypata, Curahuasi."
 ---
 > Estos comeréis de ellos: la langosta según su especie, el langostín según su especie, el argol según su especie, y el hagab según su especie. Levítico 11:22 Y Juan estaba vestido de pelo de camello, y tenía un cinto de cuero alrededor de sus lomos; y su comida era langostas y miel silvestre. Mateo 3:4
+
+[[foto1]]
 
 La comida de Juan el bautista fue dado por el mismo Dios, quien en la ley mando a los hebreos acerca de que tipos de insectos podrían comer. Se imagina usted, una mañana en el desierto de Judea, Juan sentado disfrutando de un delicioso desayuno.
 
@@ -21,4 +26,4 @@ El Señor Jesucristo es nuestro modelo a imitar. Él camino por todos los lugare
 
 Durante 17 años servimos en la plantación de la iglesia bautista ven-id - Cusco - Perú. Hoy servimos a los pastores de las zonas rurales en las siguientes ciudades; Cusco, Apurímac y Puno con el ministerio equipando pastores y lideres.
 
-Foto: Tomado en los alrededores de la iglesia Bautista Pisonaypata - Curahuasi.
+

@@ -292,6 +292,9 @@
 .post__body h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(24px, 3vw, 30px); line-height: 1.2; color: var(--ink); margin: 48px 0 0; }
 .post__body h3 { font-size: 18px; color: var(--ink); margin: 32px 0 0; }
 .post .gallery { margin-top: var(--m-l); }
+.inline-photo { margin: var(--m-l) 0; }
+.inline-photo img { width: 100%; border-radius: var(--r); cursor: zoom-in; }
+@media (min-width: 900px) { .inline-photo { float: right; width: 42%; margin: 8px 0 24px 32px; } }
 
 .need { margin-top: var(--m-xl); padding-block: clamp(40px, 7vw, 72px); background: var(--paper-2); }
 .need h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(26px, 4vw, 40px); line-height: 1.1; margin: 0; }
