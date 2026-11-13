@@ -198,6 +198,10 @@ hr.rule {
 /* no flash of English for visitors reading another language */
 .i18n-pending body { visibility: hidden; }
 html:not([lang="es"]) .l-es, html[lang="es"] .l-en { display: none; }
+/* blocks written in all four languages */
+.l4.l-de, .l4.l-fr { display: none; }
+html[lang="de"] .l4.l-de, html[lang="fr"] .l4.l-fr { display: block; }
+html[lang="de"] .l4.l-en, html[lang="fr"] .l4.l-en { display: none; }
 
 
 /* ---------- Utility ---------- */

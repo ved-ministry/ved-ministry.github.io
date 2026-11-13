@@ -16,6 +16,7 @@ description: "Informes del campo, reflexiones y noticias del ministerio EPYL y l
       <button class="chip" data-kind="" aria-pressed="true" data-i18n="blog.all">All</button>
       {% assign kinds = site.posts | map: "kind" | uniq %}{% for k in kinds %}<button class="chip" data-kind="{{ k }}" aria-pressed="false" data-i18n="kind.{{ k }}">{{ k }}</button>{% endfor %}
     </div>
+    <p><a class="back" href="/archivo/" data-i18n="arch.btn">Explore the archive since 2011</a></p>
     <div class="cards" id="blogGrid">{% for post in site.posts %}{% include post-card.html %}{% endfor %}</div>
   </div>
 </section>

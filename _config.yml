@@ -11,6 +11,8 @@ social:
     - https://www.facebook.com/ministerioepyl
     - https://www.youtube.com/@ministerioepyl
 plugins: [jekyll-seo-tag, jekyll-sitemap]
+webmaster_verifications:
+  google: 4QRyJC7hb7rg_xJuqChzbO7LcowRVnHZy9KCPQyijnc
 defaults:
   - scope: { path: "assets" }
     values: { sitemap: false }

@@ -39,6 +39,24 @@ image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
   </div>
 </section>
 
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label" data-i18n="arch.eyebrow">From the archive</span>
+      <h2 class="h-section" data-i18n="map.title">Fifteen years on the road</h2>
+      <p class="body-text" data-i18n="map.intro">Every place the ministry has reached, from Cusco to Bolivia. Press play to watch it grow year by year.</p>
+    </div>
+    {% include impact-map.html %}
+    {% assign arch = site.posts | where: "kind", "Archive" %}
+    {% assign k = site.time | date: "%j" | modulo: arch.size %}
+    {% assign post = arch[k] %}
+    <div class="from-archive">
+      <div><span class="label" data-i18n="arch.today">From the archive</span>{% include post-card.html %}</div>
+      <a class="btn solid" href="/archivo/" data-i18n="arch.btn">Explore the archive since 2011</a>
+    </div>
+  </div>
+</section>
+
 <section class="dark noise">
   <div class="wrap">
     <div class="quote-card reveal" style="margin:0">

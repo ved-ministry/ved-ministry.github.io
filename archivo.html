@@ -1,0 +1,24 @@
+---
+layout: default
+title: Since 2011
+title_key: arch.title
+eyebrow: From the archive
+eyebrow_key: arch.eyebrow
+permalink: /archivo/
+hero: assets/img/posts/archivo/equipar-y-fortalecer-la-primera-graduacion/equipar-y-fortalecer-la-primera-graduacion-02.jpg
+image: /assets/img/posts/archivo/equipar-y-fortalecer-la-primera-graduacion/equipar-y-fortalecer-la-primera-graduacion-02.jpg
+description: "Archivo del blog del ministerio EPYL (2011–2018): informes, testimonios y reflexiones escritos por Cristóbal Churata. The ministry's story since 2011."
+---
+<section>
+  <div class="wrap">
+    <p class="body-text" data-i18n="arch.intro">Before the website there was a blog. From 2011 to 2018 Cristóbal wrote it himself: the first trainings, the beginnings of Ven-Id, the pastors who graduated, and what he was reading. Here it is, as he wrote it.</p>
+    {% include impact-map.html %}
+    {% assign arch = site.posts | where: "kind", "Archive" %}
+    {% assign years = arch | group_by_exp: "p", "p.date | date: '%Y'" %}
+    <nav class="years" aria-label="Years">{% for y in years %}<a class="chip" href="#y{{ y.name }}">{{ y.name }}</a>{% endfor %}</nav>
+    {% for y in years %}
+    <h2 class="year" id="y{{ y.name }}">{{ y.name }}</h2>
+    <div class="cards">{% for post in y.items %}{% include post-card.html %}{% endfor %}</div>
+    {% endfor %}
+  </div>
+</section>

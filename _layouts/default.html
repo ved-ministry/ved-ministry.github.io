@@ -41,6 +41,8 @@
 
 <div class="pill" id="newsPill">{% for p in site.posts limit: 3 %}
   <a href="{{ p.url }}"{% if forloop.first %} class="is-on"{% endif %}><b data-i18n="pill.new">New</b><span class="l-en">{{ p.title }}</span><span class="l-es">{{ p.title_es | default: p.title }}</span></a>{% endfor %}
+  {% assign arch = site.posts | where: "kind", "Archive" %}{% assign k = site.time | date: "%j" | modulo: arch.size %}{% assign a = arch[k] %}
+  <a href="{{ a.url }}" class="pill__arch"><b data-i18n="pill.archive">{{ a.date | date: "%Y" }}</b><span class="l-en">{{ a.title }}</span><span class="l-es">{{ a.title_es | default: a.title }}</span></a>
 </div>
 
 {% if page.hero %}

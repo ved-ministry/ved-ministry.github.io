@@ -8,7 +8,7 @@
   /* ---------- Year in footer (copyright line uses a {year} token, see i18n.js) ---------- */
   window.SITE_YEAR = new Date().getFullYear();
 
-  document.querySelector(".nav__links [aria-current]").scrollIntoView({ inline: "center", block: "nearest" });
+  document.querySelector(".nav__links [aria-current]")?.scrollIntoView({ inline: "center", block: "nearest" });
 
   /* ---------- "New" pill: one item at a time, changing every few seconds ---------- */
   const pillItems = document.querySelectorAll("#newsPill a");
@@ -20,6 +20,39 @@
       pillItems[on].classList.add("is-on");
     }, 5000);
   }
+
+  /* ---------- Impact map: dots grow with the mentions up to the chosen year ---------- */
+  document.querySelectorAll(".map").forEach((map) => {
+    const range = map.querySelector("input"), out = map.querySelector("output"), play = map.querySelector("button");
+    const parse = (el) => el.dataset.n.split(",").map((p) => p.split(":").map(Number));
+    const items = [...map.querySelectorAll("[data-n]")].map((el) => [el, parse(el)]);
+    function show(year) {
+      range.value = out.value = year;
+      items.forEach(([el, data]) => {
+        const n = data.reduce((t, [y, c]) => (y <= year ? t + c : t), 0);
+        if (el.tagName === "text") return el.classList.toggle("is-on", n > 0);
+        const r = n ? 6 + Math.sqrt(n) * 4 : 0;
+        el.children[0].setAttribute("r", r * 2.4);
+        el.children[1].setAttribute("r", r);
+        el.querySelector("title").textContent = el.querySelector("title").textContent.replace(/: \d+$/, ": " + n);
+      });
+    }
+    let timer;
+    function run() {
+      clearInterval(timer);
+      let y = +range.min;
+      show(y);
+      timer = setInterval(() => (++y > +range.max ? clearInterval(timer) : show(y)), 700);
+    }
+    range.addEventListener("input", () => { clearInterval(timer); show(+range.value); });
+    play.addEventListener("click", run);
+    show(+range.max);
+    // play once when it first comes into view
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
+      const io = new IntersectionObserver((e) => { if (e[0].isIntersecting) { io.disconnect(); run(); } }, { threshold: 0.5 });
+      io.observe(map);
+    }
+  });
 
   /* ---------- Updates filter ---------- */
   const chips = document.getElementById("blogFilter");
