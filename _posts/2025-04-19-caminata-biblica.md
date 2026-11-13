@@ -7,6 +7,7 @@ place: "Huilcarpay, Cusco"
 excerpt: "Holy Week is for walking and giving glory to the glorified Christ."
 excerpt_es: "La Semana Santa es para caminar y dar gloria al Cristo glorificado."
 es_only: true
+image: /assets/img/posts/boletines/caminata-biblica/caminata-biblica-01.jpg
 photos:
   - src: assets/img/posts/boletines/caminata-biblica/caminata-biblica-01.jpg
     caption: "Photo taken by Camila Dana Ch. during our walk, Huilcarpay"

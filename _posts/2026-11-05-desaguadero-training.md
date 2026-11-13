@@ -7,6 +7,7 @@ excerpt: "From November 2 to 5, twenty Aymara believers studied the whole book o
 title_es: "Equipando siervos aymaras en Desaguadero"
 excerpt_es: "Del 2 al 5 de noviembre, veinte creyentes aymaras estudiaron todo el libro de Romanos con el pastor Juan Valderrama en la iglesia Alfa y Omega, a orillas del lago Titicaca."
 body_es: "El ministerio EPYL sigue equipando siervos aymaras. La visión de EPYL es atraer a los creyentes a la Palabra de Dios; estos creyentes anhelan crecer y ser transformados a la imagen de Cristo.\n\nDel 2 al 5 de noviembre, veinte hermanos se reunieron en la iglesia Alfa y Omega de Desaguadero, Puno. El pastor Juan Valderrama, de la iglesia La Esperanza de Trujillo, expuso todo el libro de Romanos de manera sencilla y práctica, para que los creyentes vivan amando a Dios.\n\n> «Me ha cambiado mi manera de ver y lo que Dios requiere de mí.» — Hermano Basilio Escobar\n\n**Motivo de oración:** que Dios fortalezca el liderazgo de las iglesias de Desaguadero; hay necesidad de un pastor.\n\n**Próxima capacitación:** del 22 al 25 de febrero de 2027, en Desaguadero, estudiando el libro de Apocalipsis."
+image: /assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-01.jpg
 photos:
   - src: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-01.jpg
     wide: true

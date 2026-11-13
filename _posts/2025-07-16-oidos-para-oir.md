@@ -7,6 +7,7 @@ place: "Marcos 4"
 excerpt: "The brothers in the churches have no culture of reading, but they are very good at hearing and retaining the Scriptures."
 excerpt_es: "Los hermanos de las iglesias no tienen cultura de lectura, pero son muy buenos para oír y retener las Escrituras."
 es_only: true
+image: /assets/img/logos/logo-epyl.png
 ---
 > Si alguno tiene oídos para oír, oiga. Marcos 4:23
 

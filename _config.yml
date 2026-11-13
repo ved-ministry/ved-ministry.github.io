@@ -1,5 +1,19 @@
 title: VED · EPYL
-description: Iglesia Bautista VED and the EPYL ministry — planting a church and training pastors in the Andes of Peru.
+tagline: Iglesia en Cusco y capacitación de pastores en los Andes del Perú
+description: Iglesia Bautista VED y el ministerio EPYL — plantando una iglesia en Cusco y capacitando pastores quechuas y aymaras en los Andes del Perú. Church planting and pastor training in Cusco, Peru.
+lang: es_PE
+logo: /assets/img/logos/logo-ved-negro.png
+image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
+author: Cristóbal Churata
+social:
+  name: Ministerio EPYL
+  links:
+    - https://www.facebook.com/ministerioepyl
+    - https://www.youtube.com/@ministerioepyl
+plugins: [jekyll-seo-tag, jekyll-sitemap]
+defaults:
+  - scope: { path: "assets" }
+    values: { sitemap: false }
 url: https://ved-ministry.github.io
 permalink: /updates/:title/
 exclude: [tools, README.md, .claude, CLAUDE.md]

@@ -7,6 +7,7 @@ excerpt: "At 3,800 metres, Desaguadero sits on the shore of Lake Titicaca. Come 
 title_es: "La sierra del Perú es muy hermosa"
 excerpt_es: "A 3 800 metros, Desaguadero se asienta a orillas del lago Titicaca. Ven a ver dónde viven y sirven las iglesias aymaras."
 body_es: "La sierra del Perú es muy hermosa. Después de un día de enseñanza subimos al cerro sobre Desaguadero: el pueblo abajo, el lago Titicaca hasta el horizonte y los nevados detrás.\n\nEsta es la tierra de las iglesias aymaras a las que servimos. Si tu iglesia está orando por un viaje misionero al Perú, ven a verla con tus propios ojos."
+image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
 photos:
   - src: assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
     wide: true

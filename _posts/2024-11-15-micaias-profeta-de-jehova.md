@@ -7,6 +7,7 @@ place: "2 Crónicas 17–20"
 excerpt: "The man of God must speak what is in the Scriptures. Why the EPYL ministry exists."
 excerpt_es: "El hombre de Dios debe hablar lo que está en las Escrituras. La razón de ser del ministerio EPYL."
 es_only: true
+image: /assets/img/posts/boletines/micaias-profeta-de-jehova/micaias-profeta-de-jehova-01.jpg
 photos:
   - src: assets/img/posts/boletines/micaias-profeta-de-jehova/micaias-profeta-de-jehova-01.jpg
     caption: "Brother César, Emanuel Baptist Church"

@@ -7,6 +7,7 @@ place: "Curahuasi"
 excerpt: "John the Baptist's food was given by God himself. A reflection from the countryside around Pisonaypata, Curahuasi."
 excerpt_es: "La comida de Juan el Bautista fue dada por el mismo Dios. Una reflexión desde los alrededores de Pisonaypata, Curahuasi."
 es_only: true
+image: /assets/img/posts/boletines/langostas-y-miel/langostas-y-miel-01.jpg
 photos:
   - src: assets/img/posts/boletines/langostas-y-miel/langostas-y-miel-01.jpg
     caption: "Photo taken around Pisonaypata Baptist Church, Curahuasi."

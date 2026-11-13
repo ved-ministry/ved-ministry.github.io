@@ -7,6 +7,7 @@ place: "Génesis 1–2"
 excerpt: "Man is the image of God, not a machine: a thinking being gifted to work, to keep and to name."
 excerpt_es: "El hombre es imagen de Dios, no una máquina: un ser pensante dotado para labrar, guardar y nombrar."
 es_only: true
+image: /assets/img/posts/boletines/en-genesis/en-genesis-01.jpg
 photos:
   - src: assets/img/posts/boletines/en-genesis/en-genesis-01.jpg
   - src: assets/img/posts/boletines/en-genesis/en-genesis-02.jpg

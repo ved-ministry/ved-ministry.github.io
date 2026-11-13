@@ -7,6 +7,7 @@ place: "Cusco"
 excerpt: "He is the Son of God, He is God, He is Savior. What will you do with Jesus Christ?"
 excerpt_es: "Es el Hijo de Dios, es Dios, es Salvador. ¿Qué harás con Jesucristo?"
 es_only: true
+image: /assets/img/posts/boletines/quien-es-jesus/quien-es-jesus-01.jpg
 photos:
   - src: assets/img/posts/boletines/quien-es-jesus/quien-es-jesus-01.jpg
 ---

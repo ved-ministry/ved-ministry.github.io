@@ -7,6 +7,7 @@ place: "Hechos 1–5"
 excerpt: "What was the DNA of the early church? Nine marks of the first Christians' way of life."
 excerpt_es: "¿Cuál fue el ADN de la iglesia primitiva? Nueve rasgos del estilo de vida de los primeros cristianos."
 es_only: true
+image: /assets/img/posts/boletines/un-estilo-de-vida/un-estilo-de-vida-01.jpg
 photos:
   - src: assets/img/posts/boletines/un-estilo-de-vida/un-estilo-de-vida-01.jpg
 ---

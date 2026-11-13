@@ -7,6 +7,7 @@ place: "2 Crónicas 21"
 excerpt: "A son may be raised with good principles, but if his heart is full of idolatry and rebellion, that choice is his ruin."
 excerpt_es: "Un hijo puede ser criado con buenos principios, pero si su corazón está lleno de idolatría y rebeldía, esa elección es su ruina."
 es_only: true
+image: /assets/img/posts/boletines/la-carta-de-elias-al-rey-joram/la-carta-de-elias-al-rey-joram-01.jpg
 photos:
   - src: assets/img/posts/boletines/la-carta-de-elias-al-rey-joram/la-carta-de-elias-al-rey-joram-01.jpg
   - src: assets/img/posts/boletines/la-carta-de-elias-al-rey-joram/la-carta-de-elias-al-rey-joram-02.jpg

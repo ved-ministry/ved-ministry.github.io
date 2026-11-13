@@ -7,6 +7,7 @@ place: "Huaracco, Chumbivilcas"
 excerpt: "The mountains of the Cusco highlands, Job 28, and why remote peoples have not discovered their riches."
 excerpt_es: "Las montañas de la sierra de Cusco, Job 28 y por qué los pueblos lejanos no han descubierto sus riquezas."
 es_only: true
+image: /assets/img/posts/boletines/el-hierro-se-saca-del-polvo/el-hierro-se-saca-del-polvo-01.jpg
 photos:
   - src: assets/img/posts/boletines/el-hierro-se-saca-del-polvo/el-hierro-se-saca-del-polvo-01.jpg
     caption: "Huaracco community"

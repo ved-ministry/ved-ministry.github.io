@@ -7,6 +7,7 @@ place: "Cusco"
 excerpt: "Sin, death and pain: what the Bible says about humanity's three problems."
 excerpt_es: "Pecado, muerte y dolor: lo que la Biblia dice de los tres problemas de la humanidad."
 es_only: true
+image: /assets/img/posts/boletines/problemas-de-la-humanidad/problemas-de-la-humanidad-01.jpg
 photos:
   - src: assets/img/posts/boletines/problemas-de-la-humanidad/problemas-de-la-humanidad-01.jpg
 ---

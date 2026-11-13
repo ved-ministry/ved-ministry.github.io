@@ -7,6 +7,7 @@ place: "Cusco"
 excerpt: "While the nation is full of political noise, Jeremiah reminds us that God remains in control of governments and peoples."
 excerpt_es: "Mientras hay ruido político en la nación, Jeremías recuerda que Dios sigue en control de los gobiernos y de sus habitantes."
 es_only: true
+image: /assets/img/posts/boletines/el-conocimiento-de-dios-te-da-gozo/el-conocimiento-de-dios-te-da-gozo-01.jpg
 photos:
   - src: assets/img/posts/boletines/el-conocimiento-de-dios-te-da-gozo/el-conocimiento-de-dios-te-da-gozo-01.jpg
   - src: assets/img/posts/boletines/el-conocimiento-de-dios-te-da-gozo/el-conocimiento-de-dios-te-da-gozo-02.jpg

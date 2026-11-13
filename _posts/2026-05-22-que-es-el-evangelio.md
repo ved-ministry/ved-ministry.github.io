@@ -7,6 +7,7 @@ place: "Cusco"
 excerpt: "It is the teaching of Jesus, the power of God for salvation, the good news of God."
 excerpt_es: "Es la enseñanza de Jesús, es poder de Dios para salvación, son las buenas nuevas de Dios."
 es_only: true
+image: /assets/img/posts/boletines/que-es-el-evangelio/que-es-el-evangelio-01.jpg
 photos:
   - src: assets/img/posts/boletines/que-es-el-evangelio/que-es-el-evangelio-01.jpg
 ---

@@ -7,6 +7,7 @@ place: "EPYL"
 excerpt: "Course material: stewardship and seven principles for a whole and balanced prosperity."
 excerpt_es: "Material del módulo: mayordomía y siete principios con «P» para una prosperidad integral."
 es_only: true
+image: /assets/img/posts/boletines/las-finanzas-y-la-biblia/las-finanzas-y-la-biblia-01.jpg
 photos:
   - src: assets/img/posts/boletines/las-finanzas-y-la-biblia/las-finanzas-y-la-biblia-01.jpg
   - src: assets/img/posts/boletines/las-finanzas-y-la-biblia/las-finanzas-y-la-biblia-02.jpg

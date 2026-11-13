@@ -7,6 +7,7 @@ place: "Cusco"
 excerpt: "The story of missionary Henry Morrison, in memory of Pastor José M. and brother Pío Huayhua."
 excerpt_es: "La historia del misionero Henry Morrison, y un recuerdo del pastor José M. y del hermano Pío Huayhua."
 es_only: true
+image: /assets/img/posts/boletines/aun-no-llegamos-a-casa/aun-no-llegamos-a-casa-01.jpg
 photos:
   - src: assets/img/posts/boletines/aun-no-llegamos-a-casa/aun-no-llegamos-a-casa-01.jpg
     caption: "Remembering Pastor José M. and brother Pío Huayhua"
