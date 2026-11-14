@@ -25,7 +25,7 @@
   document.querySelectorAll(".map").forEach((map) => {
     if (!("IntersectionObserver" in window)) return map.classList.add("is-on");
     const io = new IntersectionObserver((e) => { if (e[0].isIntersecting) { io.disconnect(); map.classList.add("is-on"); } }, { threshold: 0.35 });
-    io.observe(map);
+    io.observe(map.querySelector("svg")); // .map itself is display:contents, it has no box
   });
 
   /* ---------- Updates filter ---------- */

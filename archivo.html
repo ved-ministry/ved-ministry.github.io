@@ -11,8 +11,10 @@ description: "Archivo del blog del ministerio EPYL (2011–2018): informes, test
 ---
 <section>
   <div class="wrap">
-    <p class="body-text" data-i18n="arch.intro">Before the website there was a blog. From 2011 to 2018 Cristóbal wrote it himself: the first trainings, the beginnings of Ven-Id, the pastors who graduated, and what he was reading. Here it is, as he wrote it.</p>
-    {% include impact-map.html %}
+    <div class="journey">
+      <div class="sec-head"><p class="body-text" data-i18n="arch.intro">Before the website there was a blog. From 2011 to 2018 Cristóbal wrote it himself: the first trainings, the beginnings of Ven-Id, the pastors who graduated, and what he was reading. Here it is, as he wrote it.</p></div>
+      {% include impact-map.html %}
+    </div>
     {% assign arch = site.posts | where: "kind", "Archive" %}
     {% assign years = arch | group_by_exp: "p", "p.date | date: '%Y'" %}
     <nav class="years" aria-label="Years">{% for y in years %}<a class="chip" href="#y{{ y.name }}">{{ y.name }}</a>{% endfor %}</nav>

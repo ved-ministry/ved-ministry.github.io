@@ -40,19 +40,21 @@ image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
 </section>
 
 <section>
-  <div class="wrap">
+  <div class="wrap journey">
     <div class="sec-head">
-      <span class="label" data-i18n="arch.eyebrow">From the archive</span>
+      <span class="label" data-i18n="map.eyebrow">Since 2011</span>
       <h2 class="h-section" data-i18n="map.title">Fifteen years on the road</h2>
-      <p class="body-text" data-i18n="map.intro">Every place the ministry has reached, from Cusco to Bolivia. Press play to watch it grow year by year.</p>
+      <p class="body-text" data-i18n="map.intro">It all starts in Cusco. Each line is a place the ministry reached; choose one to read the letter where it first appears.</p>
     </div>
     {% include impact-map.html %}
     {% assign arch = site.posts | where: "kind", "Archive" %}
     {% assign k = site.time | date: "%j" | modulo: arch.size %}
     {% assign post = arch[k] %}
     <div class="from-archive">
-      <div><span class="label" data-i18n="arch.today">From the archive</span>{% include post-card.html %}</div>
-      <a class="btn solid" href="/archivo/" data-i18n="arch.btn">Explore the archive since 2011</a>
+      <span class="label" data-i18n="arch.today">From the archive</span>
+      <h3><a href="{{ post.url }}">{% include tx.html o=post f="title" %}</a></h3>
+      <span class="date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time> · {{ post.place }}</span>
+      <a class="btn" href="/archivo/" data-i18n="arch.btn">Explore the archive since 2011</a>
     </div>
   </div>
 </section>
