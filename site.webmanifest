@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /site.webmanifest
+sitemap: false
+---
+{
+  "name": "VED · EPYL",
+  "short_name": "VED · EPYL",
+  "description": "Iglesia Bautista VED y ministerio EPYL — Cusco, Perú",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F5F0",
+  "theme_color": "#1F3A2E",
+  "icons": [
+    { "src": "/assets/img/icon/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/icon/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/img/icon/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

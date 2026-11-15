@@ -1,0 +1,5 @@
+{% assign f = page.photos[include.n] %}
+<figure class="inline-photo{% if f.wide %} wide{% endif %}">
+  <img src="/{{ f.src | replace: '.jpg', '.s.jpg' }}" data-zoom="/{{ f.src }}" data-caption="{{ f.caption }}" data-caption-es="{{ f.caption_es }}" alt="{{ f.caption | default: page.title }}" loading="lazy">
+  {% if f.caption %}<figcaption><span class="l-en">{{ f.caption }}</span><span class="l-es">{{ f.caption_es | default: f.caption }}</span></figcaption>{% endif %}
+</figure>

@@ -1,0 +1,215 @@
+---
+layout: default
+title: Stand with the work in Cusco
+title_key: support.title
+eyebrow: Give · Pray · Connect
+eyebrow_key: give.eyebrow
+permalink: /give/
+hero: assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-03.jpg
+image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-03.jpg
+description: "Cómo apoyar a la familia Churata y al ministerio EPYL en Cusco, Perú: ofrendas, oración y viajes misioneros. How to give, pray and serve."
+---
+{% include need.html %}
+<section id="give">
+  <div class="wrap">
+    <form class="gf" id="giveFlow">
+      <fieldset class="gf__step" data-step="1">
+        <legend><span>1</span><b data-i18n="gf.q1">How would you like to be part of it?</b></legend>
+        <div class="gf__opts">
+          <label><input type="radio" name="how" value="give"><span data-i18n="gf.give">Give</span></label>
+          <label><input type="radio" name="how" value="pray"><span data-i18n="gf.pray">Pray or write</span></label>
+          <label><input type="radio" name="how" value="serve"><span data-i18n="gf.serve">Come and serve</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset class="gf__step gf__if-give" data-step="2">
+        <legend><span>2</span><b data-i18n="gf.q2">Where are you giving from?</b></legend>
+        <div class="gf__opts">
+          <label><input type="radio" name="from" value="pe"><span data-i18n="gf.pe">Peru</span></label>
+          <label><input type="radio" name="from" value="us"><span data-i18n="gf.us">United States</span></label>
+          <label><input type="radio" name="from" value="world"><span data-i18n="gf.world">Europe or another country</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset class="gf__step gf__if-from" data-step="3">
+        <legend><span>3</span><b data-i18n="gf.q3">Once, or every month?</b></legend>
+        <div class="gf__opts">
+          <label><input type="radio" name="freq" value="once"><span data-i18n="gf.once">Once</span></label>
+          <label><input type="radio" name="freq" value="monthly"><span data-i18n="gf.monthly">Every month</span></label>
+        </div>
+        <div class="gf__opts gf__amt gf__amt--pe">
+          <label><input type="radio" name="amount" value="S/ 20"><span>S/ 20</span></label>
+          <label><input type="radio" name="amount" value="S/ 50"><span>S/ 50</span></label>
+          <label><input type="radio" name="amount" value="S/ 100"><span>S/ 100</span></label>
+          <label><input type="radio" name="amount" value="other"><span data-i18n="gf.other">Another amount</span></label>
+        </div>
+        <div class="gf__opts gf__amt gf__amt--usd">
+          <label><input type="radio" name="amount" value="$25"><span>$25</span></label>
+          <label><input type="radio" name="amount" value="$50"><span>$50</span></label>
+          <label><input type="radio" name="amount" value="$100"><span>$100</span></label>
+          <label><input type="radio" name="amount" value="other"><span data-i18n="gf.other">Another amount</span></label>
+        </div>
+      </fieldset>
+
+      <div class="gf__pay gf__pay--pe">
+        <div class="gf__qr">
+          <img src="/assets/img/give/qr-peru.png" width="258" height="259" alt="QR code to give from Peru with Yape, Plin or your bank app">
+          <p data-i18n="gf.qr_note">Scan with Yape, Plin or your bank app. Any Peruvian wallet reads it.</p>
+        </div>
+        <div>
+          <h3 data-i18n="gf.pay_pe">Scan the QR and send your gift</h3>
+          <p data-i18n="gf.pay_pe_text">It is the quickest way: open Yape, Plin or your bank app, scan, type the amount and it is done. If you prefer a bank transfer:</p>
+          <dl class="gf__acct">
+            <div><dt data-i18n="support.bcp_title">Peru bank transfer — BCP (Soles)</dt><dd>Celia Berna</dd></div>
+            <div><dt data-i18n="support.bcp_account">Account number</dt><dd><button type="button" data-copy>28515120745046</button></dd></div>
+            <div><dt data-i18n="support.bcp_cci">Interbank account (CCI)</dt><dd><button type="button" data-copy>00228511512074504651</button></dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="gf__pay gf__pay--us">
+        <h3 data-i18n="support.usd_title">US bank transfer — Wise (USD)</h3>
+        <p data-i18n="gf.pay_wise">From your bank app, a transfer to this account. Tap a number to copy it.</p>
+        <dl class="gf__acct">
+          <div><dt data-i18n="support.name_label">Name</dt><dd><button type="button" data-copy>Caleb Isaias Churata Berna</button></dd></div>
+          <div><dt data-i18n="support.routing_label">Routing number — US only (wire / ACH)</dt><dd><button type="button" data-copy>101019628</button></dd></div>
+          <div><dt data-i18n="support.usd_account_label">Account number</dt><dd><button type="button" data-copy>211888028001</button></dd></div>
+          <div><dt data-i18n="support.account_type_label">Account type</dt><dd>Checking</dd></div>
+          <div><dt data-i18n="support.bank_label">Bank</dt><dd>Wise US Inc, 108 W 13th St, Wilmington, DE, 19801</dd></div>
+        </dl>
+      </div>
+      <div class="gf__pay gf__pay--world">
+        <h3 data-i18n="support.wise_title">International transfer — Wise, SWIFT</h3>
+        <p data-i18n="gf.pay_wise">From your bank app, a transfer to this account. Tap a number to copy it.</p>
+        <dl class="gf__acct">
+          <div><dt data-i18n="support.name_label">Name</dt><dd><button type="button" data-copy>Caleb Isaias Churata Berna</button></dd></div>
+          <div><dt>IBAN</dt><dd><button type="button" data-copy>GB04 TRWI 6084 6488 4798 99</button></dd></div>
+          <div><dt>Swift / BIC</dt><dd><button type="button" data-copy>TRWIGB2LXXX</button></dd></div>
+          <div><dt data-i18n="support.bank_label">Bank</dt><dd>Wise Payments Limited, 65 Clifton Street, London, EC2A 4JE, United Kingdom</dd></div>
+        </dl>
+      </div>
+
+      <fieldset class="gf__step gf__tell">
+        <legend><span>4</span><b data-i18n="gf.q4">Already given? Let us know</b></legend>
+        <p data-i18n="gf.tell_text">Leave your name and email and the family will write to thank you. If you give every month, it helps them plan the trainings.</p>
+        <div class="gf__fields">
+          <input name="name" type="text" maxlength="80" autocomplete="name" data-i18n-ph="gf.name" placeholder="Your name">
+          <input name="email" type="email" maxlength="120" autocomplete="email" data-i18n-ph="gf.email" placeholder="Your email">
+          <input name="note" type="text" maxlength="300" data-i18n-ph="gf.note" placeholder="A word for the family (optional)">
+          <label class="gf__file"><span data-i18n="gf.receipt">Receipt (optional): a photo or PDF</span><input name="receipt_file" type="file" accept="image/*,application/pdf"></label>
+          <input class="gf__hp" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn solid" type="submit" data-i18n="gf.send">I have given</button>
+        </div>
+        <p class="gf__legal"><span data-i18n="gf.legal">Your details are only used to answer you.</span> <a href="/privacidad/" data-i18n="notice.more">Privacy</a></p>
+        <p class="gf__err" role="alert" hidden><span data-i18n="gf.error">We could not send it. Please try again, or write to us:</span> <a href="mailto:iglesiabautistaved@gmail.com">iglesiabautistaved@gmail.com</a></p>
+      </fieldset>
+
+      <div class="gf__sending" hidden>
+        {% include globe.html %}
+        <p data-i18n="gf.sending">Sending your note to Cusco…</p>
+      </div>
+
+      <div class="gf__thanks" role="status" tabindex="-1" hidden>
+        <svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/><path d="M15 27l7 7 15-16"/></svg>
+        <h3><span data-i18n="gf.thanks">Thank you</span><span class="gf__who"></span>!</h3>
+        <p class="gf__sum"></p>
+        <p class="gf__ty-give" data-i18n="gf.thanks_text">Your gift goes straight to the trainings for Quechua and Aymara pastors and to the family that serves them. May God bless you.</p>
+        <p class="gf__ty-trip" data-i18n="trip.thanks_text">We have your plan. The family will write to you soon to dream and plan this trip together.</p>
+        <p class="gf__mailed" hidden><span data-i18n="gf.thanks_mail">We have sent you an email in gratitude, to</span> <b class="gf__to"></b>. <span data-i18n="gf.thanks_mail2">Please take a look when you can.</span></p>
+        <a class="btn" href="/updates/" data-i18n="gf.thanks_btn">See what God is doing</a>
+      </div>
+
+      <div class="gf__pay gf__pay--pray">
+        <h3 data-i18n="support.card2_title">Pray &amp; Encourage</h3>
+        <p data-i18n="support.card2_text">Send a note of encouragement or a prayer request — every message is read by the family.</p>
+        <a href="#contactForm" class="btn solid" data-i18n="support.card2_btn">Write a Message</a>
+      </div>
+      <fieldset class="gf__step gf__if-serve">
+        <legend><span>2</span><b data-i18n="trip.q_who">Who would come?</b></legend>
+        <div class="gf__opts">
+          <label><input type="radio" name="who" value="church"><span data-i18n="trip.church">A team from my church</span></label>
+          <label><input type="radio" name="who" value="family"><span data-i18n="trip.family">My family</span></label>
+          <label><input type="radio" name="who" value="me"><span data-i18n="trip.me">Just me</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset class="gf__step gf__if-who">
+        <legend><span>3</span><b data-i18n="trip.q_what">How would you like to serve?</b></legend>
+        <p class="gf__hint" data-i18n="trip.many">Choose as many as you like.</p>
+        <div class="gf__opts">
+          <label><input type="checkbox" name="what" value="kids"><span data-i18n="trip.kids">Children · Vacation Bible School</span></label>
+          <label><input type="checkbox" name="what" value="evangelism"><span data-i18n="trip.evangelism">Evangelism</span></label>
+          <label><input type="checkbox" name="what" value="teaching"><span data-i18n="trip.teaching">Teaching pastors</span></label>
+          <label><input type="checkbox" name="what" value="building"><span data-i18n="trip.building">Construction</span></label>
+          <label><input type="checkbox" name="what" value="other"><span data-i18n="trip.other">Something else</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset class="gf__step gf__if-what">
+        <legend><span>4</span><b data-i18n="trip.q_when">When are you thinking of coming?</b></legend>
+        <div class="gf__opts">
+          <label><input type="radio" name="when" value="soon"><span data-i18n="trip.soon">In the next six months</span></label>
+          <label><input type="radio" name="when" value="year"><span data-i18n="trip.year">Next year</span></label>
+          <label><input type="radio" name="when" value="unsure"><span data-i18n="trip.unsure">Not sure yet</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset class="gf__step gf__if-when gf__trip">
+        <legend><span>5</span><b data-i18n="trip.q_plan">Your plan so far</b></legend>
+        <p class="gf__recap" id="tripRecap"></p>
+        <div class="gf__fields">
+          <textarea name="trip_note" maxlength="1000" rows="4" data-i18n-ph="trip.note" placeholder="Add anything you like: how many people, dates, questions…"></textarea>
+          <input name="trip_name" type="text" maxlength="80" autocomplete="name" data-i18n-ph="gf.name" placeholder="Your name">
+          <input name="trip_email" type="email" maxlength="120" autocomplete="email" data-i18n-ph="gf.email" placeholder="Your email">
+          <button class="btn solid" type="submit" data-i18n="trip.send">Send my plan</button>
+        </div>
+        <p class="gf__hint"><span data-i18n="trip.or_mail">Or write to us directly:</span> <a href="mailto:iglesiabautistaved@gmail.com?subject=Mission%20trip%20to%20Cusco">iglesiabautistaved@gmail.com</a></p>
+        <p class="gf__legal"><span data-i18n="gf.legal">Your details are only used to answer you.</span> <a href="/privacidad/" data-i18n="notice.more">Privacy</a></p>
+        <p class="gf__err" role="alert" hidden><span data-i18n="gf.error">We could not send it. Please try again, or write to us:</span> <a href="mailto:iglesiabautistaved@gmail.com">iglesiabautistaved@gmail.com</a></p>
+      </fieldset>
+
+      <div class="gf__captcha" id="gfCaptcha"></div>
+    </form>
+  </div>
+</section>
+<section id="support" class="dark noise">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2 class="h-section" data-i18n="support.card2_title">Pray &amp; Encourage</h2>
+      <p class="body-text" data-i18n="support.intro">This ministry is sustained by God's people — near and far. Here are a few ways to be part of it, especially from outside Peru.</p>
+    </div>
+
+    <form class="form" id="contactForm" action="#" onsubmit="return false;">
+      <div class="form__row">
+        <div>
+          <label for="f_name" data-i18n="support.form_name">Name</label>
+          <input id="f_name" name="name" type="text" required>
+        </div>
+        <div>
+          <label for="f_email" data-i18n="support.form_email">Email</label>
+          <input id="f_email" name="email" type="email" required>
+        </div>
+      </div>
+      <div class="form__row">
+        <div>
+          <label for="f_country" data-i18n="support.form_country">Country</label>
+          <input id="f_country" name="country" type="text">
+        </div>
+        <div>
+          <label for="f_reason" data-i18n="support.form_reason">Reason</label>
+          <select id="f_reason" name="reason">
+            <option data-i18n="support.form_reason_1">Encouragement / Prayer</option>
+            <option data-i18n="support.form_reason_2">Mission trip</option>
+            <option data-i18n="support.form_reason_3">Question about giving</option>
+            <option data-i18n="support.form_reason_4">Other</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <label for="f_msg" data-i18n="support.form_message">Message</label>
+        <textarea id="f_msg" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn on-dark" id="sendMsgBtn" style="width:fit-content;" data-i18n="support.form_submit">Send Message</button>
+    </form>
+  </div>
+</section>
+

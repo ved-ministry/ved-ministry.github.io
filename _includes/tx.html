@@ -1,0 +1,2 @@
+{%- assign o = include.o -%}{%- assign f = include.f -%}{%- assign k_es = f | append: '_es' -%}{%- assign k_de = f | append: '_de' -%}{%- assign k_fr = f | append: '_fr' -%}
+<span class="t-en">{{ o[f] }}</span><span class="t-es">{{ o[k_es] | default: o[f] }}</span><span class="t-de">{{ o[k_de] | default: o[f] }}</span><span class="t-fr">{{ o[k_fr] | default: o[f] }}</span>

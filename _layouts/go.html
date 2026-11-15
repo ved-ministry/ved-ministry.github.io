@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VED · EPYL</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ page.to }}">
+<!-- Permanent address used in emails and printed material. If the site ever moves, only `to:` in this file changes. -->
+<script>location.replace({{ page.to | jsonify }} + location.search + location.hash)</script>
+<meta http-equiv="refresh" content="0; url={{ page.to }}">
+</head>
+<body><p><a href="{{ page.to }}">{{ page.to }}</a></p></body>
+</html>

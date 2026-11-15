@@ -1,0 +1,226 @@
+/* Fonts live on this site (no request to Google): Fraunces for headings, Inter for text. Licenses in assets/fonts. */
+@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('/assets/fonts/fraunces-latin-opsz-normal.woff2') format('woff2-variations'); }
+@font-face { font-family: 'Fraunces'; font-style: italic; font-weight: 100 900; font-display: swap; src: url('/assets/fonts/fraunces-latin-opsz-italic.woff2') format('woff2-variations'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('/assets/fonts/inter-latin-wght-normal.woff2') format('woff2-variations'); }
+
+/* ============================================================
+   LUJO EDITORIAL WEB — tokens
+   Adaptado de la skill lujo-editorial-web (paper/ink/accent)
+   a la identidad de la Iglesia VED (verde profundo + bermellón)
+   ============================================================ */
+
+:root {
+  --paper: #F8F5F0;
+  --paper-2: #EDE8E0;
+  --ink: #0A0A0A;
+  --ink-soft: #1A1A1A;
+  --stone: #8A8783;
+  --stone-light: #B8B5B0;
+  --line: #E8E2D9;
+  --line-dark: rgba(248, 245, 240, 0.15);
+
+  --accent: #C1401F;       /* bermellón atenuado, un solo acento */
+  --gold: #C9A86A;         /* oro viejo, uso mínimo */
+  --ved-green: #1F3A2E;    /* verde del sello VED, para el hero/footer */
+  --ved-green-soft: #2B4E3D;
+
+  --m-xs: 8px; --m-s: 16px; --m-m: 24px; --m-l: 48px; --m-xl: 80px; --m-2xl: 120px;
+
+  --font-display: 'Fraunces', 'Playfair Display', serif;
+  --font-grotesk: 'Inter', 'Satoshi', sans-serif;
+  --font-mono: var(--font-grotesk); /* the monospace labels read as dated; one sans for all UI text */
+  --r: 16px;
+
+  --ease: cubic-bezier(.16,.84,.44,1);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-grotesk);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: inherit; text-decoration: none; }
+a, button, [data-zoom] { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.wrap {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-inline: clamp(20px, 5vw, 48px);
+}
+
+section { padding-block: clamp(72px, 12vw, 120px); position: relative; }
+
+/* ---------- Type scale ---------- */
+
+.h-hero {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(44px, 9vw, 128px);
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+}
+
+.h-section {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(34px, 5vw, 72px);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+}
+
+.h-sub {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+.accent { color: var(--accent); font-style: italic; }
+
+.label {
+  font-family: var(--font-grotesk);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--stone);
+}
+
+.label.on-dark { color: var(--stone-light); }
+
+.body-text {
+  font-family: var(--font-grotesk);
+  font-weight: 400;
+  font-size: clamp(16px, 4.4vw, 18px);
+  line-height: 1.65;
+  max-width: 42ch;
+  color: var(--ink-soft);
+}
+
+.body-text.small { font-size: 15px; max-width: 38ch; }
+
+.ghost-num {
+  font-family: var(--font-display);
+  font-weight: 200;
+  font-size: clamp(90px, 16vw, 220px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--line);
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-grotesk);
+  font-weight: 600;
+  font-size: 15px;
+  min-height: 48px;
+  padding: 12px 26px;
+  border: 1px solid var(--ink);
+  border-radius: 99px;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  transition: background .25s, color .25s, border-color .25s;
+  white-space: nowrap;
+}
+.btn:hover { background: var(--ink); color: var(--paper); }
+
+.btn.solid { background: var(--ved-green); border-color: var(--ved-green); color: var(--paper); }
+.btn.solid:hover { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+
+.btn.on-dark { border-color: var(--line-dark); color: var(--paper); }
+.btn.on-dark:hover { background: var(--paper); color: var(--ink); }
+
+.btn.accent-btn { border-color: var(--accent); color: var(--accent); }
+.btn.accent-btn:hover { background: var(--accent); color: var(--paper); }
+
+/* ---------- Furniture (masthead style chrome) ---------- */
+
+.furniture {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--stone-light);
+}
+
+hr.rule {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: var(--m-l) 0;
+}
+
+.dark hr.rule { border-top-color: var(--line-dark); }
+
+/* ---------- Dark section variant ---------- */
+
+.dark {
+  background: var(--ink);
+  color: var(--paper);
+}
+.dark .body-text { color: var(--stone-light); }
+.dark .ghost-num { -webkit-text-stroke: 1px var(--line-dark); }
+
+.ved {
+  background: var(--ved-green);
+  color: var(--paper);
+}
+.ved .body-text { color: #CFE0D6; }
+
+/* ---------- Grain / noise overlay ---------- */
+
+.noise { position: relative; }
+.noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+/* no flash of English for visitors reading another language */
+/* hidden only while the translation is applied; if the script never runs (old phone, bad signal), the page shows anyway after 1.5 s */
+.i18n-pending body { visibility: hidden; animation: i18n-failsafe 0s 1.5s forwards; }
+@keyframes i18n-failsafe { to { visibility: visible; } }
+html:not([lang="es"]) .l-es, html[lang="es"] .l-en { display: none; }
+/* titles and excerpts in four languages */
+.t-es, .t-de, .t-fr { display: none; }
+html[lang="es"] .t-en, html[lang="de"] .t-en, html[lang="fr"] .t-en { display: none; }
+html[lang="es"] .t-es, html[lang="de"] .t-de, html[lang="fr"] .t-fr { display: inline; }
+/* blocks written in all four languages */
+.l4.l-de, .l4.l-fr { display: none; }
+html[lang="de"] .l4.l-de, html[lang="fr"] .l4.l-fr { display: block; }
+html[lang="de"] .l4.l-en, html[lang="fr"] .l4.l-en { display: none; }
+
+
+/* ---------- Utility ---------- */
+
+.stack { display: flex; flex-direction: column; }
+.row { display: flex; flex-wrap: wrap; }
+.gap-s { gap: 16px; }
+.gap-m { gap: 24px; }
+.gap-l { gap: 48px; }
+.center { text-align: center; }
+.mx-auto { margin-inline: auto; }

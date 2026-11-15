@@ -1,0 +1,23 @@
+---
+layout: default
+title: Updates from the field
+title_key: blog.title
+eyebrow: Field Notes
+eyebrow_key: blog.eyebrow
+permalink: /updates/
+hero: assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
+image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
+description: "Informes del campo, reflexiones y noticias del ministerio EPYL y la iglesia VED en los Andes del Perú. Field reports from Peru."
+---
+<section>
+  <div class="wrap">
+    <p class="body-text" data-i18n="blog.intro">Short updates from Cusco — new visits, answered prayers, and what God is doing week by week. New entries are added regularly.</p>
+    <div class="blog-filter" id="blogFilter">
+      <button class="chip" data-kind="" aria-pressed="true" data-i18n="blog.all">All</button>
+      {% assign recent = site.posts | where_exp: "p", "p.kind != 'Archive'" %}{% assign kinds = recent | map: "kind" | uniq %}{% for k in kinds %}<button class="chip" data-kind="{{ k }}" aria-pressed="false" data-i18n="kind.{{ k }}">{{ k }}</button>{% endfor %}
+    </div>
+    <p><a class="back" href="/archivo/" data-i18n="arch.btn">Explore the archive since 2011</a></p>
+    <div class="cards" id="blogGrid">{% for post in recent %}{% include post-card.html %}{% endfor %}</div>
+    <p class="more"><button class="btn" id="blogMore" type="button" data-i18n="blog.more">Show more</button></p>
+  </div>
+</section>

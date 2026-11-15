@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% seo %}
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/css/tokens.css?v={{ site.time | date: "%s" }}">
+<link rel="stylesheet" href="/assets/css/layout.css?v={{ site.time | date: "%s" }}">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/img/icon/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#1F3A2E">
+<script>try{var l=localStorage.ved_lang||navigator.language.slice(0,2);if(/^(es|de|fr)$/.test(l))document.documentElement.className="i18n-pending"}catch(e){}</script>
+</head>
+<body>
+
+
+<nav class="nav" id="siteNav">
+  <a href="/" class="nav__brand">
+    <img src="/assets/img/logos/logo-ved-negro.png" alt="">
+    <span>VED · EPYL</span>
+  </a>
+  <div class="nav__lang" role="group" aria-label="Language">
+    <button data-lang="en" aria-current="true">EN</button>
+    <button data-lang="es">ES</button>
+    <button data-lang="fr">FR</button>
+    <button data-lang="de">DE</button>
+  </div>
+  <div class="nav__links">
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %} data-i18n="nav.home">Home</a>
+    <a href="/story/"{% if page.url == "/story/" %} aria-current="page"{% endif %} data-i18n="tab.story">Story</a>
+    <a href="/church/"{% if page.url == "/church/" %} aria-current="page"{% endif %} data-i18n="tab.church">Church</a>
+    <a href="/epyl/"{% if page.url == "/epyl/" %} aria-current="page"{% endif %} data-i18n="nav.epyl">EPYL</a>
+    <a href="/updates/"{% if page.url contains "/updates/" %} aria-current="page"{% endif %} data-i18n="nav.blog">Updates</a>
+    <a href="/give/"{% if page.url == "/give/" %} aria-current="page"{% endif %} data-i18n="nav.support">Give</a>
+  </div>
+</nav>
+
+
+<div class="notice" id="privacyNotice" hidden>
+  <p><span data-i18n="notice.text">This site uses no advertising or tracking cookies.</span> <a href="/privacidad/" data-i18n="notice.more">Privacy</a></p>
+  <button type="button" class="btn" data-i18n="notice.ok">Got it</button>
+</div>
+<div class="pill" id="newsPill">{% for p in site.posts limit: 3 %}
+  <a href="{{ p.url }}"{% if forloop.first %} class="is-on"{% endif %}><b data-i18n="pill.new">New</b>{% include tx.html o=p f="title" %}</a>{% endfor %}
+  {% assign arch = site.posts | where: "kind", "Archive" %}{% assign k = site.time | date: "%j" | modulo: arch.size %}{% assign a = arch[k] %}
+  <a href="{{ a.url }}" class="pill__arch"><b data-i18n="pill.archive">{{ a.date | date: "%Y" }}</b>{% include tx.html o=a f="title" %}</a>
+</div>
+
+{% if page.hero %}
+<header class="page-hero" style="background-image:url(/{{ page.hero }})">
+  <div class="wrap">
+    <span class="hero__eyebrow"{% if page.eyebrow_key %} data-i18n="{{ page.eyebrow_key }}"{% endif %}>{{ page.eyebrow }}</span>
+    <h1{% if page.title_key %} data-i18n="{{ page.title_key }}"{% endif %}>{{ page.title }}</h1>
+  </div>
+</header>
+{% endif %}
+
+{{ content }}
+
+{% unless page.no_subscribe %}{% include subscribe.html %}{% endunless %}
+
+<footer class="site-footer" id="siteFooter">
+  <div class="wrap">
+    <p class="footer-slogan" data-i18n-html="footer.slogan">Serving the <span class="shake">Master</span> in Cusco, Peru.</p>
+
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="label">VED · EPYL</span>
+        <p data-i18n="footer.about">Iglesia Bautista VED and the EPYL ministry, led by Cristobal Churata and family — planting churches and training pastors in the Cusco region of Peru.</p>
+      </div>
+      <div class="footer-col">
+        <span class="label" data-i18n="footer.explore">Explore</span>
+        <a href="/story/" data-i18n="nav.story">Our Story</a>
+        <a href="/church/" data-i18n="nav.church">VED Church</a>
+        <a href="/epyl/" data-i18n="nav.epyl">EPYL</a>
+        <a href="/updates/" data-i18n="nav.blog">Updates</a>
+      </div>
+      <div class="footer-col">
+        <span class="label" data-i18n="footer.connect">Connect</span>
+        <a href="mailto:iglesiabautistaved@gmail.com">iglesiabautistaved@gmail.com</a>
+        <a href="https://youtube.com/@ministerioepyl" target="_blank" rel="noopener">YouTube · EPYL</a>
+        <a href="https://www.facebook.com/ministerioepyl" target="_blank" rel="noopener">Facebook · EPYL</a>
+        {% if site.instagram %}<a href="https://www.instagram.com/{{ site.instagram }}/" target="_blank" rel="noopener">Instagram · {{ site.instagram }}</a>{% endif %}
+      </div>
+      <div class="footer-col">
+        <span class="label" data-i18n="footer.language">Language</span>
+        <a href="#" data-lang="en">English</a>
+        <a href="#" data-lang="es">Español</a>
+        <a href="#" data-lang="de">Deutsch</a>
+        <a href="#" data-lang="fr">Français</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span id="copyrightLine" data-i18n="footer.copyright">© {year} Cristobal Churata · VED Church &amp; EPYL Ministry, Cusco, Peru</span>
+      <span><a href="/privacidad/" data-i18n="privacy.title">Privacy</a> · <span data-i18n="footer.built">Built in faith</span></span>
+    </div>
+  </div>
+</footer>
+
+
+<dialog class="lightbox" id="lightbox"><img alt=""><p></p></dialog>
+<script src="/assets/js/i18n.js?v={{ site.time | date: "%s" }}"></script>
+<script src="/assets/js/main.js?v={{ site.time | date: "%s" }}"></script>
+</body>
+</html>
