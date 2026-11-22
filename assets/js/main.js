@@ -155,20 +155,24 @@
   document.querySelectorAll("#agenda .agenda-list [data-end]").forEach((li) => { if (li.dataset.end < today) li.hidden = true; });
   const agenda = document.getElementById("agenda");
   if (agenda && !agenda.querySelector(".agenda-list li:not([hidden])")) agenda.querySelector(".agenda-list").hidden = true;
-  document.querySelectorAll(".year-grid .act").forEach((a) => a.classList.toggle("is-past", a.dataset.end < today));
-  document.querySelectorAll(".month").forEach((m) => {
-    m.classList.toggle("is-now", m.dataset.month === today.slice(0, 7));
-    m.classList.toggle("is-past", m.dataset.month < today.slice(0, 7));
-  });
+  document.querySelectorAll(".month__acts li").forEach((a) => a.classList.toggle("is-gone", a.dataset.end < today));
+  document.querySelectorAll(".cal__d").forEach((d) => { d.classList.toggle("is-gone", d.dataset.day < today); d.classList.toggle("is-today", d.dataset.day === today); });
+  document.querySelectorAll(".month").forEach((m) => m.classList.toggle("is-now", m.dataset.month === today.slice(0, 7)));
   const nextUp = document.getElementById("nextUp");
   const next = nextUp && [...nextUp.querySelectorAll("a[data-end]")].find((a) => a.dataset.end >= today);
   if (next) { next.hidden = false; nextUp.hidden = false; }
   const dateRanges = () => {
     const lang = document.documentElement.lang;
-    document.querySelectorAll(".agenda__date").forEach((t) => {
+    document.querySelectorAll(".agenda__date:not(.agenda__date--days)").forEach((t) => {
       const d = (s) => new Date(s + "T12:00:00");
       try { t.textContent = new Intl.DateTimeFormat(lang, { day: "numeric", month: "long" }).formatRange(d(t.dataset.start), d(t.dataset.end)); }
       catch (e) { /* older browsers keep the date written at build time */ }
+    });
+    // weekday initials, Monday first (2024-01-01 was a Monday)
+    document.querySelectorAll(".cal__wd").forEach((w) => { w.textContent = new Date(2024, 0, Number(w.dataset.wd)).toLocaleDateString(lang, { weekday: "narrow" }); });
+    document.querySelectorAll(".agenda__date--days").forEach((t) => {
+      const d = (s) => new Date(s + "T12:00:00");
+      try { t.textContent = new Intl.DateTimeFormat(lang, { day: "numeric" }).formatRange(d(t.dataset.start), d(t.dataset.end)); } catch (e) {}
     });
     document.querySelectorAll(".month__name").forEach((h) => {
       const name = new Date(h.dataset.month + "-15T12:00:00").toLocaleDateString(lang, { month: "long" });

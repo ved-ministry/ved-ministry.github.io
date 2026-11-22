@@ -1,4 +1,4 @@
 {%- assign a = include.a -%}
 <time class="agenda__date" data-start="{{ a.start | date: '%Y-%m-%d' }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{{ a.start | date: '%-d' }}–{{ a.end | date: '%-d %b %Y' }}</time>
 <b class="act__title">{% if a.course %}{% include tx.html o=a f="course" %}{% else %}<span data-i18n="agenda.{{ a.kind }}">{% case a.kind %}{% when "vbs" %}Vacation Bible School{% when "trip" %}Visits to churches{% else %}EPYL training{% endcase %}</span>{% endif %}</b>
-<span class="act__meta">{% if a.course %}<span data-i18n="agenda.{{ a.kind }}">{% case a.kind %}{% when "vbs" %}Vacation Bible School{% when "trip" %}Visits to churches{% else %}EPYL training{% endcase %}</span> · {% endif %}{% include tx.html o=a f="place" %}{% if a.teacher %} · {% include tx.html o=a f="teacher" %}{% endif %}</span>
+<span class="act__meta">{% include tx.html o=a f="place" %}{% if a.teacher %}<br>{% include tx.html o=a f="teacher" %}{% endif %}</span>

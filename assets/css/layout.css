@@ -631,36 +631,48 @@ body:has(.notice:not([hidden])) .pill { display: none; }
 .gf__legal { margin: 12px 0 0; font-size: 13px; color: var(--stone); clear: both; }
 .gf__legal a { color: inherit; }
 
-/* ---------- Calendar: short list (EPYL page), year grid (/agenda/), next-up band (home) ---------- */
-.act--training { --k: var(--ved-green); } .act--vbs { --k: #B8894A; } .act--trip { --k: #3D5A80; }
-.agenda-list { list-style: none; margin: var(--m-l) 0 0; padding: 0; display: grid; gap: 0; }
-.agenda-list li { display: grid; grid-template-columns: 220px 1fr; gap: 4px 24px; padding: 20px 0 20px 16px; border-bottom: 1px solid var(--line); border-left: 3px solid var(--k); }
+/* ---------- Calendar ---------- */
+/* one ink per kind of activity, used only to mark days, never as decoration */
+.is-training { --k: #1F3A2E; --k-on: #F8F5F0; } .is-vbs { --k: #C9A86A; --k-on: #1A1A1A; } .is-trip { --k: #3D5A80; --k-on: #F8F5F0; }
+
+/* short list on the EPYL page: date, what, where */
+.agenda-list { list-style: none; margin: var(--m-l) 0 0; padding: 0; border-top: 1px solid var(--line); }
+.agenda-list li { display: grid; grid-template-columns: 190px 1fr; gap: 2px 24px; padding: 18px 0; border-bottom: 1px solid var(--line); }
 .agenda-list li[hidden], .agenda-list[hidden] { display: none; }
-.agenda-list .agenda__date { grid-row: span 2; font-weight: 600; font-size: 15px; }
-.act__title { font: 400 clamp(20px, 2.4vw, 26px)/1.2 var(--font-display); }
+.agenda-list .agenda__date { grid-row: span 2; font-weight: 600; font-size: 15px; font-variant-numeric: tabular-nums; }
+.act__title { font: 400 clamp(20px, 2.4vw, 25px)/1.2 var(--font-display); }
 .act__meta { font-size: 14px; line-height: 1.5; color: var(--stone); }
 .agenda-more { margin-top: var(--m-m); }
 @media (max-width: 700px) { .agenda-list li { grid-template-columns: 1fr; } .agenda-list .agenda__date { grid-row: auto; } }
 
-.legend { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 20px 0 0; font-size: 14px; color: var(--stone); }
+/* the year: twelve small wall-calendar months */
+.legend { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 22px 0 0; font-size: 14px; color: var(--ink-soft); }
 .legend span { display: inline-flex; align-items: center; gap: 8px; }
-.legend span::before { content: ""; width: 12px; height: 12px; border-radius: 3px; background: var(--k); }
-.year-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.month { min-height: 180px; padding: 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; align-content: start; gap: 10px; }
-.month__name { margin: 0 0 2px; font: 700 13px var(--font-grotesk); letter-spacing: .02em; color: var(--stone); }
-.month.is-now { background: var(--paper-2); }
-.month.is-now .month__name { color: var(--accent); }
-.month__free { margin: 0; font-size: 13px; color: var(--stone-light); }
-.month.is-past .month__free { display: none; }
-.year-grid .act { display: grid; gap: 3px; padding: 10px 12px; border-left: 3px solid var(--k); background: color-mix(in srgb, var(--k) 7%, transparent); border-radius: 0 8px 8px 0; }
-.year-grid .act .agenda__date { font-size: 12px; font-weight: 600; color: var(--ink-soft); }
-.year-grid .act__title { font-size: 17px; line-height: 1.25; }
-.year-grid .act__meta { font-size: 12.5px; }
-.year-grid .act.is-past { opacity: .45; }
-.agenda-cta { margin-top: var(--m-l); }
-@media (max-width: 1000px) { .year-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (max-width: 720px) { .year-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .month { min-height: 120px; padding: 12px 10px; } }
-@media (max-width: 480px) { .year-grid { grid-template-columns: 1fr; } .month { min-height: 0; } }
+.legend span::before { content: ""; width: 26px; height: 14px; border-radius: 7px; background: var(--k); }
+.year { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 48px 36px; font-family: var(--font-grotesk); margin-top: var(--m-l); }
+.month__name { margin: 0 0 10px; font: 400 22px/1.1 var(--font-display); }
+.month.is-now .month__name { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); row-gap: 3px; font-size: 12.5px; font-variant-numeric: tabular-nums; text-align: center; }
+.cal span { line-height: 26px; height: 26px; }
+.cal__wd { font-size: 11px; font-weight: 600; color: var(--stone); }
+.cal__d { color: var(--ink-soft); }
+.cal__d[class*="is-"]:not(.is-first):not(.is-last), .cal__d.is-first, .cal__d.is-last { background: var(--k); color: var(--k-on); font-weight: 600; box-shadow: 1px 0 0 var(--k); }
+.cal__d.is-last { box-shadow: none; }
+.cal__d.is-first { border-radius: 13px 0 0 13px; } .cal__d.is-last { border-radius: 0 13px 13px 0; } .cal__d.is-first.is-last { border-radius: 13px; }
+.cal__d.is-today { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 13px; }
+.cal__d.is-gone { opacity: .35; }
+.month__acts { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
+.month__acts li { display: grid; grid-template-columns: 64px 1fr; gap: 8px; font-size: 14px; line-height: 1.4; }
+.month__acts li > span { display: grid; gap: 1px; }
+.month__acts li.is-gone { opacity: .45; }
+.month__acts time { font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.month__acts time::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--k); margin-right: 6px; vertical-align: 1px; }
+.month__acts b { font-weight: 600; display: block; }
+.month__acts small { font-size: 13px; color: var(--stone); display: block; }
+.month:not(:has(.month__acts li)) .month__acts { display: none; }
+.agenda-cta { margin-top: var(--m-xl); }
+@media (max-width: 1080px) { .year { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .year { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 20px; } .month__acts li { grid-template-columns: 1fr; gap: 0; } }
 
 .next-up { background: var(--ved-green); color: var(--paper); padding: 18px 0; }
 .next-up[hidden], .next-up a[hidden] { display: none; }

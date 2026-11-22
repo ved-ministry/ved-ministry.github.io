@@ -17,10 +17,10 @@
 - start: 2027-02-08
   end: 2027-02-19
   kind: trip
-  place: "Salero and Santa Cruz (Bolivia) · Kosñipata"
-  place_es: "Salero y Santa Cruz (Bolivia) · Kosñipata"
-  place_de: "Salero und Santa Cruz (Bolivien) · Kosñipata"
-  place_fr: "Salero et Santa Cruz (Bolivie) · Kosñipata"
+  place: "Salero and Santa Cruz (Bolivia) and Kosñipata"
+  place_es: "Salero y Santa Cruz (Bolivia) y Kosñipata"
+  place_de: "Salero und Santa Cruz (Bolivien) und Kosñipata"
+  place_fr: "Salero et Santa Cruz (Bolivie) et Kosñipata"
 - start: 2027-02-22
   end: 2027-02-25
   kind: training

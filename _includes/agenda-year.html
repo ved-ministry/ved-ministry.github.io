@@ -1,8 +1,15 @@
-{%- assign year = site.data.agenda.first.start | date: "%Y" -%}
-<div class="year-grid">{% for m in (1..12) %}{% if m < 10 %}{% assign key = year | append: "-0" | append: m %}{% else %}{% assign key = year | append: "-" | append: m %}{% endif %}{% assign n = 0 %}
-  <section class="month" data-month="{{ key }}">
-    <h3 class="month__name" data-month="{{ key }}">{{ key | append: "-01" | date: "%B" }}</h3>{% for a in site.data.agenda %}{% assign am = a.start | date: "%Y-%m" %}{% if am == key %}{% assign n = n | plus: 1 %}
-    <article class="act act--{{ a.kind }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{% include agenda-item.html a=a %}</article>{% endif %}{% endfor %}{% if n == 0 %}
-    <p class="month__free" data-i18n="agenda.free">Home church and visits</p>{% endif %}
-  </section>{% endfor %}
+{%- comment -%} The year as a wall calendar: twelve small months, each with its days; the days of an activity are filled like a pen mark across the week. {%- endcomment -%}
+{%- assign year = site.data.agenda.first.start | date: "%Y" | plus: 0 -%}
+{%- assign feb = 28 -%}{%- assign leap = year | modulo: 4 -%}{%- if leap == 0 -%}{%- assign feb = 29 -%}{%- endif -%}
+{%- assign lengths = "31," | append: feb | append: ",31,30,31,30,31,31,30,31,30,31" | split: "," -%}
+<div class="year">{% for m in (1..12) %}{% if m < 10 %}{% assign key = year | append: "-0" | append: m %}{% else %}{% assign key = year | append: "-" | append: m %}{% endif %}{% assign first = key | append: "-01" | date: "%u" | plus: 0 %}{% assign days = lengths[forloop.index0] | plus: 0 %}
+  <div class="month" data-month="{{ key }}">
+    <h3 class="month__name" data-month="{{ key }}">{{ key | append: "-01" | date: "%B" }}</h3>
+    <div class="cal" aria-hidden="true">{% for w in (1..7) %}<span class="cal__wd" data-wd="{{ w }}"></span>{% endfor %}{% assign pad = first | minus: 1 %}{% for p in (1..pad) %}<span></span>{% endfor %}{% for d in (1..days) %}{% if d < 10 %}{% assign iso = key | append: "-0" | append: d %}{% else %}{% assign iso = key | append: "-" | append: d %}{% endif %}{% assign wd = d | plus: pad | modulo: 7 %}{% assign mark = "" %}{% for a in site.data.agenda %}{% assign s = a.start | date: "%Y-%m-%d" %}{% assign e = a.end | date: "%Y-%m-%d" %}{% if iso >= s and iso <= e %}{% assign mark = " is-" | append: a.kind %}{% if iso == s or wd == 1 or d == 1 %}{% assign mark = mark | append: " is-first" %}{% endif %}{% if iso == e or wd == 0 or d == days %}{% assign mark = mark | append: " is-last" %}{% endif %}{% endif %}{% endfor %}<span class="cal__d{{ mark }}" data-day="{{ iso }}">{{ d }}</span>{% endfor %}</div>
+    <ul class="month__acts">{% for a in site.data.agenda %}{% assign am = a.start | date: "%Y-%m" %}{% if am == key %}
+      <li class="is-{{ a.kind }}" data-end="{{ a.end | date: '%Y-%m-%d' }}"><time class="agenda__date agenda__date--days" data-start="{{ a.start | date: '%Y-%m-%d' }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{{ a.start | date: '%-d' }}–{{ a.end | date: '%-d' }}</time>
+        <span><b>{% if a.course %}{% include tx.html o=a f="course" %}{% else %}<span data-i18n="agenda.{{ a.kind }}">{% case a.kind %}{% when "vbs" %}Vacation Bible School{% when "trip" %}Visits to churches{% else %}EPYL training{% endcase %}</span>{% endif %}</b>
+        <small>{% include tx.html o=a f="place" %}</small>{% if a.teacher %}<small>{% include tx.html o=a f="teacher" %}</small>{% endif %}</span></li>{% endif %}{% endfor %}
+    </ul>
+  </div>{% endfor %}
 </div>
