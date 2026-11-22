@@ -7,6 +7,10 @@
 
 const I18N = {
   en: {
+    "agenda.label": "Calendar",
+    "agenda.title": "Upcoming dates",
+    "agenda.intro": "Where we will be serving in the coming months. If you would like to pray, come or help, write to us.",
+    "agenda.next": "Next",
     "notice.text": "This site uses no advertising or tracking cookies.",
     "notice.more": "Privacy",
     "notice.ok": "Got it",
@@ -272,6 +276,10 @@ const I18N = {
   },
 
   de: {
+    "agenda.label": "Kalender",
+    "agenda.title": "Nächste Termine",
+    "agenda.intro": "Wo wir in den kommenden Monaten dienen. Wenn Sie beten, kommen oder helfen möchten, schreiben Sie uns.",
+    "agenda.next": "Demnächst",
     "notice.text": "Diese Website verwendet keine Werbe- oder Tracking-Cookies.",
     "notice.more": "Datenschutz",
     "notice.ok": "Verstanden",
@@ -537,6 +545,10 @@ const I18N = {
   },
 
   fr: {
+    "agenda.label": "Calendrier",
+    "agenda.title": "Prochaines dates",
+    "agenda.intro": "Où nous servirons dans les prochains mois. Si vous voulez prier, venir ou aider, écrivez-nous.",
+    "agenda.next": "Prochainement",
     "notice.text": "Ce site n’utilise aucun cookie publicitaire ni de suivi.",
     "notice.more": "Confidentialité",
     "notice.ok": "Compris",
@@ -801,6 +813,10 @@ const I18N = {
     "home.all": "Voir toutes les nouvelles",
   },
   es: {
+    "agenda.label": "Calendario",
+    "agenda.title": "Próximas fechas",
+    "agenda.intro": "Dónde estaremos sirviendo en los próximos meses. Si quieres orar, venir o ayudar, escríbenos.",
+    "agenda.next": "Próximamente",
     "notice.text": "Este sitio no usa cookies de publicidad ni de seguimiento.",
     "notice.more": "Privacidad",
     "notice.ok": "Entendido",

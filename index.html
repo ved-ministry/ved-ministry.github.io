@@ -28,6 +28,11 @@ image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
   </div>
 </section>
 
+<div class="next-up" id="nextUp" hidden><div class="wrap">
+  <span class="label" data-i18n="agenda.next">Next</span>
+  {% for a in site.data.agenda %}<a href="/epyl/#agenda" data-end="{{ a.end | date: '%Y-%m-%d' }}" hidden><b>{% include tx.html o=a f="title" %}</b> · {% include tx.html o=a f="place" %} · <time class="agenda__date" data-start="{{ a.start | date: '%Y-%m-%d' }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{{ a.start | date: '%-d' }}–{{ a.end | date: '%-d %b %Y' }}</time></a>{% endfor %}
+</div></div>
+
 <section class="noise" style="background:var(--paper-2);">
   <div class="wrap">
     <div class="sec-head reveal">

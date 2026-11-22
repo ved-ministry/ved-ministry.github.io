@@ -1,0 +1,55 @@
+# Upcoming activities. Shown on the EPYL page ("Upcoming dates") and as one line on the home page.
+# Past dates hide themselves. Leave `teacher` out while it is not known. Family holidays are not listed here.
+- start: 2027-01-11
+  end: 2027-01-15
+  title: "Vacation Bible School"
+  title_es: "Escuela Bíblica de Vacaciones"
+  title_de: "Ferien-Bibelschule"
+  title_fr: "École biblique de vacances"
+  place: "VED Church, Cusco"
+  place_es: "Iglesia VED, Cusco"
+  place_de: "Gemeinde VED, Cusco"
+  place_fr: "Église VED, Cusco"
+- start: 2027-01-18
+  end: 2027-01-22
+  title: "Vacation Bible School"
+  title_es: "Escuela Bíblica de Vacaciones"
+  title_de: "Ferien-Bibelschule"
+  title_fr: "École biblique de vacances"
+  place: "Bolivia"
+  place_es: "Bolivia"
+  place_de: "Bolivien"
+  place_fr: "Bolivie"
+- start: 2027-02-22
+  end: 2027-02-25
+  title: "EPYL training"
+  title_es: "Capacitación EPYL"
+  title_de: "EPYL-Schulung"
+  title_fr: "Formation EPYL"
+  place: "Puno"
+- start: 2027-03-01
+  end: 2027-03-05
+  title: "EPYL training"
+  title_es: "Capacitación EPYL"
+  title_de: "EPYL-Schulung"
+  title_fr: "Formation EPYL"
+  place: "Curahuasi, Apurímac"
+  teacher: "Pastor Elías Huamán"
+  teacher_es: "Pastor Elías Huamán"
+  teacher_de: "Pastor Elías Huamán"
+  teacher_fr: "Pasteur Elías Huamán"
+- start: 2027-08-16
+  end: 2027-08-20
+  title: "EPYL training"
+  title_es: "Capacitación EPYL"
+  title_de: "EPYL-Schulung"
+  title_fr: "Formation EPYL"
+  place: "Curahuasi, Apurímac"
+  teacher: "Roy Huamán"
+- start: 2027-11-15
+  end: 2027-11-19
+  title: "EPYL training"
+  title_es: "Capacitación EPYL"
+  title_de: "EPYL-Schulung"
+  title_fr: "Formation EPYL"
+  place: "Curahuasi, Apurímac"

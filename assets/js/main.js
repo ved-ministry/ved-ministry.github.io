@@ -150,6 +150,24 @@
     });
   }
 
+  /* ---------- Upcoming dates: past ones hide, ranges are written in the visitor's language ---------- */
+  const today = new Date().toISOString().slice(0, 10);
+  document.querySelectorAll("#agenda [data-end]").forEach((li) => { if (li.dataset.end < today) li.hidden = true; });
+  const agenda = document.getElementById("agenda");
+  if (agenda && !agenda.querySelector("li:not([hidden])")) agenda.hidden = true;
+  const nextUp = document.getElementById("nextUp");
+  const next = nextUp && [...nextUp.querySelectorAll("a[data-end]")].find((a) => a.dataset.end >= today);
+  if (next) { next.hidden = false; nextUp.hidden = false; }
+  const dateRanges = () => document.querySelectorAll(".agenda__date").forEach((t) => {
+    const d = (s) => new Date(s + "T12:00:00");
+    try {
+      t.textContent = new Intl.DateTimeFormat(document.documentElement.lang, { day: "numeric", month: "long", year: "numeric" })
+        .formatRange(d(t.dataset.start), d(t.dataset.end));
+    } catch (e) { /* older browsers keep the date written at build time */ }
+  });
+  dateRanges();
+  document.addEventListener("langchange", dateRanges);
+
   /* ---------- Privacy notice: once per browser ---------- */
   const notice = document.getElementById("privacyNotice");
   if (notice) {

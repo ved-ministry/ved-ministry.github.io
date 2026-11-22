@@ -630,3 +630,17 @@ body:has(.notice:not([hidden])) .pill { display: none; }
 .legal li { margin-bottom: 8px; }
 .gf__legal { margin: 12px 0 0; font-size: 13px; color: var(--stone); clear: both; }
 .gf__legal a { color: inherit; }
+
+/* upcoming dates */
+.agenda-section { padding-bottom: 0; }
+.agenda li[hidden], .next-up [hidden] { display: none; }
+.agenda .num { font-size: 15px; color: var(--ink); font-weight: 600; }
+.next-up { background: var(--ved-green); color: var(--paper); padding: 18px 0; }
+.next-up .wrap { display: flex; gap: 8px 16px; align-items: baseline; flex-wrap: wrap; }
+.next-up .label { color: var(--gold); margin: 0; }
+.next-up a { color: var(--paper); text-decoration: underline; text-decoration-color: rgba(248,245,240,.4); text-underline-offset: 4px; font-size: 16px; line-height: 1.5; }
+.next-up a:hover { text-decoration-color: currentColor; }
+.editorial-list.agenda li { grid-template-columns: 240px 1fr; align-items: baseline; }
+.agenda__what { display: grid; gap: 6px; }
+.agenda .desc { color: var(--stone); grid-column: auto; }
+@media (max-width: 760px) { .editorial-list.agenda li { display: block; padding: 22px 0; } .agenda .num { display: block; margin-bottom: 6px; } }
