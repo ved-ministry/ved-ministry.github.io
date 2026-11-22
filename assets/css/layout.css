@@ -631,16 +631,40 @@ body:has(.notice:not([hidden])) .pill { display: none; }
 .gf__legal { margin: 12px 0 0; font-size: 13px; color: var(--stone); clear: both; }
 .gf__legal a { color: inherit; }
 
-/* upcoming dates */
-.agenda-section { padding-bottom: 0; }
-.agenda li[hidden], .next-up [hidden] { display: none; }
-.agenda .num { font-size: 15px; color: var(--ink); font-weight: 600; }
+/* ---------- Calendar: short list (EPYL page), year grid (/agenda/), next-up band (home) ---------- */
+.act--training { --k: var(--ved-green); } .act--vbs { --k: #B8894A; } .act--trip { --k: #3D5A80; }
+.agenda-list { list-style: none; margin: var(--m-l) 0 0; padding: 0; display: grid; gap: 0; }
+.agenda-list li { display: grid; grid-template-columns: 220px 1fr; gap: 4px 24px; padding: 20px 0 20px 16px; border-bottom: 1px solid var(--line); border-left: 3px solid var(--k); }
+.agenda-list li[hidden], .agenda-list[hidden] { display: none; }
+.agenda-list .agenda__date { grid-row: span 2; font-weight: 600; font-size: 15px; }
+.act__title { font: 400 clamp(20px, 2.4vw, 26px)/1.2 var(--font-display); }
+.act__meta { font-size: 14px; line-height: 1.5; color: var(--stone); }
+.agenda-more { margin-top: var(--m-m); }
+@media (max-width: 700px) { .agenda-list li { grid-template-columns: 1fr; } .agenda-list .agenda__date { grid-row: auto; } }
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 20px 0 0; font-size: 14px; color: var(--stone); }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.legend span::before { content: ""; width: 12px; height: 12px; border-radius: 3px; background: var(--k); }
+.year-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.month { min-height: 180px; padding: 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; align-content: start; gap: 10px; }
+.month__name { margin: 0 0 2px; font: 700 13px var(--font-grotesk); letter-spacing: .02em; color: var(--stone); }
+.month.is-now { background: var(--paper-2); }
+.month.is-now .month__name { color: var(--accent); }
+.month__free { margin: 0; font-size: 13px; color: var(--stone-light); }
+.month.is-past .month__free { display: none; }
+.year-grid .act { display: grid; gap: 3px; padding: 10px 12px; border-left: 3px solid var(--k); background: color-mix(in srgb, var(--k) 7%, transparent); border-radius: 0 8px 8px 0; }
+.year-grid .act .agenda__date { font-size: 12px; font-weight: 600; color: var(--ink-soft); }
+.year-grid .act__title { font-size: 17px; line-height: 1.25; }
+.year-grid .act__meta { font-size: 12.5px; }
+.year-grid .act.is-past { opacity: .45; }
+.agenda-cta { margin-top: var(--m-l); }
+@media (max-width: 1000px) { .year-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 720px) { .year-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .month { min-height: 120px; padding: 12px 10px; } }
+@media (max-width: 480px) { .year-grid { grid-template-columns: 1fr; } .month { min-height: 0; } }
+
 .next-up { background: var(--ved-green); color: var(--paper); padding: 18px 0; }
-.next-up .wrap { display: flex; gap: 8px 16px; align-items: baseline; flex-wrap: wrap; }
+.next-up[hidden], .next-up a[hidden] { display: none; }
+.next-up .wrap { display: flex; gap: 10px 16px; align-items: center; flex-wrap: wrap; }
 .next-up .label { color: var(--gold); margin: 0; }
-.next-up a { color: var(--paper); text-decoration: underline; text-decoration-color: rgba(248,245,240,.4); text-underline-offset: 4px; font-size: 16px; line-height: 1.5; }
-.next-up a:hover { text-decoration-color: currentColor; }
-.editorial-list.agenda li { grid-template-columns: 240px 1fr; align-items: baseline; }
-.agenda__what { display: grid; gap: 6px; }
-.agenda .desc { color: var(--stone); grid-column: auto; }
-@media (max-width: 760px) { .editorial-list.agenda li { display: block; padding: 22px 0; } .agenda .num { display: block; margin-bottom: 6px; } }
+.next-up a:not(.btn) { color: var(--paper); text-decoration: underline; text-decoration-color: rgba(248,245,240,.4); text-underline-offset: 4px; font-size: 16px; line-height: 1.5; flex: 1 1 280px; }
+.next-up__btn { margin-left: auto; }

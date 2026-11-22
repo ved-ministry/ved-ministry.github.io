@@ -1,55 +1,85 @@
-# Upcoming activities. Shown on the EPYL page ("Upcoming dates") and as one line on the home page.
-# Past dates hide themselves. Leave `teacher` out while it is not known. Family holidays are not listed here.
+# EPYL year plan. Shown as a 12-month grid at /agenda/, as "Upcoming dates" on the EPYL page and as one line on the home page.
+# kind: vbs (Vacation Bible School), training (EPYL module) or trip (visits). Leave a field out while it is not known.
+# Text fields take _es, _de, _fr versions; without one, the English text is shown. Family holidays are not listed.
 - start: 2027-01-11
   end: 2027-01-15
-  title: "Vacation Bible School"
-  title_es: "Escuela Bíblica de Vacaciones"
-  title_de: "Ferien-Bibelschule"
-  title_fr: "École biblique de vacances"
+  kind: vbs
   place: "VED Church, Cusco"
   place_es: "Iglesia VED, Cusco"
   place_de: "Gemeinde VED, Cusco"
   place_fr: "Église VED, Cusco"
 - start: 2027-01-18
   end: 2027-01-22
-  title: "Vacation Bible School"
-  title_es: "Escuela Bíblica de Vacaciones"
-  title_de: "Ferien-Bibelschule"
-  title_fr: "École biblique de vacances"
+  kind: vbs
   place: "Bolivia"
-  place_es: "Bolivia"
   place_de: "Bolivien"
   place_fr: "Bolivie"
+- start: 2027-02-08
+  end: 2027-02-19
+  kind: trip
+  place: "Salero and Santa Cruz (Bolivia) · Kosñipata"
+  place_es: "Salero y Santa Cruz (Bolivia) · Kosñipata"
+  place_de: "Salero und Santa Cruz (Bolivien) · Kosñipata"
+  place_fr: "Salero et Santa Cruz (Bolivie) · Kosñipata"
 - start: 2027-02-22
   end: 2027-02-25
-  title: "EPYL training"
-  title_es: "Capacitación EPYL"
-  title_de: "EPYL-Schulung"
-  title_fr: "Formation EPYL"
-  place: "Puno"
+  kind: training
+  course: "Revelation"
+  course_es: "Apocalipsis"
+  course_de: "Offenbarung"
+  course_fr: "Apocalypse"
+  place: "Alfa y Omega Baptist Church, Desaguadero (Puno)"
+  place_es: "I. B. Alfa y Omega, Desaguadero (Puno)"
+  place_de: "Baptistengemeinde Alfa y Omega, Desaguadero (Puno)"
+  place_fr: "Église baptiste Alfa y Omega, Desaguadero (Puno)"
+  teacher: "Alex Javier Hurtado Lazo"
 - start: 2027-03-01
   end: 2027-03-05
-  title: "EPYL training"
-  title_es: "Capacitación EPYL"
-  title_de: "EPYL-Schulung"
-  title_fr: "Formation EPYL"
+  kind: training
+  course: "Church ministry, administration and education"
+  course_es: "Ministerio eclesiástico, administración y educación"
+  course_de: "Gemeindedienst, Verwaltung und Bildung"
+  course_fr: "Ministère ecclésial, administration et éducation"
   place: "Curahuasi, Apurímac"
-  teacher: "Pastor Elías Huamán"
-  teacher_es: "Pastor Elías Huamán"
-  teacher_de: "Pastor Elías Huamán"
-  teacher_fr: "Pasteur Elías Huamán"
+  teacher: "Elías Huamán"
+- start: 2027-08-02
+  end: 2027-08-05
+  kind: training
+  course: "The Christian home"
+  course_es: "El hogar cristiano"
+  course_de: "Das christliche Zuhause"
+  course_fr: "Le foyer chrétien"
+  place: "Alfa y Omega Baptist Church, Desaguadero (Puno)"
+  place_es: "I. B. Alfa y Omega, Desaguadero (Puno)"
+  place_de: "Baptistengemeinde Alfa y Omega, Desaguadero (Puno)"
+  place_fr: "Église baptiste Alfa y Omega, Desaguadero (Puno)"
+  teacher: "David Stilwell"
 - start: 2027-08-16
   end: 2027-08-20
-  title: "EPYL training"
-  title_es: "Capacitación EPYL"
-  title_de: "EPYL-Schulung"
-  title_fr: "Formation EPYL"
+  kind: training
+  course: "Principles and methods of teaching"
+  course_es: "Principios y métodos de enseñanza"
+  course_de: "Grundsätze und Methoden des Lehrens"
+  course_fr: "Principes et méthodes d’enseignement"
   place: "Curahuasi, Apurímac"
   teacher: "Roy Huamán"
+- start: 2027-11-01
+  end: 2027-11-04
+  kind: training
+  course: "Apologetics"
+  course_es: "Apologética"
+  course_de: "Apologetik"
+  course_fr: "Apologétique"
+  place: "Alfa y Omega Baptist Church, Desaguadero (Puno)"
+  place_es: "I. B. Alfa y Omega, Desaguadero (Puno)"
+  place_de: "Baptistengemeinde Alfa y Omega, Desaguadero (Puno)"
+  place_fr: "Église baptiste Alfa y Omega, Desaguadero (Puno)"
+  teacher: "Enrique Hanco"
 - start: 2027-11-15
   end: 2027-11-19
-  title: "EPYL training"
-  title_es: "Capacitación EPYL"
-  title_de: "EPYL-Schulung"
-  title_fr: "Formation EPYL"
+  kind: training
+  course: "Survey of church history"
+  course_es: "Perspectiva general de la historia de la Iglesia"
+  course_de: "Überblick über die Kirchengeschichte"
+  course_fr: "Aperçu de l’histoire de l’Église"
   place: "Curahuasi, Apurímac"

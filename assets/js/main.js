@@ -150,21 +150,31 @@
     });
   }
 
-  /* ---------- Upcoming dates: past ones hide, ranges are written in the visitor's language ---------- */
+  /* ---------- Calendar: past activities hide from the short lists and fade in the year grid; dates and months follow the visitor's language ---------- */
   const today = new Date().toISOString().slice(0, 10);
-  document.querySelectorAll("#agenda [data-end]").forEach((li) => { if (li.dataset.end < today) li.hidden = true; });
+  document.querySelectorAll("#agenda .agenda-list [data-end]").forEach((li) => { if (li.dataset.end < today) li.hidden = true; });
   const agenda = document.getElementById("agenda");
-  if (agenda && !agenda.querySelector("li:not([hidden])")) agenda.hidden = true;
+  if (agenda && !agenda.querySelector(".agenda-list li:not([hidden])")) agenda.querySelector(".agenda-list").hidden = true;
+  document.querySelectorAll(".year-grid .act").forEach((a) => a.classList.toggle("is-past", a.dataset.end < today));
+  document.querySelectorAll(".month").forEach((m) => {
+    m.classList.toggle("is-now", m.dataset.month === today.slice(0, 7));
+    m.classList.toggle("is-past", m.dataset.month < today.slice(0, 7));
+  });
   const nextUp = document.getElementById("nextUp");
   const next = nextUp && [...nextUp.querySelectorAll("a[data-end]")].find((a) => a.dataset.end >= today);
   if (next) { next.hidden = false; nextUp.hidden = false; }
-  const dateRanges = () => document.querySelectorAll(".agenda__date").forEach((t) => {
-    const d = (s) => new Date(s + "T12:00:00");
-    try {
-      t.textContent = new Intl.DateTimeFormat(document.documentElement.lang, { day: "numeric", month: "long", year: "numeric" })
-        .formatRange(d(t.dataset.start), d(t.dataset.end));
-    } catch (e) { /* older browsers keep the date written at build time */ }
-  });
+  const dateRanges = () => {
+    const lang = document.documentElement.lang;
+    document.querySelectorAll(".agenda__date").forEach((t) => {
+      const d = (s) => new Date(s + "T12:00:00");
+      try { t.textContent = new Intl.DateTimeFormat(lang, { day: "numeric", month: "long" }).formatRange(d(t.dataset.start), d(t.dataset.end)); }
+      catch (e) { /* older browsers keep the date written at build time */ }
+    });
+    document.querySelectorAll(".month__name").forEach((h) => {
+      const name = new Date(h.dataset.month + "-15T12:00:00").toLocaleDateString(lang, { month: "long" });
+      h.textContent = name.charAt(0).toUpperCase() + name.slice(1);
+    });
+  };
   dateRanges();
   document.addEventListener("langchange", dateRanges);
 

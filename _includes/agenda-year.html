@@ -1,0 +1,8 @@
+{%- assign year = site.data.agenda.first.start | date: "%Y" -%}
+<div class="year-grid">{% for m in (1..12) %}{% if m < 10 %}{% assign key = year | append: "-0" | append: m %}{% else %}{% assign key = year | append: "-" | append: m %}{% endif %}{% assign n = 0 %}
+  <section class="month" data-month="{{ key }}">
+    <h3 class="month__name" data-month="{{ key }}">{{ key | append: "-01" | date: "%B" }}</h3>{% for a in site.data.agenda %}{% assign am = a.start | date: "%Y-%m" %}{% if am == key %}{% assign n = n | plus: 1 %}
+    <article class="act act--{{ a.kind }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{% include agenda-item.html a=a %}</article>{% endif %}{% endfor %}{% if n == 0 %}
+    <p class="month__free" data-i18n="agenda.free">Home church and visits</p>{% endif %}
+  </section>{% endfor %}
+</div>

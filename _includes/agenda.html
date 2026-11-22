@@ -1,7 +1,3 @@
-<ul class="editorial-list agenda">{% for a in site.data.agenda %}
-  <li data-end="{{ a.end | date: '%Y-%m-%d' }}">
-    <span class="num"><time class="agenda__date" data-start="{{ a.start | date: '%Y-%m-%d' }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{{ a.start | date: '%-d' }}–{{ a.end | date: '%-d %b %Y' }}</time></span>
-    <span class="agenda__what"><span class="title">{% include tx.html o=a f="title" %}</span>
-    <span class="desc">{% include tx.html o=a f="place" %}{% if a.teacher %} · {% include tx.html o=a f="teacher" %}{% endif %}</span></span>
-  </li>{% endfor %}
+<ul class="agenda-list">{% for a in site.data.agenda %}
+  <li class="act act--{{ a.kind }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{% include agenda-item.html a=a %}</li>{% endfor %}
 </ul>

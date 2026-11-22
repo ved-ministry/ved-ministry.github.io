@@ -1,0 +1,25 @@
+---
+layout: default
+title: EPYL calendar
+title_key: agenda.page_title
+eyebrow: Calendar
+eyebrow_key: agenda.label
+permalink: /agenda/
+hero: assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-01.jpg
+image: /assets/img/posts/2026-11-desaguadero/epyl-training-desaguadero-2026-01.jpg
+description: "Agenda del ministerio EPYL: capacitaciones de pastores, Escuelas Bíblicas de Vacaciones y viajes, mes a mes. EPYL calendar for the year."
+---
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="h-section"><span data-i18n="agenda.year_title">The year at a glance</span> {{ site.data.agenda.first.start | date: "%Y" }}</h2>
+      <p class="body-text" data-i18n="agenda.year_intro">Every training, Vacation Bible School and trip of the EPYL ministry, month by month. Pray with us for each one, or come and serve alongside us.</p>
+      <p class="legend"><span class="act--training" data-i18n="agenda.training">EPYL training</span><span class="act--vbs" data-i18n="agenda.vbs">Vacation Bible School</span><span class="act--trip" data-i18n="agenda.trip">Visits to churches</span></p>
+    </div>
+    {% include agenda-year.html %}
+    <div class="row gap-s agenda-cta">
+      <a class="btn solid" href="/give/#servir" data-i18n="agenda.cta_serve">Come and serve with us</a>
+      <a class="btn" href="/give/" data-i18n="hero.cta_support">Support the Work</a>
+    </div>
+  </div>
+</section>
