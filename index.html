@@ -30,7 +30,7 @@ image: /assets/img/posts/2026-11-desaguadero/peru-highlands-titicaca-2026-01.jpg
 
 <div class="next-up" id="nextUp" hidden><div class="wrap">
   <span class="label" data-i18n="agenda.next">Next</span>
-  {% for a in site.data.agenda %}<a href="/agenda/" data-end="{{ a.end | date: '%Y-%m-%d' }}" hidden><b>{% if a.course %}{% include tx.html o=a f="course" %}{% else %}<span data-i18n="agenda.{{ a.kind }}">{% case a.kind %}{% when "vbs" %}Vacation Bible School{% when "trip" %}Visits to churches{% else %}EPYL training{% endcase %}</span>{% endif %}</b> · {% include tx.html o=a f="place" %} · <time class="agenda__date" data-start="{{ a.start | date: '%Y-%m-%d' }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{{ a.start | date: '%-d' }}–{{ a.end | date: '%-d %b %Y' }}</time></a>{% endfor %}
+  {% for a in site.data.agenda %}<a href="/agenda/" data-end="{{ a.end | date: '%Y-%m-%d' }}" hidden><b>{% if a.course %}{% include tx.html o=a f="course" %}{% else %}<span data-i18n="agenda.{{ a.kind }}">{% case a.kind %}{% when "vbs" %}Vacation Bible School{% when "trip" %}Visits to churches{% when "congress" %}Congress{% else %}EPYL training{% endcase %}</span>{% endif %}</b> · {% include tx.html o=a f="place" %} · <time class="agenda__date" data-start="{{ a.start | date: '%Y-%m-%d' }}" data-end="{{ a.end | date: '%Y-%m-%d' }}">{{ a.start | date: '%-d' }}–{{ a.end | date: '%-d %b %Y' }}</time></a>{% endfor %}
   <a class="btn on-dark next-up__btn" href="/agenda/" data-i18n="agenda.see_activities">See this year’s activities</a>
 </div></div>
 

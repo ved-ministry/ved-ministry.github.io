@@ -1,5 +1,5 @@
 # EPYL year plan. Shown as a 12-month grid at /agenda/, as "Upcoming dates" on the EPYL page and as one line on the home page.
-# kind: vbs (Vacation Bible School), training (EPYL module) or trip (visits). Leave a field out while it is not known.
+# kind: vbs (Vacation Bible School), training (EPYL module), trip (visits) or congress (a congress where we are invited). Leave a field out while it is not known.
 # Text fields take _es, _de, _fr versions; without one, the English text is shown. Family holidays are not listed.
 - start: 2027-01-11
   end: 2027-01-15
@@ -42,6 +42,18 @@
   course_fr: "Ministère ecclésial, administration et éducation"
   place: "Curahuasi, Apurímac"
   teacher: "Elías Huamán"
+- start: 2027-07-27
+  end: 2027-07-30
+  kind: congress
+  course: "Congress in Piura"
+  course_es: "Congreso en Piura"
+  course_de: "Kongress in Piura"
+  course_fr: "Congrès à Piura"
+  place: "El Buen Pastor Church, Suyana (Piura)"
+  place_es: "Iglesia El Buen Pastor, Suyana (Piura)"
+  place_de: "Gemeinde El Buen Pastor, Suyana (Piura)"
+  place_fr: "Église El Buen Pastor, Suyana (Piura)"
+  teacher: "Cristobal Churata"
 - start: 2027-08-02
   end: 2027-08-05
   kind: training

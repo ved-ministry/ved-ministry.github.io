@@ -7,6 +7,7 @@
 
 const I18N = {
   en: {
+    "agenda.congress": "Congress",
     "agenda.page_title": "EPYL calendar",
     "agenda.year_title": "The year at a glance",
     "agenda.year_intro": "Every training, Vacation Bible School and trip of the EPYL ministry, month by month. Pray with us for each one, or come and serve alongside us.",
@@ -287,6 +288,7 @@ const I18N = {
   },
 
   de: {
+    "agenda.congress": "Kongress",
     "agenda.page_title": "EPYL-Kalender",
     "agenda.year_title": "Das Jahr im Überblick",
     "agenda.year_intro": "Jede Schulung, Ferien-Bibelschule und Reise des Dienstes EPYL, Monat für Monat. Beten Sie mit uns für jede davon oder kommen Sie und dienen Sie mit uns.",
@@ -567,6 +569,7 @@ const I18N = {
   },
 
   fr: {
+    "agenda.congress": "Congrès",
     "agenda.page_title": "Calendrier EPYL",
     "agenda.year_title": "L’année en un coup d’œil",
     "agenda.year_intro": "Chaque formation, école biblique de vacances et voyage du ministère EPYL, mois par mois. Priez avec nous pour chacun, ou venez servir à nos côtés.",
@@ -846,6 +849,7 @@ const I18N = {
     "home.all": "Voir toutes les nouvelles",
   },
   es: {
+    "agenda.congress": "Congreso",
     "agenda.page_title": "Agenda EPYL",
     "agenda.year_title": "El año de un vistazo",
     "agenda.year_intro": "Cada capacitación, Escuela Bíblica de Vacaciones y viaje del ministerio EPYL, mes a mes. Ora con nosotros por cada una, o ven a servir a nuestro lado.",

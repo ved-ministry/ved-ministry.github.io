@@ -633,7 +633,7 @@ body:has(.notice:not([hidden])) .pill { display: none; }
 
 /* ---------- Calendar ---------- */
 /* one ink per kind of activity, used only to mark days, never as decoration */
-.is-training { --k: #1F3A2E; --k-on: #F8F5F0; } .is-vbs { --k: #C9A86A; --k-on: #1A1A1A; } .is-trip { --k: #3D5A80; --k-on: #F8F5F0; }
+.is-training { --k: #1F3A2E; --k-on: #F8F5F0; } .is-vbs { --k: #C9A86A; --k-on: #1A1A1A; } .is-trip { --k: #3D5A80; --k-on: #F8F5F0; } .is-congress { --k: #8C3B2E; --k-on: #F8F5F0; }
 
 /* short list on the EPYL page: date, what, where */
 .agenda-list { list-style: none; margin: var(--m-l) 0 0; padding: 0; border-top: 1px solid var(--line); }
